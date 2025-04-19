@@ -1,9 +1,9 @@
 
-  .sz5zfmenulist-menu:hover .dropdown-content-sz5zf {
+  .u87b2menulist-menu:hover .dropdown-content-u87b2 {
     display: flex;
     flex-direction: column;
   }
-  .sz5zfmenulist-menu {
+  .u87b2menulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,27 +17,27 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .sz5zfmenulist-menu:hover {
+  .u87b2menulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .sz5zfmenulist-menu:hover > a {
+  .u87b2menulist-menu:hover > a {
     color: #000 !important;
   }
 
 
 
 
-  .sz5zfmenulist-menu > a {
+  .u87b2menulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-sz5zf {
+  .dropdown-content-active-u87b2 {
      background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
@@ -45,13 +45,13 @@
 
   }
 
-  .dropdown-content-active-sz5zf > a {
+  .dropdown-content-active-u87b2 > a {
     color: #000 !important;
   }
 
 
 
-  .dropdown-content-sz5zf {
+  .dropdown-content-u87b2 {
     display: none;
     position: absolute;
     background-color: #333;
@@ -60,7 +60,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-sz5zf > a {
+  .dropdown-content-u87b2 > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -68,13 +68,13 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-sz5zf > a:hover {
+  .dropdown-content-u87b2 > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .sz5zfbody {
+  .u87b2body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -82,87 +82,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .sz5zfbody > a {
+  .u87b2body > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .sz5zf-title {
+  .u87b2-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .sz5zf-spot {
+  .u87b2-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .sz5zf-icon {
+  .u87b2-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .sz5zf {
+  .u87b2 {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .sz5zftitle {
+  .u87b2title {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .sz5zftitlebody {
+  .u87b2titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .sz5zftitlebodytitle {
+  .u87b2titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .sz5zftitlebodylang {
+  .u87b2titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .sz5zftitlebodylang ul {
+  .u87b2titlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .sz5zftitlebodylang li {
+  .u87b2titlebodylang li {
     position: relative;
     list-style: none;
   }
-  .sz5zfmenu {
+  .u87b2menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .sz5zfmenulist {
+  .u87b2menulist {
     width: calc(100% - 20px);
     background-color: #D72D32;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .sz5zfmenubody {
+  .u87b2menubody {
     width: 100%;
     background-color: #D72D32;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .sz5zfmenulist {
+  .u87b2menulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -171,20 +171,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .sz5zfmenulistbody {
+  .u87b2menulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .sz5zfmenu {
+    .u87b2menu {
       overflow-x: auto;
     }
-    .sz5zfmenulist {
+    .u87b2menulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .sz5zfbody {
+    .u87b2body {
       display: flex;
       align-items: center;
       justify-content: center;
