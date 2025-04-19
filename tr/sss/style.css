@@ -1,9 +1,9 @@
 
-  .czbadmenulist-menu:hover .dropdown-content-czbad {
+  .fcc4fmenulist-menu:hover .dropdown-content-fcc4f {
     display: flex;
     flex-direction: column;
   }
-  .czbadmenulist-menu {
+  .fcc4fmenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,27 +17,27 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .czbadmenulist-menu:hover {
+  .fcc4fmenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .czbadmenulist-menu:hover > a {
+  .fcc4fmenulist-menu:hover > a {
     color: #000 !important;
   }
 
 
 
 
-  .czbadmenulist-menu > a {
+  .fcc4fmenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-czbad {
+  .dropdown-content-active-fcc4f {
      background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
@@ -45,13 +45,13 @@
 
   }
 
-  .dropdown-content-active-czbad > a {
+  .dropdown-content-active-fcc4f > a {
     color: #000 !important;
   }
 
 
 
-  .dropdown-content-czbad {
+  .dropdown-content-fcc4f {
     display: none;
     position: absolute;
     background-color: #333;
@@ -60,7 +60,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-czbad > a {
+  .dropdown-content-fcc4f > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -68,13 +68,13 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-czbad > a:hover {
+  .dropdown-content-fcc4f > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .czbadbody {
+  .fcc4fbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -82,87 +82,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .czbadbody > a {
+  .fcc4fbody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .czbad-title {
+  .fcc4f-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .czbad-spot {
+  .fcc4f-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .czbad-icon {
+  .fcc4f-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .czbad {
+  .fcc4f {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .czbadtitle {
+  .fcc4ftitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .czbadtitlebody {
+  .fcc4ftitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .czbadtitlebodytitle {
+  .fcc4ftitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .czbadtitlebodylang {
+  .fcc4ftitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .czbadtitlebodylang ul {
+  .fcc4ftitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .czbadtitlebodylang li {
+  .fcc4ftitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .czbadmenu {
+  .fcc4fmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .czbadmenulist {
+  .fcc4fmenulist {
     width: calc(100% - 20px);
     background-color: #D72D32;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .czbadmenubody {
+  .fcc4fmenubody {
     width: 100%;
     background-color: #D72D32;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .czbadmenulist {
+  .fcc4fmenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -171,20 +171,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .czbadmenulistbody {
+  .fcc4fmenulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .czbadmenu {
+    .fcc4fmenu {
       overflow-x: auto;
     }
-    .czbadmenulist {
+    .fcc4fmenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .czbadbody {
+    .fcc4fbody {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -192,11 +192,11 @@
   }
 
 
-  .q85nehead {
+  .jkc5nhead {
     width: var(--max);
   }
 
-  .q85ne {
+  .jkc5n {
     margin-top: 20px;
     display: flex;
     align-items: center;
@@ -204,14 +204,14 @@
     flex-direction: column;
   }
 
-  .q85nebody {
+  .jkc5nbody {
     width: var(--max);
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .q85nebodyitem {
+  .jkc5nbodyitem {
     background-color: #e0e0e0;
     border-radius: 5px;
     padding: 10px;
@@ -220,19 +220,19 @@
     gap: 2px;
   }
 
-  .q85nebodyitemimg {
+  .jkc5nbodyitemimg {
     aspect-ratio: 12 / 8;
     display: flex;
   }
 
-  .q85nebodyitemimg img {
+  .jkc5nbodyitemimg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
   }
 
-  .q85nebodyitemtitle {
+  .jkc5nbodyitemtitle {
     border-radius: 3px;
     padding: 5px;
     margin-top: 5px;
@@ -241,14 +241,14 @@
     flex-direction: column;
   }
 
-  .q85nebodyitemtitle>div {
+  .jkc5nbodyitemtitle>div {
     display: flex;
     justify-content: space-between;
     border-width: 0px 0px 1px 0px;
     padding: 5px;
   }
 
-  .q85nebodyitemspot {
+  .jkc5nbodyitemspot {
     border-radius: 3px;
     height: 50px !important;
     padding: 5px;
@@ -259,14 +259,14 @@
     align-items: center;
   }
 
-  .q85nebodyitemspot>div {
+  .jkc5nbodyitemspot>div {
     width: 100%;
     color: #fff;
     font-size: 16px;
   }
 
   @media screen and (max-width: 1024px) {
-    .q85nebody {
+    .jkc5nbody {
       width: calc(100% - 10px);
       margin: 0px 5px 0px 5px;
       grid-template-columns: repeat(3, 1fr);
@@ -274,7 +274,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .q85nebody {
+    .jkc5nbody {
       width: calc(100% - 10px);
       margin: 0px 5px 0px 5px;
       grid-template-columns: repeat(2, 1fr);

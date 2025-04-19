@@ -1,9 +1,9 @@
 
-  .vo206menulist-menu:hover .dropdown-content-vo206 {
+  .uoqxxmenulist-menu:hover .dropdown-content-uoqxx {
     display: flex;
     flex-direction: column;
   }
-  .vo206menulist-menu {
+  .uoqxxmenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,27 +17,27 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .vo206menulist-menu:hover {
+  .uoqxxmenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .vo206menulist-menu:hover > a {
+  .uoqxxmenulist-menu:hover > a {
     color: #000 !important;
   }
 
 
 
 
-  .vo206menulist-menu > a {
+  .uoqxxmenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-vo206 {
+  .dropdown-content-active-uoqxx {
      background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
@@ -45,13 +45,13 @@
 
   }
 
-  .dropdown-content-active-vo206 > a {
+  .dropdown-content-active-uoqxx > a {
     color: #000 !important;
   }
 
 
 
-  .dropdown-content-vo206 {
+  .dropdown-content-uoqxx {
     display: none;
     position: absolute;
     background-color: #333;
@@ -60,7 +60,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-vo206 > a {
+  .dropdown-content-uoqxx > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -68,13 +68,13 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-vo206 > a:hover {
+  .dropdown-content-uoqxx > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .vo206body {
+  .uoqxxbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -82,87 +82,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .vo206body > a {
+  .uoqxxbody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .vo206-title {
+  .uoqxx-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .vo206-spot {
+  .uoqxx-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .vo206-icon {
+  .uoqxx-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .vo206 {
+  .uoqxx {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .vo206title {
+  .uoqxxtitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .vo206titlebody {
+  .uoqxxtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .vo206titlebodytitle {
+  .uoqxxtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .vo206titlebodylang {
+  .uoqxxtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .vo206titlebodylang ul {
+  .uoqxxtitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .vo206titlebodylang li {
+  .uoqxxtitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .vo206menu {
+  .uoqxxmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .vo206menulist {
+  .uoqxxmenulist {
     width: calc(100% - 20px);
     background-color: #D72D32;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .vo206menubody {
+  .uoqxxmenubody {
     width: 100%;
     background-color: #D72D32;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .vo206menulist {
+  .uoqxxmenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -171,20 +171,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .vo206menulistbody {
+  .uoqxxmenulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .vo206menu {
+    .uoqxxmenu {
       overflow-x: auto;
     }
-    .vo206menulist {
+    .uoqxxmenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .vo206body {
+    .uoqxxbody {
       display: flex;
       align-items: center;
       justify-content: center;

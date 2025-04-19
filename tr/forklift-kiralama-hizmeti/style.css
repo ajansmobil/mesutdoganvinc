@@ -1,9 +1,9 @@
 
-  .odocomenulist-menu:hover .dropdown-content-odoco {
+  .mfyc5menulist-menu:hover .dropdown-content-mfyc5 {
     display: flex;
     flex-direction: column;
   }
-  .odocomenulist-menu {
+  .mfyc5menulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,27 +17,27 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .odocomenulist-menu:hover {
+  .mfyc5menulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .odocomenulist-menu:hover > a {
+  .mfyc5menulist-menu:hover > a {
     color: #000 !important;
   }
 
 
 
 
-  .odocomenulist-menu > a {
+  .mfyc5menulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-odoco {
+  .dropdown-content-active-mfyc5 {
      background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
@@ -45,13 +45,13 @@
 
   }
 
-  .dropdown-content-active-odoco > a {
+  .dropdown-content-active-mfyc5 > a {
     color: #000 !important;
   }
 
 
 
-  .dropdown-content-odoco {
+  .dropdown-content-mfyc5 {
     display: none;
     position: absolute;
     background-color: #333;
@@ -60,7 +60,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-odoco > a {
+  .dropdown-content-mfyc5 > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -68,13 +68,13 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-odoco > a:hover {
+  .dropdown-content-mfyc5 > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .odocobody {
+  .mfyc5body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -82,87 +82,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .odocobody > a {
+  .mfyc5body > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .odoco-title {
+  .mfyc5-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .odoco-spot {
+  .mfyc5-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .odoco-icon {
+  .mfyc5-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .odoco {
+  .mfyc5 {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .odocotitle {
+  .mfyc5title {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .odocotitlebody {
+  .mfyc5titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .odocotitlebodytitle {
+  .mfyc5titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .odocotitlebodylang {
+  .mfyc5titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .odocotitlebodylang ul {
+  .mfyc5titlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .odocotitlebodylang li {
+  .mfyc5titlebodylang li {
     position: relative;
     list-style: none;
   }
-  .odocomenu {
+  .mfyc5menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .odocomenulist {
+  .mfyc5menulist {
     width: calc(100% - 20px);
     background-color: #D72D32;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .odocomenubody {
+  .mfyc5menubody {
     width: 100%;
     background-color: #D72D32;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .odocomenulist {
+  .mfyc5menulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -171,20 +171,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .odocomenulistbody {
+  .mfyc5menulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .odocomenu {
+    .mfyc5menu {
       overflow-x: auto;
     }
-    .odocomenulist {
+    .mfyc5menulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .odocobody {
+    .mfyc5body {
       display: flex;
       align-items: center;
       justify-content: center;

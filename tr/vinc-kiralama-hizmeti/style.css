@@ -1,9 +1,9 @@
 
-  .vl3uxmenulist-menu:hover .dropdown-content-vl3ux {
+  .xpoaumenulist-menu:hover .dropdown-content-xpoau {
     display: flex;
     flex-direction: column;
   }
-  .vl3uxmenulist-menu {
+  .xpoaumenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,27 +17,27 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .vl3uxmenulist-menu:hover {
+  .xpoaumenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .vl3uxmenulist-menu:hover > a {
+  .xpoaumenulist-menu:hover > a {
     color: #000 !important;
   }
 
 
 
 
-  .vl3uxmenulist-menu > a {
+  .xpoaumenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-vl3ux {
+  .dropdown-content-active-xpoau {
      background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
@@ -45,13 +45,13 @@
 
   }
 
-  .dropdown-content-active-vl3ux > a {
+  .dropdown-content-active-xpoau > a {
     color: #000 !important;
   }
 
 
 
-  .dropdown-content-vl3ux {
+  .dropdown-content-xpoau {
     display: none;
     position: absolute;
     background-color: #333;
@@ -60,7 +60,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-vl3ux > a {
+  .dropdown-content-xpoau > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -68,13 +68,13 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-vl3ux > a:hover {
+  .dropdown-content-xpoau > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .vl3uxbody {
+  .xpoaubody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -82,87 +82,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .vl3uxbody > a {
+  .xpoaubody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .vl3ux-title {
+  .xpoau-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .vl3ux-spot {
+  .xpoau-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .vl3ux-icon {
+  .xpoau-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .vl3ux {
+  .xpoau {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .vl3uxtitle {
+  .xpoautitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .vl3uxtitlebody {
+  .xpoautitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .vl3uxtitlebodytitle {
+  .xpoautitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .vl3uxtitlebodylang {
+  .xpoautitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .vl3uxtitlebodylang ul {
+  .xpoautitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .vl3uxtitlebodylang li {
+  .xpoautitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .vl3uxmenu {
+  .xpoaumenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .vl3uxmenulist {
+  .xpoaumenulist {
     width: calc(100% - 20px);
     background-color: #D72D32;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .vl3uxmenubody {
+  .xpoaumenubody {
     width: 100%;
     background-color: #D72D32;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .vl3uxmenulist {
+  .xpoaumenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -171,20 +171,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .vl3uxmenulistbody {
+  .xpoaumenulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .vl3uxmenu {
+    .xpoaumenu {
       overflow-x: auto;
     }
-    .vl3uxmenulist {
+    .xpoaumenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .vl3uxbody {
+    .xpoaubody {
       display: flex;
       align-items: center;
       justify-content: center;
