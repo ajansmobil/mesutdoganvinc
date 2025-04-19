@@ -1,9 +1,9 @@
 
-  .h4grmmenulist-menu:hover .dropdown-content {
+  .utd0nmenulist-menu:hover .dropdown-content-utd0n {
     display: flex;
     flex-direction: column;
   }
-  .h4grmmenulist-menu {
+  .utd0nmenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,24 +17,41 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .h4grmmenulist-menu:hover {
+  .utd0nmenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .h4grmmenulist-menu:hover > a {
+  .utd0nmenulist-menu:hover > a {
     color: #000 !important;
-    /* Change text color to black on hover */
   }
-  .h4grmmenulist-menu > a {
+
+
+
+
+  .utd0nmenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
-    /* background-color: #f90; */
   }
-  .dropdown-content {
+
+  .dropdown-content-active-utd0n {
+     background-color: #e0e0e0;
+    border-radius: 5px;
+    color: #000 !important;
+    cursor: pointer;
+
+  }
+
+  .dropdown-content-active-utd0n > a {
+    color: #000 !important;
+  }
+
+
+
+  .dropdown-content-utd0n {
     display: none;
     position: absolute;
     background-color: #333;
@@ -43,7 +60,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content > a {
+  .dropdown-content-utd0n > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -51,13 +68,13 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content > a:hover {
+  .dropdown-content-utd0n > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .h4grmbody {
+  .utd0nbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -65,87 +82,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .h4grmbody > a {
+  .utd0nbody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .h4grm-title {
+  .utd0n-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .h4grm-spot {
+  .utd0n-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .h4grm-icon {
+  .utd0n-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .h4grm {
+  .utd0n {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .h4grmtitle {
+  .utd0ntitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .h4grmtitlebody {
+  .utd0ntitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .h4grmtitlebodytitle {
+  .utd0ntitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .h4grmtitlebodylang {
+  .utd0ntitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .h4grmtitlebodylang ul {
+  .utd0ntitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .h4grmtitlebodylang li {
+  .utd0ntitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .h4grmmenu {
+  .utd0nmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .h4grmmenulist {
+  .utd0nmenulist {
     width: calc(100% - 20px);
     background-color: #D72D32;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .h4grmmenubody {
+  .utd0nmenubody {
     width: 100%;
     background-color: #D72D32;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .h4grmmenulist {
+  .utd0nmenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -154,20 +171,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .h4grmmenulistbody {
+  .utd0nmenulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .h4grmmenu {
+    .utd0nmenu {
       overflow-x: auto;
     }
-    .h4grmmenulist {
+    .utd0nmenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .h4grmbody {
+    .utd0nbody {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -179,7 +196,7 @@
     justify-content: start;
   }
 
-  .sloxv {
+  .jlgfx {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
@@ -187,7 +204,7 @@
     position: relative;
   }
 
-  .sloxv-menu-btn {
+  .jlgfx-menu-btn {
     display: none;
     background-color: #000;
     padding: 10px 20px;
@@ -199,11 +216,11 @@
     align-items: center;
   }
 
-  .sloxv-menu-btn i {
+  .jlgfx-menu-btn i {
     font-size: 20px;
   }
 
-  .sloxv-menu {
+  .jlgfx-menu {
     width: 200px;
     background-color: #f9f9f9;
     border-radius: 5px;
@@ -214,28 +231,28 @@
     float: left;
   }
 
-  .sloxv-desc {
+  .jlgfx-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .sloxv-menu>a {
+  .jlgfx-menu>a {
     background-color: #fff;
     padding: 10px;
     float: left;
     border-radius: 5px;
   }
 
-  .sloxv-menu>.active,
-  .sloxv-menu>a:hover {
+  .jlgfx-menu>.active,
+  .jlgfx-menu>a:hover {
     background-color: #1e3046;
     color: #fff;
     display: flex;
   }
 
-  .sloxv-desc-menu {
+  .jlgfx-desc-menu {
     width: 200px;
     background-color: #1e3046;
     display: flex;
@@ -243,19 +260,19 @@
     border-radius: 5px;
   }
 
-  .sloxv-desc-menu>div {
+  .jlgfx-desc-menu>div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .sloxv-desc-body {
+  .jlgfx-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .sloxv-title {
+  .jlgfx-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -268,7 +285,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .sloxv-title::before {
+  .jlgfx-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -283,43 +300,43 @@
     z-index: 1;
   }
 
-  .sloxv-title span {
+  .jlgfx-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
 
-  .sloxv-body {
+  .jlgfx-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: left;
   }
 
-  .sloxv-img {
+  .jlgfx-img {
     display: flex;
     align-items: center;
     justify-content: center;
     width: calc(var(--max) - 460px);
   }
 
-  .sloxv-img img {
+  .jlgfx-img img {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .sloxv-desc {
+    .jlgfx-desc {
       width: calc(var(--max) - 240px);
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .sloxv-menu-btn {
+    .jlgfx-menu-btn {
       display: flex;
       width: calc(100% - 55px);
       margin-left: 5px;    }
 
-    .sloxv {
+    .jlgfx {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -329,17 +346,17 @@
 
     }
 
-    .sloxv-img {
+    .jlgfx-img {
       width: 100%;
     }
 
-    .sloxv-body {
+    .jlgfx-body {
       width: 100%;
       order: 3;
       padding: 10px;
     }
 
-    .sloxv-menu {
+    .jlgfx-menu {
       width: 100%;
       float: none;
       flex-direction: column;
@@ -347,11 +364,11 @@
       display: none;
     }
 
-    .sloxv-menu.active {
+    .jlgfx-menu.active {
       display: flex;
     }
 
-    .sloxv-desc {
+    .jlgfx-desc {
       width: 100% !important;
       order: 2;
     }

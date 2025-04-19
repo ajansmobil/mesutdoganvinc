@@ -1,9 +1,9 @@
 
-  .zytv4menulist-menu:hover .dropdown-content {
+  .je714menulist-menu:hover .dropdown-content-je714 {
     display: flex;
     flex-direction: column;
   }
-  .zytv4menulist-menu {
+  .je714menulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,24 +17,41 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .zytv4menulist-menu:hover {
+  .je714menulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .zytv4menulist-menu:hover > a {
+  .je714menulist-menu:hover > a {
     color: #000 !important;
-    /* Change text color to black on hover */
   }
-  .zytv4menulist-menu > a {
+
+
+
+
+  .je714menulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
-    /* background-color: #f90; */
   }
-  .dropdown-content {
+
+  .dropdown-content-active-je714 {
+     background-color: #e0e0e0;
+    border-radius: 5px;
+    color: #000 !important;
+    cursor: pointer;
+
+  }
+
+  .dropdown-content-active-je714 > a {
+    color: #000 !important;
+  }
+
+
+
+  .dropdown-content-je714 {
     display: none;
     position: absolute;
     background-color: #333;
@@ -43,7 +60,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content > a {
+  .dropdown-content-je714 > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -51,13 +68,13 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content > a:hover {
+  .dropdown-content-je714 > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .zytv4body {
+  .je714body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -65,87 +82,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .zytv4body > a {
+  .je714body > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .zytv4-title {
+  .je714-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .zytv4-spot {
+  .je714-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .zytv4-icon {
+  .je714-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .zytv4 {
+  .je714 {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .zytv4title {
+  .je714title {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .zytv4titlebody {
+  .je714titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .zytv4titlebodytitle {
+  .je714titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .zytv4titlebodylang {
+  .je714titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .zytv4titlebodylang ul {
+  .je714titlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .zytv4titlebodylang li {
+  .je714titlebodylang li {
     position: relative;
     list-style: none;
   }
-  .zytv4menu {
+  .je714menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .zytv4menulist {
+  .je714menulist {
     width: calc(100% - 20px);
     background-color: #D72D32;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .zytv4menubody {
+  .je714menubody {
     width: 100%;
     background-color: #D72D32;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .zytv4menulist {
+  .je714menulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -154,20 +171,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .zytv4menulistbody {
+  .je714menulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .zytv4menu {
+    .je714menu {
       overflow-x: auto;
     }
-    .zytv4menulist {
+    .je714menulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .zytv4body {
+    .je714body {
       display: flex;
       align-items: center;
       justify-content: center;
