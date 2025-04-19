@@ -1,9 +1,9 @@
 
-  .toa10menulist-menu:hover .dropdown-content-toa10 {
+  .vo206menulist-menu:hover .dropdown-content-vo206 {
     display: flex;
     flex-direction: column;
   }
-  .toa10menulist-menu {
+  .vo206menulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,27 +17,27 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .toa10menulist-menu:hover {
+  .vo206menulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .toa10menulist-menu:hover > a {
+  .vo206menulist-menu:hover > a {
     color: #000 !important;
   }
 
 
 
 
-  .toa10menulist-menu > a {
+  .vo206menulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-toa10 {
+  .dropdown-content-active-vo206 {
      background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
@@ -45,13 +45,13 @@
 
   }
 
-  .dropdown-content-active-toa10 > a {
+  .dropdown-content-active-vo206 > a {
     color: #000 !important;
   }
 
 
 
-  .dropdown-content-toa10 {
+  .dropdown-content-vo206 {
     display: none;
     position: absolute;
     background-color: #333;
@@ -60,7 +60,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-toa10 > a {
+  .dropdown-content-vo206 > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -68,13 +68,13 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-toa10 > a:hover {
+  .dropdown-content-vo206 > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .toa10body {
+  .vo206body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -82,87 +82,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .toa10body > a {
+  .vo206body > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .toa10-title {
+  .vo206-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .toa10-spot {
+  .vo206-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .toa10-icon {
+  .vo206-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .toa10 {
+  .vo206 {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .toa10title {
+  .vo206title {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .toa10titlebody {
+  .vo206titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .toa10titlebodytitle {
+  .vo206titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .toa10titlebodylang {
+  .vo206titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .toa10titlebodylang ul {
+  .vo206titlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .toa10titlebodylang li {
+  .vo206titlebodylang li {
     position: relative;
     list-style: none;
   }
-  .toa10menu {
+  .vo206menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .toa10menulist {
+  .vo206menulist {
     width: calc(100% - 20px);
     background-color: #D72D32;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .toa10menubody {
+  .vo206menubody {
     width: 100%;
     background-color: #D72D32;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .toa10menulist {
+  .vo206menulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -171,20 +171,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .toa10menulistbody {
+  .vo206menulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .toa10menu {
+    .vo206menu {
       overflow-x: auto;
     }
-    .toa10menulist {
+    .vo206menulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .toa10body {
+    .vo206body {
       display: flex;
       align-items: center;
       justify-content: center;

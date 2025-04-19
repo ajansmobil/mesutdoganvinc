@@ -1,9 +1,9 @@
 
-  .p17somenulist-menu:hover .dropdown-content-p17so {
+  .odocomenulist-menu:hover .dropdown-content-odoco {
     display: flex;
     flex-direction: column;
   }
-  .p17somenulist-menu {
+  .odocomenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,27 +17,27 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .p17somenulist-menu:hover {
+  .odocomenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .p17somenulist-menu:hover > a {
+  .odocomenulist-menu:hover > a {
     color: #000 !important;
   }
 
 
 
 
-  .p17somenulist-menu > a {
+  .odocomenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-p17so {
+  .dropdown-content-active-odoco {
      background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
@@ -45,13 +45,13 @@
 
   }
 
-  .dropdown-content-active-p17so > a {
+  .dropdown-content-active-odoco > a {
     color: #000 !important;
   }
 
 
 
-  .dropdown-content-p17so {
+  .dropdown-content-odoco {
     display: none;
     position: absolute;
     background-color: #333;
@@ -60,7 +60,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-p17so > a {
+  .dropdown-content-odoco > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -68,13 +68,13 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-p17so > a:hover {
+  .dropdown-content-odoco > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .p17sobody {
+  .odocobody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -82,87 +82,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .p17sobody > a {
+  .odocobody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .p17so-title {
+  .odoco-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .p17so-spot {
+  .odoco-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .p17so-icon {
+  .odoco-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .p17so {
+  .odoco {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .p17sotitle {
+  .odocotitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .p17sotitlebody {
+  .odocotitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .p17sotitlebodytitle {
+  .odocotitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .p17sotitlebodylang {
+  .odocotitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .p17sotitlebodylang ul {
+  .odocotitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .p17sotitlebodylang li {
+  .odocotitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .p17somenu {
+  .odocomenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .p17somenulist {
+  .odocomenulist {
     width: calc(100% - 20px);
     background-color: #D72D32;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .p17somenubody {
+  .odocomenubody {
     width: 100%;
     background-color: #D72D32;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .p17somenulist {
+  .odocomenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -171,20 +171,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .p17somenulistbody {
+  .odocomenulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .p17somenu {
+    .odocomenu {
       overflow-x: auto;
     }
-    .p17somenulist {
+    .odocomenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .p17sobody {
+    .odocobody {
       display: flex;
       align-items: center;
       justify-content: center;

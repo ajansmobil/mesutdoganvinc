@@ -1,9 +1,9 @@
 
-  .apvxrmenulist-menu:hover .dropdown-content-apvxr {
+  .sywarmenulist-menu:hover .dropdown-content-sywar {
     display: flex;
     flex-direction: column;
   }
-  .apvxrmenulist-menu {
+  .sywarmenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,27 +17,27 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .apvxrmenulist-menu:hover {
+  .sywarmenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .apvxrmenulist-menu:hover > a {
+  .sywarmenulist-menu:hover > a {
     color: #000 !important;
   }
 
 
 
 
-  .apvxrmenulist-menu > a {
+  .sywarmenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-apvxr {
+  .dropdown-content-active-sywar {
      background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
@@ -45,13 +45,13 @@
 
   }
 
-  .dropdown-content-active-apvxr > a {
+  .dropdown-content-active-sywar > a {
     color: #000 !important;
   }
 
 
 
-  .dropdown-content-apvxr {
+  .dropdown-content-sywar {
     display: none;
     position: absolute;
     background-color: #333;
@@ -60,7 +60,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-apvxr > a {
+  .dropdown-content-sywar > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -68,13 +68,13 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-apvxr > a:hover {
+  .dropdown-content-sywar > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .apvxrbody {
+  .sywarbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -82,87 +82,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .apvxrbody > a {
+  .sywarbody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .apvxr-title {
+  .sywar-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .apvxr-spot {
+  .sywar-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .apvxr-icon {
+  .sywar-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .apvxr {
+  .sywar {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .apvxrtitle {
+  .sywartitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .apvxrtitlebody {
+  .sywartitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .apvxrtitlebodytitle {
+  .sywartitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .apvxrtitlebodylang {
+  .sywartitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .apvxrtitlebodylang ul {
+  .sywartitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .apvxrtitlebodylang li {
+  .sywartitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .apvxrmenu {
+  .sywarmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .apvxrmenulist {
+  .sywarmenulist {
     width: calc(100% - 20px);
     background-color: #D72D32;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .apvxrmenubody {
+  .sywarmenubody {
     width: 100%;
     background-color: #D72D32;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .apvxrmenulist {
+  .sywarmenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -171,20 +171,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .apvxrmenulistbody {
+  .sywarmenulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .apvxrmenu {
+    .sywarmenu {
       overflow-x: auto;
     }
-    .apvxrmenulist {
+    .sywarmenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .apvxrbody {
+    .sywarbody {
       display: flex;
       align-items: center;
       justify-content: center;

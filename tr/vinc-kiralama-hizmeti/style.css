@@ -1,9 +1,9 @@
 
-  .u87b2menulist-menu:hover .dropdown-content-u87b2 {
+  .vl3uxmenulist-menu:hover .dropdown-content-vl3ux {
     display: flex;
     flex-direction: column;
   }
-  .u87b2menulist-menu {
+  .vl3uxmenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,27 +17,27 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .u87b2menulist-menu:hover {
+  .vl3uxmenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .u87b2menulist-menu:hover > a {
+  .vl3uxmenulist-menu:hover > a {
     color: #000 !important;
   }
 
 
 
 
-  .u87b2menulist-menu > a {
+  .vl3uxmenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-u87b2 {
+  .dropdown-content-active-vl3ux {
      background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
@@ -45,13 +45,13 @@
 
   }
 
-  .dropdown-content-active-u87b2 > a {
+  .dropdown-content-active-vl3ux > a {
     color: #000 !important;
   }
 
 
 
-  .dropdown-content-u87b2 {
+  .dropdown-content-vl3ux {
     display: none;
     position: absolute;
     background-color: #333;
@@ -60,7 +60,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-u87b2 > a {
+  .dropdown-content-vl3ux > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -68,13 +68,13 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-u87b2 > a:hover {
+  .dropdown-content-vl3ux > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .u87b2body {
+  .vl3uxbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -82,87 +82,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .u87b2body > a {
+  .vl3uxbody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .u87b2-title {
+  .vl3ux-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .u87b2-spot {
+  .vl3ux-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .u87b2-icon {
+  .vl3ux-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .u87b2 {
+  .vl3ux {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .u87b2title {
+  .vl3uxtitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .u87b2titlebody {
+  .vl3uxtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .u87b2titlebodytitle {
+  .vl3uxtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .u87b2titlebodylang {
+  .vl3uxtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .u87b2titlebodylang ul {
+  .vl3uxtitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .u87b2titlebodylang li {
+  .vl3uxtitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .u87b2menu {
+  .vl3uxmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .u87b2menulist {
+  .vl3uxmenulist {
     width: calc(100% - 20px);
     background-color: #D72D32;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .u87b2menubody {
+  .vl3uxmenubody {
     width: 100%;
     background-color: #D72D32;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .u87b2menulist {
+  .vl3uxmenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -171,20 +171,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .u87b2menulistbody {
+  .vl3uxmenulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .u87b2menu {
+    .vl3uxmenu {
       overflow-x: auto;
     }
-    .u87b2menulist {
+    .vl3uxmenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .u87b2body {
+    .vl3uxbody {
       display: flex;
       align-items: center;
       justify-content: center;
