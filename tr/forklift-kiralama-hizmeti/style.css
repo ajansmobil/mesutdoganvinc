@@ -1,9 +1,9 @@
 
-  .d8fgkmenulist-menu:hover .dropdown-content {
+  .t4spdmenulist-menu:hover .dropdown-content {
     display: flex;
     flex-direction: column;
   }
-  .d8fgkmenulist-menu {
+  .t4spdmenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,17 +17,17 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .d8fgkmenulist-menu:hover {
+  .t4spdmenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .d8fgkmenulist-menu:hover > a {
+  .t4spdmenulist-menu:hover > a {
     color: #000 !important;
     /* Change text color to black on hover */
   }
-  .d8fgkmenulist-menu > a {
+  .t4spdmenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
@@ -57,7 +57,7 @@
   .module-logo {
     width: 300px;
   }
-  .d8fgkbody {
+  .t4spdbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -65,87 +65,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .d8fgkbody > a {
+  .t4spdbody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .d8fgk-title {
+  .t4spd-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .d8fgk-spot {
+  .t4spd-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .d8fgk-icon {
+  .t4spd-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .d8fgk {
+  .t4spd {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .d8fgktitle {
+  .t4spdtitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .d8fgktitlebody {
+  .t4spdtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .d8fgktitlebodytitle {
+  .t4spdtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .d8fgktitlebodylang {
+  .t4spdtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .d8fgktitlebodylang ul {
+  .t4spdtitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .d8fgktitlebodylang li {
+  .t4spdtitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .d8fgkmenu {
+  .t4spdmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .d8fgkmenulist {
+  .t4spdmenulist {
     width: calc(100% - 20px);
     background-color: #D72D32;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .d8fgkmenubody {
+  .t4spdmenubody {
     width: 100%;
     background-color: #D72D32;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .d8fgkmenulist {
+  .t4spdmenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -154,20 +154,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .d8fgkmenulistbody {
+  .t4spdmenulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .d8fgkmenu {
+    .t4spdmenu {
       overflow-x: auto;
     }
-    .d8fgkmenulist {
+    .t4spdmenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .d8fgkbody {
+    .t4spdbody {
       display: flex;
       align-items: center;
       justify-content: center;

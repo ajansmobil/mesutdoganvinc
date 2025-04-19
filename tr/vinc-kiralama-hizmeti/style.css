@@ -1,9 +1,9 @@
 
-  .sd66bmenulist-menu:hover .dropdown-content {
+  .wqo55menulist-menu:hover .dropdown-content {
     display: flex;
     flex-direction: column;
   }
-  .sd66bmenulist-menu {
+  .wqo55menulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,17 +17,17 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .sd66bmenulist-menu:hover {
+  .wqo55menulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .sd66bmenulist-menu:hover > a {
+  .wqo55menulist-menu:hover > a {
     color: #000 !important;
     /* Change text color to black on hover */
   }
-  .sd66bmenulist-menu > a {
+  .wqo55menulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
@@ -57,7 +57,7 @@
   .module-logo {
     width: 300px;
   }
-  .sd66bbody {
+  .wqo55body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -65,87 +65,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .sd66bbody > a {
+  .wqo55body > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .sd66b-title {
+  .wqo55-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .sd66b-spot {
+  .wqo55-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .sd66b-icon {
+  .wqo55-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .sd66b {
+  .wqo55 {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .sd66btitle {
+  .wqo55title {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .sd66btitlebody {
+  .wqo55titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .sd66btitlebodytitle {
+  .wqo55titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .sd66btitlebodylang {
+  .wqo55titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .sd66btitlebodylang ul {
+  .wqo55titlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .sd66btitlebodylang li {
+  .wqo55titlebodylang li {
     position: relative;
     list-style: none;
   }
-  .sd66bmenu {
+  .wqo55menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .sd66bmenulist {
+  .wqo55menulist {
     width: calc(100% - 20px);
     background-color: #D72D32;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .sd66bmenubody {
+  .wqo55menubody {
     width: 100%;
     background-color: #D72D32;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .sd66bmenulist {
+  .wqo55menulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -154,20 +154,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .sd66bmenulistbody {
+  .wqo55menulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .sd66bmenu {
+    .wqo55menu {
       overflow-x: auto;
     }
-    .sd66bmenulist {
+    .wqo55menulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .sd66bbody {
+    .wqo55body {
       display: flex;
       align-items: center;
       justify-content: center;

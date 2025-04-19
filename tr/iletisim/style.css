@@ -1,9 +1,9 @@
 
-  .gq53pmenulist-menu:hover .dropdown-content {
+  .hsanmmenulist-menu:hover .dropdown-content {
     display: flex;
     flex-direction: column;
   }
-  .gq53pmenulist-menu {
+  .hsanmmenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,17 +17,17 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .gq53pmenulist-menu:hover {
+  .hsanmmenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .gq53pmenulist-menu:hover > a {
+  .hsanmmenulist-menu:hover > a {
     color: #000 !important;
     /* Change text color to black on hover */
   }
-  .gq53pmenulist-menu > a {
+  .hsanmmenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
@@ -57,7 +57,7 @@
   .module-logo {
     width: 300px;
   }
-  .gq53pbody {
+  .hsanmbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -65,87 +65,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .gq53pbody > a {
+  .hsanmbody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .gq53p-title {
+  .hsanm-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .gq53p-spot {
+  .hsanm-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .gq53p-icon {
+  .hsanm-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .gq53p {
+  .hsanm {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .gq53ptitle {
+  .hsanmtitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .gq53ptitlebody {
+  .hsanmtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .gq53ptitlebodytitle {
+  .hsanmtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .gq53ptitlebodylang {
+  .hsanmtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .gq53ptitlebodylang ul {
+  .hsanmtitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .gq53ptitlebodylang li {
+  .hsanmtitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .gq53pmenu {
+  .hsanmmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .gq53pmenulist {
+  .hsanmmenulist {
     width: calc(100% - 20px);
     background-color: #D72D32;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .gq53pmenubody {
+  .hsanmmenubody {
     width: 100%;
     background-color: #D72D32;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .gq53pmenulist {
+  .hsanmmenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -154,20 +154,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .gq53pmenulistbody {
+  .hsanmmenulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .gq53pmenu {
+    .hsanmmenu {
       overflow-x: auto;
     }
-    .gq53pmenulist {
+    .hsanmmenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .gq53pbody {
+    .hsanmbody {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -175,7 +175,7 @@
   }
 
 
-  .y3fk1 {
+  .cm2sp {
     width: 100%;
     padding: 60px 20px;
     display: flex;
@@ -183,13 +183,13 @@
     justify-content: center;
     position: relative;
   }
-  .y3fk1containertitle {
+  .cm2spcontainertitle {
     font-size: 28px;
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
   }
-  .y3fk1containerlist {
+  .cm2spcontainerlist {
     padding: 10px;
     display: flex;
     border-radius: 8px;
@@ -197,23 +197,23 @@
     gap: 20px;
     transition: background-color 0.3s ease;
   }
-  .y3fk1containerlist > div {
+  .cm2spcontainerlist > div {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: #444;
   }
-  .y3fk1containerlist:hover {
+  .cm2spcontainerlist:hover {
     background-color: #f9f9f9;
     border-bottom-color: #1e3046;
   }
-  .y3fk1container {
+  .cm2spcontainer {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
-  .y3fk1containerbody {
+  .cm2spcontainerbody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -222,24 +222,24 @@
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
-  .y3fk1body {
+  .cm2spbody {
     width: calc(var(--max) - 40px);
     background-color: #ebebeb;
     border: 1px solid #dedede;
     border-radius: 10px;
     padding: 20px;
   }
-  .y3fk1containerlist > span {
+  .cm2spcontainerlist > span {
     font-size: 24px;
     color: #1e3046;
   }
   @media screen and (max-width: 1024px) {
-    .y3fk1body {
+    .cm2spbody {
       width: 100%;
       padding: 20px;
       flex-direction: column;
     }
-    .y3fk1containerbody {
+    .cm2spcontainerbody {
       padding: 15px;
     }
   }
@@ -269,13 +269,13 @@
       transform: scale(1);
     }
   }
-  .gxd2x-body {
+  .gx3wa-body {
     display: flex;
     align-items: center;
     justify-content: center;
     width: var(--max);
   }
-  .gxd2x-body-chile {
+  .gx3wa-body-chile {
     padding: 20px;
     display: flex;
     align-items: top;
@@ -283,10 +283,10 @@
     flex-direction: column;
     position: absolute;
   }
-  .gxd2x-body-chile > div {
+  .gx3wa-body-chile > div {
     width: 100% !important;
   }
-  .gxd2x2 {
+  .gx3wa2 {
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
@@ -297,21 +297,21 @@
     overflow: hidden;
     cursor: pointer;
   }
-  .gxd2x {
+  .gx3wa {
     display: flex;
     flex-direction: column;
   }
-  .gxd2x > svg {
+  .gx3wa > svg {
     width: 100vw;
   }
-  .gxd2xbotton {
+  .gx3wabotton {
     transform: scaleY(-1);
     margin-bottom: -1px;
   }
-  .gxd2x-svg {
+  .gx3wa-svg {
     fill: #fff;
   }
-  .gxd2x-bg {
+  .gx3wa-bg {
     background-image: url("/img/stgefd/map.png") !important;
     background-size: cover;
     background-position: center center;
