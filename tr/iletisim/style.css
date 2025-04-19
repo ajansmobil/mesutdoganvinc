@@ -1,9 +1,9 @@
 
-  .hsanmmenulist-menu:hover .dropdown-content {
+  .xy5admenulist-menu:hover .dropdown-content {
     display: flex;
     flex-direction: column;
   }
-  .hsanmmenulist-menu {
+  .xy5admenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,17 +17,17 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .hsanmmenulist-menu:hover {
+  .xy5admenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .hsanmmenulist-menu:hover > a {
+  .xy5admenulist-menu:hover > a {
     color: #000 !important;
     /* Change text color to black on hover */
   }
-  .hsanmmenulist-menu > a {
+  .xy5admenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
@@ -57,7 +57,7 @@
   .module-logo {
     width: 300px;
   }
-  .hsanmbody {
+  .xy5adbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -65,87 +65,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .hsanmbody > a {
+  .xy5adbody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .hsanm-title {
+  .xy5ad-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .hsanm-spot {
+  .xy5ad-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .hsanm-icon {
+  .xy5ad-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .hsanm {
+  .xy5ad {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .hsanmtitle {
+  .xy5adtitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .hsanmtitlebody {
+  .xy5adtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .hsanmtitlebodytitle {
+  .xy5adtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .hsanmtitlebodylang {
+  .xy5adtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .hsanmtitlebodylang ul {
+  .xy5adtitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .hsanmtitlebodylang li {
+  .xy5adtitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .hsanmmenu {
+  .xy5admenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .hsanmmenulist {
+  .xy5admenulist {
     width: calc(100% - 20px);
     background-color: #D72D32;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .hsanmmenubody {
+  .xy5admenubody {
     width: 100%;
     background-color: #D72D32;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .hsanmmenulist {
+  .xy5admenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -154,20 +154,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .hsanmmenulistbody {
+  .xy5admenulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .hsanmmenu {
+    .xy5admenu {
       overflow-x: auto;
     }
-    .hsanmmenulist {
+    .xy5admenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .hsanmbody {
+    .xy5adbody {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -175,7 +175,7 @@
   }
 
 
-  .cm2sp {
+  .idlz4 {
     width: 100%;
     padding: 60px 20px;
     display: flex;
@@ -183,13 +183,13 @@
     justify-content: center;
     position: relative;
   }
-  .cm2spcontainertitle {
+  .idlz4containertitle {
     font-size: 28px;
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
   }
-  .cm2spcontainerlist {
+  .idlz4containerlist {
     padding: 10px;
     display: flex;
     border-radius: 8px;
@@ -197,23 +197,23 @@
     gap: 20px;
     transition: background-color 0.3s ease;
   }
-  .cm2spcontainerlist > div {
+  .idlz4containerlist > div {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: #444;
   }
-  .cm2spcontainerlist:hover {
+  .idlz4containerlist:hover {
     background-color: #f9f9f9;
     border-bottom-color: #1e3046;
   }
-  .cm2spcontainer {
+  .idlz4container {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
-  .cm2spcontainerbody {
+  .idlz4containerbody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -222,24 +222,24 @@
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
-  .cm2spbody {
+  .idlz4body {
     width: calc(var(--max) - 40px);
     background-color: #ebebeb;
     border: 1px solid #dedede;
     border-radius: 10px;
     padding: 20px;
   }
-  .cm2spcontainerlist > span {
+  .idlz4containerlist > span {
     font-size: 24px;
     color: #1e3046;
   }
   @media screen and (max-width: 1024px) {
-    .cm2spbody {
+    .idlz4body {
       width: 100%;
       padding: 20px;
       flex-direction: column;
     }
-    .cm2spcontainerbody {
+    .idlz4containerbody {
       padding: 15px;
     }
   }
@@ -269,13 +269,13 @@
       transform: scale(1);
     }
   }
-  .gx3wa-body {
+  .tyc6o-body {
     display: flex;
     align-items: center;
     justify-content: center;
     width: var(--max);
   }
-  .gx3wa-body-chile {
+  .tyc6o-body-chile {
     padding: 20px;
     display: flex;
     align-items: top;
@@ -283,10 +283,10 @@
     flex-direction: column;
     position: absolute;
   }
-  .gx3wa-body-chile > div {
+  .tyc6o-body-chile > div {
     width: 100% !important;
   }
-  .gx3wa2 {
+  .tyc6o2 {
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
@@ -297,21 +297,21 @@
     overflow: hidden;
     cursor: pointer;
   }
-  .gx3wa {
+  .tyc6o {
     display: flex;
     flex-direction: column;
   }
-  .gx3wa > svg {
+  .tyc6o > svg {
     width: 100vw;
   }
-  .gx3wabotton {
+  .tyc6obotton {
     transform: scaleY(-1);
     margin-bottom: -1px;
   }
-  .gx3wa-svg {
+  .tyc6o-svg {
     fill: #fff;
   }
-  .gx3wa-bg {
+  .tyc6o-bg {
     background-image: url("/img/stgefd/map.png") !important;
     background-size: cover;
     background-position: center center;

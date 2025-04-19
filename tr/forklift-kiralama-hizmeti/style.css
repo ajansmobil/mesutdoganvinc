@@ -1,9 +1,9 @@
 
-  .t4spdmenulist-menu:hover .dropdown-content {
+  .hna8wmenulist-menu:hover .dropdown-content {
     display: flex;
     flex-direction: column;
   }
-  .t4spdmenulist-menu {
+  .hna8wmenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,17 +17,17 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .t4spdmenulist-menu:hover {
+  .hna8wmenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .t4spdmenulist-menu:hover > a {
+  .hna8wmenulist-menu:hover > a {
     color: #000 !important;
     /* Change text color to black on hover */
   }
-  .t4spdmenulist-menu > a {
+  .hna8wmenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
@@ -57,7 +57,7 @@
   .module-logo {
     width: 300px;
   }
-  .t4spdbody {
+  .hna8wbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -65,87 +65,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .t4spdbody > a {
+  .hna8wbody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .t4spd-title {
+  .hna8w-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .t4spd-spot {
+  .hna8w-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .t4spd-icon {
+  .hna8w-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .t4spd {
+  .hna8w {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .t4spdtitle {
+  .hna8wtitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .t4spdtitlebody {
+  .hna8wtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .t4spdtitlebodytitle {
+  .hna8wtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .t4spdtitlebodylang {
+  .hna8wtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .t4spdtitlebodylang ul {
+  .hna8wtitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .t4spdtitlebodylang li {
+  .hna8wtitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .t4spdmenu {
+  .hna8wmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .t4spdmenulist {
+  .hna8wmenulist {
     width: calc(100% - 20px);
     background-color: #D72D32;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .t4spdmenubody {
+  .hna8wmenubody {
     width: 100%;
     background-color: #D72D32;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .t4spdmenulist {
+  .hna8wmenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -154,20 +154,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .t4spdmenulistbody {
+  .hna8wmenulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .t4spdmenu {
+    .hna8wmenu {
       overflow-x: auto;
     }
-    .t4spdmenulist {
+    .hna8wmenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .t4spdbody {
+    .hna8wbody {
       display: flex;
       align-items: center;
       justify-content: center;

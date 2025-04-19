@@ -1,9 +1,9 @@
 
-  .ius8amenulist-menu:hover .dropdown-content {
+  .sfhs0menulist-menu:hover .dropdown-content {
     display: flex;
     flex-direction: column;
   }
-  .ius8amenulist-menu {
+  .sfhs0menulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,17 +17,17 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .ius8amenulist-menu:hover {
+  .sfhs0menulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .ius8amenulist-menu:hover > a {
+  .sfhs0menulist-menu:hover > a {
     color: #000 !important;
     /* Change text color to black on hover */
   }
-  .ius8amenulist-menu > a {
+  .sfhs0menulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
@@ -57,7 +57,7 @@
   .module-logo {
     width: 300px;
   }
-  .ius8abody {
+  .sfhs0body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -65,87 +65,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .ius8abody > a {
+  .sfhs0body > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .ius8a-title {
+  .sfhs0-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .ius8a-spot {
+  .sfhs0-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .ius8a-icon {
+  .sfhs0-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .ius8a {
+  .sfhs0 {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .ius8atitle {
+  .sfhs0title {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .ius8atitlebody {
+  .sfhs0titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .ius8atitlebodytitle {
+  .sfhs0titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .ius8atitlebodylang {
+  .sfhs0titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .ius8atitlebodylang ul {
+  .sfhs0titlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .ius8atitlebodylang li {
+  .sfhs0titlebodylang li {
     position: relative;
     list-style: none;
   }
-  .ius8amenu {
+  .sfhs0menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .ius8amenulist {
+  .sfhs0menulist {
     width: calc(100% - 20px);
     background-color: #D72D32;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .ius8amenubody {
+  .sfhs0menubody {
     width: 100%;
     background-color: #D72D32;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .ius8amenulist {
+  .sfhs0menulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -154,20 +154,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .ius8amenulistbody {
+  .sfhs0menulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .ius8amenu {
+    .sfhs0menu {
       overflow-x: auto;
     }
-    .ius8amenulist {
+    .sfhs0menulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .ius8abody {
+    .sfhs0body {
       display: flex;
       align-items: center;
       justify-content: center;

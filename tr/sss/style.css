@@ -1,9 +1,9 @@
 
-  .wbsnkmenulist-menu:hover .dropdown-content {
+  .qikz9menulist-menu:hover .dropdown-content {
     display: flex;
     flex-direction: column;
   }
-  .wbsnkmenulist-menu {
+  .qikz9menulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,17 +17,17 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .wbsnkmenulist-menu:hover {
+  .qikz9menulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .wbsnkmenulist-menu:hover > a {
+  .qikz9menulist-menu:hover > a {
     color: #000 !important;
     /* Change text color to black on hover */
   }
-  .wbsnkmenulist-menu > a {
+  .qikz9menulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
@@ -57,7 +57,7 @@
   .module-logo {
     width: 300px;
   }
-  .wbsnkbody {
+  .qikz9body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -65,87 +65,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .wbsnkbody > a {
+  .qikz9body > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .wbsnk-title {
+  .qikz9-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .wbsnk-spot {
+  .qikz9-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .wbsnk-icon {
+  .qikz9-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .wbsnk {
+  .qikz9 {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .wbsnktitle {
+  .qikz9title {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .wbsnktitlebody {
+  .qikz9titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .wbsnktitlebodytitle {
+  .qikz9titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .wbsnktitlebodylang {
+  .qikz9titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .wbsnktitlebodylang ul {
+  .qikz9titlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .wbsnktitlebodylang li {
+  .qikz9titlebodylang li {
     position: relative;
     list-style: none;
   }
-  .wbsnkmenu {
+  .qikz9menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .wbsnkmenulist {
+  .qikz9menulist {
     width: calc(100% - 20px);
     background-color: #D72D32;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .wbsnkmenubody {
+  .qikz9menubody {
     width: 100%;
     background-color: #D72D32;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .wbsnkmenulist {
+  .qikz9menulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -154,20 +154,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .wbsnkmenulistbody {
+  .qikz9menulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .wbsnkmenu {
+    .qikz9menu {
       overflow-x: auto;
     }
-    .wbsnkmenulist {
+    .qikz9menulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .wbsnkbody {
+    .qikz9body {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -179,14 +179,14 @@
     justify-content: start;
   }
 
-  .d7zgx {
+  .sr1i1 {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
     float: left;
   }
 
-  .d7zgx-menu {
+  .sr1i1-menu {
     width: 200px;
     background-color: #f9f9f9;
     border-radius: 5px;
@@ -197,28 +197,28 @@
     float: left;
   }
 
-  .d7zgx-desc {
+  .sr1i1-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .d7zgx-menu > a {
+  .sr1i1-menu > a {
     background-color: #fff;
     padding: 10px;
     float: left;
     border-radius: 5px;
   }
 
-  .d7zgx-menu > .active,
-  .d7zgx-menu > a:hover {
+  .sr1i1-menu > .active,
+  .sr1i1-menu > a:hover {
     background-color: #1e3046;
     color: #fff;
     display: flex;
   }
 
-  .d7zgx-desc-menu {
+  .sr1i1-desc-menu {
     width: 200px;
     background-color: #1e3046;
     display: flex;
@@ -226,19 +226,19 @@
     border-radius: 5px;
   }
 
-  .d7zgx-desc-menu > div {
+  .sr1i1-desc-menu > div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .d7zgx-desc-body {
+  .sr1i1-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .d7zgx-title {
+  .sr1i1-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -251,7 +251,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .d7zgx-title::before {
+  .sr1i1-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -266,57 +266,57 @@
     z-index: 1;
   }
 
-  .d7zgx-title span {
+  .sr1i1-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
 
-  .d7zgx-body {
+  .sr1i1-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
 
-  .d7zgx-img {
+  .sr1i1-img {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
   }
 
-  .d7zgx-img img {
+  .sr1i1-img img {
     width: 100%;
     border-radius: 10px;
   }
 
   @media screen and (min-width: 1024px) {
-    .d7zgx-desc {
+    .sr1i1-desc {
       width: calc(var(--max) - 240px);
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .d7zgx {
+    .sr1i1 {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
       gap: 20px;
     }
 
-    .d7zgx-img {
+    .sr1i1-img {
       width: 100%;
     }
 
-    .d7zgx-body {
+    .sr1i1-body {
       width: 100%;
     }
 
-    .d7zgx-menu {
+    .sr1i1-menu {
       display: none;
     }
 
-    .d7zgx-desc {
+    .sr1i1-desc {
       width: 100% !important;
     }
   }

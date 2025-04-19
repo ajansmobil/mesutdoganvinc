@@ -1,9 +1,9 @@
 
-  .wkdtbmenulist-menu:hover .dropdown-content {
+  .zytv4menulist-menu:hover .dropdown-content {
     display: flex;
     flex-direction: column;
   }
-  .wkdtbmenulist-menu {
+  .zytv4menulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,17 +17,17 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .wkdtbmenulist-menu:hover {
+  .zytv4menulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .wkdtbmenulist-menu:hover > a {
+  .zytv4menulist-menu:hover > a {
     color: #000 !important;
     /* Change text color to black on hover */
   }
-  .wkdtbmenulist-menu > a {
+  .zytv4menulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
@@ -57,7 +57,7 @@
   .module-logo {
     width: 300px;
   }
-  .wkdtbbody {
+  .zytv4body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -65,87 +65,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .wkdtbbody > a {
+  .zytv4body > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .wkdtb-title {
+  .zytv4-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .wkdtb-spot {
+  .zytv4-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .wkdtb-icon {
+  .zytv4-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .wkdtb {
+  .zytv4 {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .wkdtbtitle {
+  .zytv4title {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .wkdtbtitlebody {
+  .zytv4titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .wkdtbtitlebodytitle {
+  .zytv4titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .wkdtbtitlebodylang {
+  .zytv4titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .wkdtbtitlebodylang ul {
+  .zytv4titlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .wkdtbtitlebodylang li {
+  .zytv4titlebodylang li {
     position: relative;
     list-style: none;
   }
-  .wkdtbmenu {
+  .zytv4menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .wkdtbmenulist {
+  .zytv4menulist {
     width: calc(100% - 20px);
     background-color: #D72D32;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .wkdtbmenubody {
+  .zytv4menubody {
     width: 100%;
     background-color: #D72D32;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .wkdtbmenulist {
+  .zytv4menulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -154,20 +154,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .wkdtbmenulistbody {
+  .zytv4menulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .wkdtbmenu {
+    .zytv4menu {
       overflow-x: auto;
     }
-    .wkdtbmenulist {
+    .zytv4menulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .wkdtbbody {
+    .zytv4body {
       display: flex;
       align-items: center;
       justify-content: center;

@@ -1,9 +1,9 @@
 
-  .i2k9vmenulist-menu:hover .dropdown-content {
+  .h4grmmenulist-menu:hover .dropdown-content {
     display: flex;
     flex-direction: column;
   }
-  .i2k9vmenulist-menu {
+  .h4grmmenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,17 +17,17 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .i2k9vmenulist-menu:hover {
+  .h4grmmenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .i2k9vmenulist-menu:hover > a {
+  .h4grmmenulist-menu:hover > a {
     color: #000 !important;
     /* Change text color to black on hover */
   }
-  .i2k9vmenulist-menu > a {
+  .h4grmmenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
@@ -57,7 +57,7 @@
   .module-logo {
     width: 300px;
   }
-  .i2k9vbody {
+  .h4grmbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -65,87 +65,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .i2k9vbody > a {
+  .h4grmbody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .i2k9v-title {
+  .h4grm-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .i2k9v-spot {
+  .h4grm-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .i2k9v-icon {
+  .h4grm-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .i2k9v {
+  .h4grm {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .i2k9vtitle {
+  .h4grmtitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .i2k9vtitlebody {
+  .h4grmtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .i2k9vtitlebodytitle {
+  .h4grmtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .i2k9vtitlebodylang {
+  .h4grmtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .i2k9vtitlebodylang ul {
+  .h4grmtitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .i2k9vtitlebodylang li {
+  .h4grmtitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .i2k9vmenu {
+  .h4grmmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .i2k9vmenulist {
+  .h4grmmenulist {
     width: calc(100% - 20px);
     background-color: #D72D32;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .i2k9vmenubody {
+  .h4grmmenubody {
     width: 100%;
     background-color: #D72D32;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .i2k9vmenulist {
+  .h4grmmenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -154,20 +154,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .i2k9vmenulistbody {
+  .h4grmmenulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .i2k9vmenu {
+    .h4grmmenu {
       overflow-x: auto;
     }
-    .i2k9vmenulist {
+    .h4grmmenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .i2k9vbody {
+    .h4grmbody {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -179,7 +179,7 @@
     justify-content: start;
   }
 
-  .lv843 {
+  .sloxv {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
@@ -187,7 +187,7 @@
     position: relative;
   }
 
-  .lv843-menu-btn {
+  .sloxv-menu-btn {
     display: none;
     background-color: #000;
     padding: 10px 20px;
@@ -199,11 +199,11 @@
     align-items: center;
   }
 
-  .lv843-menu-btn i {
+  .sloxv-menu-btn i {
     font-size: 20px;
   }
 
-  .lv843-menu {
+  .sloxv-menu {
     width: 200px;
     background-color: #f9f9f9;
     border-radius: 5px;
@@ -214,28 +214,28 @@
     float: left;
   }
 
-  .lv843-desc {
+  .sloxv-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .lv843-menu>a {
+  .sloxv-menu>a {
     background-color: #fff;
     padding: 10px;
     float: left;
     border-radius: 5px;
   }
 
-  .lv843-menu>.active,
-  .lv843-menu>a:hover {
+  .sloxv-menu>.active,
+  .sloxv-menu>a:hover {
     background-color: #1e3046;
     color: #fff;
     display: flex;
   }
 
-  .lv843-desc-menu {
+  .sloxv-desc-menu {
     width: 200px;
     background-color: #1e3046;
     display: flex;
@@ -243,19 +243,19 @@
     border-radius: 5px;
   }
 
-  .lv843-desc-menu>div {
+  .sloxv-desc-menu>div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .lv843-desc-body {
+  .sloxv-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .lv843-title {
+  .sloxv-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -268,7 +268,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .lv843-title::before {
+  .sloxv-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -283,43 +283,43 @@
     z-index: 1;
   }
 
-  .lv843-title span {
+  .sloxv-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
 
-  .lv843-body {
+  .sloxv-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: left;
   }
 
-  .lv843-img {
+  .sloxv-img {
     display: flex;
     align-items: center;
     justify-content: center;
     width: calc(var(--max) - 460px);
   }
 
-  .lv843-img img {
+  .sloxv-img img {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .lv843-desc {
+    .sloxv-desc {
       width: calc(var(--max) - 240px);
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .lv843-menu-btn {
+    .sloxv-menu-btn {
       display: flex;
       width: calc(100% - 55px);
       margin-left: 5px;    }
 
-    .lv843 {
+    .sloxv {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -329,17 +329,17 @@
 
     }
 
-    .lv843-img {
+    .sloxv-img {
       width: 100%;
     }
 
-    .lv843-body {
+    .sloxv-body {
       width: 100%;
       order: 3;
       padding: 10px;
     }
 
-    .lv843-menu {
+    .sloxv-menu {
       width: 100%;
       float: none;
       flex-direction: column;
@@ -347,11 +347,11 @@
       display: none;
     }
 
-    .lv843-menu.active {
+    .sloxv-menu.active {
       display: flex;
     }
 
-    .lv843-desc {
+    .sloxv-desc {
       width: 100% !important;
       order: 2;
     }
