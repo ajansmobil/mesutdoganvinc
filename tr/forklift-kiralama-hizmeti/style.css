@@ -1,9 +1,9 @@
 
-  .a13yhmenulist-menu:hover .dropdown-content-a13yh {
+  .zry9omenulist-menu:hover .dropdown-content-zry9o {
     display: flex;
     flex-direction: column;
   }
-  .a13yhmenulist-menu {
+  .zry9omenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,27 +17,27 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .a13yhmenulist-menu:hover {
+  .zry9omenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .a13yhmenulist-menu:hover > a {
+  .zry9omenulist-menu:hover > a {
     color: #000 !important;
   }
 
 
 
 
-  .a13yhmenulist-menu > a {
+  .zry9omenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-a13yh {
+  .dropdown-content-active-zry9o {
      background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
@@ -45,13 +45,13 @@
 
   }
 
-  .dropdown-content-active-a13yh > a {
+  .dropdown-content-active-zry9o > a {
     color: #000 !important;
   }
 
 
 
-  .dropdown-content-a13yh {
+  .dropdown-content-zry9o {
     display: none;
     position: absolute;
     background-color: #333;
@@ -60,7 +60,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-a13yh > a {
+  .dropdown-content-zry9o > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -68,13 +68,13 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-a13yh > a:hover {
+  .dropdown-content-zry9o > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .a13yhbody {
+  .zry9obody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -82,87 +82,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .a13yhbody > a {
+  .zry9obody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .a13yh-title {
+  .zry9o-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .a13yh-spot {
+  .zry9o-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .a13yh-icon {
+  .zry9o-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .a13yh {
+  .zry9o {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .a13yhtitle {
+  .zry9otitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .a13yhtitlebody {
+  .zry9otitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .a13yhtitlebodytitle {
+  .zry9otitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .a13yhtitlebodylang {
+  .zry9otitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .a13yhtitlebodylang ul {
+  .zry9otitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .a13yhtitlebodylang li {
+  .zry9otitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .a13yhmenu {
+  .zry9omenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .a13yhmenulist {
+  .zry9omenulist {
     width: calc(100% - 20px);
     background-color: #D72D32;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .a13yhmenubody {
+  .zry9omenubody {
     width: 100%;
     background-color: #D72D32;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .a13yhmenulist {
+  .zry9omenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -171,20 +171,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .a13yhmenulistbody {
+  .zry9omenulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .a13yhmenu {
+    .zry9omenu {
       overflow-x: auto;
     }
-    .a13yhmenulist {
+    .zry9omenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .a13yhbody {
+    .zry9obody {
       display: flex;
       align-items: center;
       justify-content: center;

@@ -1,9 +1,9 @@
 
-  .ulrfbmenulist-menu:hover .dropdown-content-ulrfb {
+  .ytqvumenulist-menu:hover .dropdown-content-ytqvu {
     display: flex;
     flex-direction: column;
   }
-  .ulrfbmenulist-menu {
+  .ytqvumenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,27 +17,27 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .ulrfbmenulist-menu:hover {
+  .ytqvumenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .ulrfbmenulist-menu:hover > a {
+  .ytqvumenulist-menu:hover > a {
     color: #000 !important;
   }
 
 
 
 
-  .ulrfbmenulist-menu > a {
+  .ytqvumenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-ulrfb {
+  .dropdown-content-active-ytqvu {
      background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
@@ -45,13 +45,13 @@
 
   }
 
-  .dropdown-content-active-ulrfb > a {
+  .dropdown-content-active-ytqvu > a {
     color: #000 !important;
   }
 
 
 
-  .dropdown-content-ulrfb {
+  .dropdown-content-ytqvu {
     display: none;
     position: absolute;
     background-color: #333;
@@ -60,7 +60,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-ulrfb > a {
+  .dropdown-content-ytqvu > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -68,13 +68,13 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-ulrfb > a:hover {
+  .dropdown-content-ytqvu > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .ulrfbbody {
+  .ytqvubody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -82,87 +82,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .ulrfbbody > a {
+  .ytqvubody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .ulrfb-title {
+  .ytqvu-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .ulrfb-spot {
+  .ytqvu-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .ulrfb-icon {
+  .ytqvu-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .ulrfb {
+  .ytqvu {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .ulrfbtitle {
+  .ytqvutitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .ulrfbtitlebody {
+  .ytqvutitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .ulrfbtitlebodytitle {
+  .ytqvutitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .ulrfbtitlebodylang {
+  .ytqvutitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .ulrfbtitlebodylang ul {
+  .ytqvutitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .ulrfbtitlebodylang li {
+  .ytqvutitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .ulrfbmenu {
+  .ytqvumenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .ulrfbmenulist {
+  .ytqvumenulist {
     width: calc(100% - 20px);
     background-color: #D72D32;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .ulrfbmenubody {
+  .ytqvumenubody {
     width: 100%;
     background-color: #D72D32;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .ulrfbmenulist {
+  .ytqvumenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -171,20 +171,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .ulrfbmenulistbody {
+  .ytqvumenulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .ulrfbmenu {
+    .ytqvumenu {
       overflow-x: auto;
     }
-    .ulrfbmenulist {
+    .ytqvumenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .ulrfbbody {
+    .ytqvubody {
       display: flex;
       align-items: center;
       justify-content: center;

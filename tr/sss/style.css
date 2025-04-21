@@ -1,9 +1,9 @@
 
-  .k0a0fmenulist-menu:hover .dropdown-content-k0a0f {
+  .arf8umenulist-menu:hover .dropdown-content-arf8u {
     display: flex;
     flex-direction: column;
   }
-  .k0a0fmenulist-menu {
+  .arf8umenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,27 +17,27 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .k0a0fmenulist-menu:hover {
+  .arf8umenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .k0a0fmenulist-menu:hover > a {
+  .arf8umenulist-menu:hover > a {
     color: #000 !important;
   }
 
 
 
 
-  .k0a0fmenulist-menu > a {
+  .arf8umenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-k0a0f {
+  .dropdown-content-active-arf8u {
      background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
@@ -45,13 +45,13 @@
 
   }
 
-  .dropdown-content-active-k0a0f > a {
+  .dropdown-content-active-arf8u > a {
     color: #000 !important;
   }
 
 
 
-  .dropdown-content-k0a0f {
+  .dropdown-content-arf8u {
     display: none;
     position: absolute;
     background-color: #333;
@@ -60,7 +60,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-k0a0f > a {
+  .dropdown-content-arf8u > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -68,13 +68,13 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-k0a0f > a:hover {
+  .dropdown-content-arf8u > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .k0a0fbody {
+  .arf8ubody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -82,87 +82,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .k0a0fbody > a {
+  .arf8ubody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .k0a0f-title {
+  .arf8u-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .k0a0f-spot {
+  .arf8u-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .k0a0f-icon {
+  .arf8u-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .k0a0f {
+  .arf8u {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .k0a0ftitle {
+  .arf8utitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .k0a0ftitlebody {
+  .arf8utitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .k0a0ftitlebodytitle {
+  .arf8utitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .k0a0ftitlebodylang {
+  .arf8utitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .k0a0ftitlebodylang ul {
+  .arf8utitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .k0a0ftitlebodylang li {
+  .arf8utitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .k0a0fmenu {
+  .arf8umenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .k0a0fmenulist {
+  .arf8umenulist {
     width: calc(100% - 20px);
     background-color: #D72D32;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .k0a0fmenubody {
+  .arf8umenubody {
     width: 100%;
     background-color: #D72D32;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .k0a0fmenulist {
+  .arf8umenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -171,20 +171,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .k0a0fmenulistbody {
+  .arf8umenulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .k0a0fmenu {
+    .arf8umenu {
       overflow-x: auto;
     }
-    .k0a0fmenulist {
+    .arf8umenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .k0a0fbody {
+    .arf8ubody {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -192,11 +192,11 @@
   }
 
 
-  .evd4ghead {
+  .sq1b7head {
     width: var(--max);
   }
 
-  .evd4g {
+  .sq1b7 {
     margin-top: 20px;
     display: flex;
     align-items: center;
@@ -204,14 +204,14 @@
     flex-direction: column;
   }
 
-  .evd4gbody {
+  .sq1b7body {
     width: var(--max);
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .evd4gbodyitem {
+  .sq1b7bodyitem {
     background-color: #e0e0e0;
     border-radius: 5px;
     padding: 10px;
@@ -220,19 +220,19 @@
     gap: 2px;
   }
 
-  .evd4gbodyitemimg {
+  .sq1b7bodyitemimg {
     aspect-ratio: 12 / 8;
     display: flex;
   }
 
-  .evd4gbodyitemimg img {
+  .sq1b7bodyitemimg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
   }
 
-  .evd4gbodyitemtitle {
+  .sq1b7bodyitemtitle {
     border-radius: 3px;
     padding: 5px;
     margin-top: 5px;
@@ -241,14 +241,14 @@
     flex-direction: column;
   }
 
-  .evd4gbodyitemtitle>div {
+  .sq1b7bodyitemtitle>div {
     display: flex;
     justify-content: space-between;
     border-width: 0px 0px 1px 0px;
     padding: 5px;
   }
 
-  .evd4gbodyitemspot {
+  .sq1b7bodyitemspot {
     border-radius: 3px;
     height: 50px !important;
     padding: 5px;
@@ -259,14 +259,14 @@
     align-items: center;
   }
 
-  .evd4gbodyitemspot>div {
+  .sq1b7bodyitemspot>div {
     width: 100%;
     color: #fff;
     font-size: 16px;
   }
 
   @media screen and (max-width: 1024px) {
-    .evd4gbody {
+    .sq1b7body {
       width: calc(100% - 10px);
       margin: 0px 5px 0px 5px;
       grid-template-columns: repeat(3, 1fr);
@@ -274,7 +274,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .evd4gbody {
+    .sq1b7body {
       width: calc(100% - 10px);
       margin: 0px 5px 0px 5px;
       grid-template-columns: repeat(2, 1fr);
