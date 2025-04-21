@@ -1,9 +1,9 @@
 
-  .dqc1emenulist-menu:hover .dropdown-content-dqc1e {
+  .rjd9lmenulist-menu:hover .dropdown-content-rjd9l {
     display: flex;
     flex-direction: column;
   }
-  .dqc1emenulist-menu {
+  .rjd9lmenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,27 +17,27 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .dqc1emenulist-menu:hover {
+  .rjd9lmenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .dqc1emenulist-menu:hover > a {
+  .rjd9lmenulist-menu:hover > a {
     color: #000 !important;
   }
 
 
 
 
-  .dqc1emenulist-menu > a {
+  .rjd9lmenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-dqc1e {
+  .dropdown-content-active-rjd9l {
      background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
@@ -45,13 +45,13 @@
 
   }
 
-  .dropdown-content-active-dqc1e > a {
+  .dropdown-content-active-rjd9l > a {
     color: #000 !important;
   }
 
 
 
-  .dropdown-content-dqc1e {
+  .dropdown-content-rjd9l {
     display: none;
     position: absolute;
     background-color: #333;
@@ -60,7 +60,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-dqc1e > a {
+  .dropdown-content-rjd9l > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -68,13 +68,13 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-dqc1e > a:hover {
+  .dropdown-content-rjd9l > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .dqc1ebody {
+  .rjd9lbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -82,87 +82,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .dqc1ebody > a {
+  .rjd9lbody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .dqc1e-title {
+  .rjd9l-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .dqc1e-spot {
+  .rjd9l-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .dqc1e-icon {
+  .rjd9l-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .dqc1e {
+  .rjd9l {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .dqc1etitle {
+  .rjd9ltitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .dqc1etitlebody {
+  .rjd9ltitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .dqc1etitlebodytitle {
+  .rjd9ltitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .dqc1etitlebodylang {
+  .rjd9ltitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .dqc1etitlebodylang ul {
+  .rjd9ltitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .dqc1etitlebodylang li {
+  .rjd9ltitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .dqc1emenu {
+  .rjd9lmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .dqc1emenulist {
+  .rjd9lmenulist {
     width: calc(100% - 20px);
     background-color: #D72D32;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .dqc1emenubody {
+  .rjd9lmenubody {
     width: 100%;
     background-color: #D72D32;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .dqc1emenulist {
+  .rjd9lmenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -171,20 +171,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .dqc1emenulistbody {
+  .rjd9lmenulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .dqc1emenu {
+    .rjd9lmenu {
       overflow-x: auto;
     }
-    .dqc1emenulist {
+    .rjd9lmenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .dqc1ebody {
+    .rjd9lbody {
       display: flex;
       align-items: center;
       justify-content: center;

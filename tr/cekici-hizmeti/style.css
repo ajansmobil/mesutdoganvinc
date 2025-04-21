@@ -1,9 +1,9 @@
 
-  .uoqxxmenulist-menu:hover .dropdown-content-uoqxx {
+  .c4d7omenulist-menu:hover .dropdown-content-c4d7o {
     display: flex;
     flex-direction: column;
   }
-  .uoqxxmenulist-menu {
+  .c4d7omenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,27 +17,27 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .uoqxxmenulist-menu:hover {
+  .c4d7omenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .uoqxxmenulist-menu:hover > a {
+  .c4d7omenulist-menu:hover > a {
     color: #000 !important;
   }
 
 
 
 
-  .uoqxxmenulist-menu > a {
+  .c4d7omenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-uoqxx {
+  .dropdown-content-active-c4d7o {
      background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
@@ -45,13 +45,13 @@
 
   }
 
-  .dropdown-content-active-uoqxx > a {
+  .dropdown-content-active-c4d7o > a {
     color: #000 !important;
   }
 
 
 
-  .dropdown-content-uoqxx {
+  .dropdown-content-c4d7o {
     display: none;
     position: absolute;
     background-color: #333;
@@ -60,7 +60,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-uoqxx > a {
+  .dropdown-content-c4d7o > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -68,13 +68,13 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-uoqxx > a:hover {
+  .dropdown-content-c4d7o > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .uoqxxbody {
+  .c4d7obody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -82,87 +82,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .uoqxxbody > a {
+  .c4d7obody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .uoqxx-title {
+  .c4d7o-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .uoqxx-spot {
+  .c4d7o-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .uoqxx-icon {
+  .c4d7o-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .uoqxx {
+  .c4d7o {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .uoqxxtitle {
+  .c4d7otitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .uoqxxtitlebody {
+  .c4d7otitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .uoqxxtitlebodytitle {
+  .c4d7otitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .uoqxxtitlebodylang {
+  .c4d7otitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .uoqxxtitlebodylang ul {
+  .c4d7otitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .uoqxxtitlebodylang li {
+  .c4d7otitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .uoqxxmenu {
+  .c4d7omenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .uoqxxmenulist {
+  .c4d7omenulist {
     width: calc(100% - 20px);
     background-color: #D72D32;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .uoqxxmenubody {
+  .c4d7omenubody {
     width: 100%;
     background-color: #D72D32;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .uoqxxmenulist {
+  .c4d7omenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -171,20 +171,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .uoqxxmenulistbody {
+  .c4d7omenulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .uoqxxmenu {
+    .c4d7omenu {
       overflow-x: auto;
     }
-    .uoqxxmenulist {
+    .c4d7omenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .uoqxxbody {
+    .c4d7obody {
       display: flex;
       align-items: center;
       justify-content: center;

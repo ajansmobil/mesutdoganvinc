@@ -1,9 +1,9 @@
 
-  .za8f7menulist-menu:hover .dropdown-content-za8f7 {
+  .ulrfbmenulist-menu:hover .dropdown-content-ulrfb {
     display: flex;
     flex-direction: column;
   }
-  .za8f7menulist-menu {
+  .ulrfbmenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,27 +17,27 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .za8f7menulist-menu:hover {
+  .ulrfbmenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .za8f7menulist-menu:hover > a {
+  .ulrfbmenulist-menu:hover > a {
     color: #000 !important;
   }
 
 
 
 
-  .za8f7menulist-menu > a {
+  .ulrfbmenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-za8f7 {
+  .dropdown-content-active-ulrfb {
      background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
@@ -45,13 +45,13 @@
 
   }
 
-  .dropdown-content-active-za8f7 > a {
+  .dropdown-content-active-ulrfb > a {
     color: #000 !important;
   }
 
 
 
-  .dropdown-content-za8f7 {
+  .dropdown-content-ulrfb {
     display: none;
     position: absolute;
     background-color: #333;
@@ -60,7 +60,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-za8f7 > a {
+  .dropdown-content-ulrfb > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -68,13 +68,13 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-za8f7 > a:hover {
+  .dropdown-content-ulrfb > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .za8f7body {
+  .ulrfbbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -82,87 +82,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .za8f7body > a {
+  .ulrfbbody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .za8f7-title {
+  .ulrfb-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .za8f7-spot {
+  .ulrfb-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .za8f7-icon {
+  .ulrfb-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .za8f7 {
+  .ulrfb {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .za8f7title {
+  .ulrfbtitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .za8f7titlebody {
+  .ulrfbtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .za8f7titlebodytitle {
+  .ulrfbtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .za8f7titlebodylang {
+  .ulrfbtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .za8f7titlebodylang ul {
+  .ulrfbtitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .za8f7titlebodylang li {
+  .ulrfbtitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .za8f7menu {
+  .ulrfbmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .za8f7menulist {
+  .ulrfbmenulist {
     width: calc(100% - 20px);
     background-color: #D72D32;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .za8f7menubody {
+  .ulrfbmenubody {
     width: 100%;
     background-color: #D72D32;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .za8f7menulist {
+  .ulrfbmenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -171,20 +171,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .za8f7menulistbody {
+  .ulrfbmenulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .za8f7menu {
+    .ulrfbmenu {
       overflow-x: auto;
     }
-    .za8f7menulist {
+    .ulrfbmenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .za8f7body {
+    .ulrfbbody {
       display: flex;
       align-items: center;
       justify-content: center;

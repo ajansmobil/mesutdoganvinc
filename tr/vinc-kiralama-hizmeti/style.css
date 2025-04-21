@@ -1,9 +1,9 @@
 
-  .xpoaumenulist-menu:hover .dropdown-content-xpoau {
+  .hxo6qmenulist-menu:hover .dropdown-content-hxo6q {
     display: flex;
     flex-direction: column;
   }
-  .xpoaumenulist-menu {
+  .hxo6qmenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,27 +17,27 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .xpoaumenulist-menu:hover {
+  .hxo6qmenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .xpoaumenulist-menu:hover > a {
+  .hxo6qmenulist-menu:hover > a {
     color: #000 !important;
   }
 
 
 
 
-  .xpoaumenulist-menu > a {
+  .hxo6qmenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-xpoau {
+  .dropdown-content-active-hxo6q {
      background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
@@ -45,13 +45,13 @@
 
   }
 
-  .dropdown-content-active-xpoau > a {
+  .dropdown-content-active-hxo6q > a {
     color: #000 !important;
   }
 
 
 
-  .dropdown-content-xpoau {
+  .dropdown-content-hxo6q {
     display: none;
     position: absolute;
     background-color: #333;
@@ -60,7 +60,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-xpoau > a {
+  .dropdown-content-hxo6q > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -68,13 +68,13 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-xpoau > a:hover {
+  .dropdown-content-hxo6q > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .xpoaubody {
+  .hxo6qbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -82,87 +82,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .xpoaubody > a {
+  .hxo6qbody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .xpoau-title {
+  .hxo6q-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .xpoau-spot {
+  .hxo6q-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .xpoau-icon {
+  .hxo6q-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .xpoau {
+  .hxo6q {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .xpoautitle {
+  .hxo6qtitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .xpoautitlebody {
+  .hxo6qtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .xpoautitlebodytitle {
+  .hxo6qtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .xpoautitlebodylang {
+  .hxo6qtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .xpoautitlebodylang ul {
+  .hxo6qtitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .xpoautitlebodylang li {
+  .hxo6qtitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .xpoaumenu {
+  .hxo6qmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .xpoaumenulist {
+  .hxo6qmenulist {
     width: calc(100% - 20px);
     background-color: #D72D32;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .xpoaumenubody {
+  .hxo6qmenubody {
     width: 100%;
     background-color: #D72D32;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .xpoaumenulist {
+  .hxo6qmenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -171,20 +171,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .xpoaumenulistbody {
+  .hxo6qmenulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .xpoaumenu {
+    .hxo6qmenu {
       overflow-x: auto;
     }
-    .xpoaumenulist {
+    .hxo6qmenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .xpoaubody {
+    .hxo6qbody {
       display: flex;
       align-items: center;
       justify-content: center;
