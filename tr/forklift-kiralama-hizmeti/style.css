@@ -1,9 +1,9 @@
 
-  .zry9omenulist-menu:hover .dropdown-content-zry9o {
+  .ueutemenulist-menu:hover .dropdown-content-ueute {
     display: flex;
     flex-direction: column;
   }
-  .zry9omenulist-menu {
+  .ueutemenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,27 +17,27 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .zry9omenulist-menu:hover {
+  .ueutemenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .zry9omenulist-menu:hover > a {
+  .ueutemenulist-menu:hover > a {
     color: #000 !important;
   }
 
 
 
 
-  .zry9omenulist-menu > a {
+  .ueutemenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-zry9o {
+  .dropdown-content-active-ueute {
      background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
@@ -45,13 +45,13 @@
 
   }
 
-  .dropdown-content-active-zry9o > a {
+  .dropdown-content-active-ueute > a {
     color: #000 !important;
   }
 
 
 
-  .dropdown-content-zry9o {
+  .dropdown-content-ueute {
     display: none;
     position: absolute;
     background-color: #333;
@@ -60,7 +60,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-zry9o > a {
+  .dropdown-content-ueute > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -68,13 +68,13 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-zry9o > a:hover {
+  .dropdown-content-ueute > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .zry9obody {
+  .ueutebody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -82,87 +82,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .zry9obody > a {
+  .ueutebody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .zry9o-title {
+  .ueute-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .zry9o-spot {
+  .ueute-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .zry9o-icon {
+  .ueute-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .zry9o {
+  .ueute {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .zry9otitle {
+  .ueutetitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .zry9otitlebody {
+  .ueutetitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .zry9otitlebodytitle {
+  .ueutetitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .zry9otitlebodylang {
+  .ueutetitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .zry9otitlebodylang ul {
+  .ueutetitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .zry9otitlebodylang li {
+  .ueutetitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .zry9omenu {
+  .ueutemenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .zry9omenulist {
+  .ueutemenulist {
     width: calc(100% - 20px);
     background-color: #D72D32;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .zry9omenubody {
+  .ueutemenubody {
     width: 100%;
     background-color: #D72D32;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .zry9omenulist {
+  .ueutemenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -171,20 +171,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .zry9omenulistbody {
+  .ueutemenulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .zry9omenu {
+    .ueutemenu {
       overflow-x: auto;
     }
-    .zry9omenulist {
+    .ueutemenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .zry9obody {
+    .ueutebody {
       display: flex;
       align-items: center;
       justify-content: center;

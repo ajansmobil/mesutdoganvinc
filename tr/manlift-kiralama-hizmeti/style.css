@@ -1,9 +1,9 @@
 
-  .fjlr6menulist-menu:hover .dropdown-content-fjlr6 {
+  .ehyuemenulist-menu:hover .dropdown-content-ehyue {
     display: flex;
     flex-direction: column;
   }
-  .fjlr6menulist-menu {
+  .ehyuemenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,27 +17,27 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .fjlr6menulist-menu:hover {
+  .ehyuemenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .fjlr6menulist-menu:hover > a {
+  .ehyuemenulist-menu:hover > a {
     color: #000 !important;
   }
 
 
 
 
-  .fjlr6menulist-menu > a {
+  .ehyuemenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-fjlr6 {
+  .dropdown-content-active-ehyue {
      background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
@@ -45,13 +45,13 @@
 
   }
 
-  .dropdown-content-active-fjlr6 > a {
+  .dropdown-content-active-ehyue > a {
     color: #000 !important;
   }
 
 
 
-  .dropdown-content-fjlr6 {
+  .dropdown-content-ehyue {
     display: none;
     position: absolute;
     background-color: #333;
@@ -60,7 +60,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-fjlr6 > a {
+  .dropdown-content-ehyue > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -68,13 +68,13 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-fjlr6 > a:hover {
+  .dropdown-content-ehyue > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .fjlr6body {
+  .ehyuebody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -82,87 +82,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .fjlr6body > a {
+  .ehyuebody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .fjlr6-title {
+  .ehyue-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .fjlr6-spot {
+  .ehyue-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .fjlr6-icon {
+  .ehyue-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .fjlr6 {
+  .ehyue {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .fjlr6title {
+  .ehyuetitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .fjlr6titlebody {
+  .ehyuetitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .fjlr6titlebodytitle {
+  .ehyuetitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .fjlr6titlebodylang {
+  .ehyuetitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .fjlr6titlebodylang ul {
+  .ehyuetitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .fjlr6titlebodylang li {
+  .ehyuetitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .fjlr6menu {
+  .ehyuemenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .fjlr6menulist {
+  .ehyuemenulist {
     width: calc(100% - 20px);
     background-color: #D72D32;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .fjlr6menubody {
+  .ehyuemenubody {
     width: 100%;
     background-color: #D72D32;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .fjlr6menulist {
+  .ehyuemenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -171,20 +171,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .fjlr6menulistbody {
+  .ehyuemenulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .fjlr6menu {
+    .ehyuemenu {
       overflow-x: auto;
     }
-    .fjlr6menulist {
+    .ehyuemenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .fjlr6body {
+    .ehyuebody {
       display: flex;
       align-items: center;
       justify-content: center;
