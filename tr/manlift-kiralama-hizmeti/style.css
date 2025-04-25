@@ -1,9 +1,9 @@
 
-  .ehyuemenulist-menu:hover .dropdown-content-ehyue {
+  .ka7b3menulist-menu:hover .dropdown-content-ka7b3 {
     display: flex;
     flex-direction: column;
   }
-  .ehyuemenulist-menu {
+  .ka7b3menulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,27 +17,27 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .ehyuemenulist-menu:hover {
+  .ka7b3menulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .ehyuemenulist-menu:hover > a {
+  .ka7b3menulist-menu:hover > a {
     color: #000 !important;
   }
 
 
 
 
-  .ehyuemenulist-menu > a {
+  .ka7b3menulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-ehyue {
+  .dropdown-content-active-ka7b3 {
      background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
@@ -45,13 +45,13 @@
 
   }
 
-  .dropdown-content-active-ehyue > a {
+  .dropdown-content-active-ka7b3 > a {
     color: #000 !important;
   }
 
 
 
-  .dropdown-content-ehyue {
+  .dropdown-content-ka7b3 {
     display: none;
     position: absolute;
     background-color: #333;
@@ -60,7 +60,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-ehyue > a {
+  .dropdown-content-ka7b3 > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -68,13 +68,13 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-ehyue > a:hover {
+  .dropdown-content-ka7b3 > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .ehyuebody {
+  .ka7b3body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -82,87 +82,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .ehyuebody > a {
+  .ka7b3body > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .ehyue-title {
+  .ka7b3-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .ehyue-spot {
+  .ka7b3-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .ehyue-icon {
+  .ka7b3-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .ehyue {
+  .ka7b3 {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .ehyuetitle {
+  .ka7b3title {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .ehyuetitlebody {
+  .ka7b3titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .ehyuetitlebodytitle {
+  .ka7b3titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .ehyuetitlebodylang {
+  .ka7b3titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .ehyuetitlebodylang ul {
+  .ka7b3titlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .ehyuetitlebodylang li {
+  .ka7b3titlebodylang li {
     position: relative;
     list-style: none;
   }
-  .ehyuemenu {
+  .ka7b3menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .ehyuemenulist {
+  .ka7b3menulist {
     width: calc(100% - 20px);
     background-color: #D72D32;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .ehyuemenubody {
+  .ka7b3menubody {
     width: 100%;
     background-color: #D72D32;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .ehyuemenulist {
+  .ka7b3menulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -171,20 +171,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .ehyuemenulistbody {
+  .ka7b3menulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .ehyuemenu {
+    .ka7b3menu {
       overflow-x: auto;
     }
-    .ehyuemenulist {
+    .ka7b3menulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .ehyuebody {
+    .ka7b3body {
       display: flex;
       align-items: center;
       justify-content: center;

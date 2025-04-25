@@ -1,9 +1,9 @@
 
-  .vfwm6menulist-menu:hover .dropdown-content-vfwm6 {
+  .xwue1menulist-menu:hover .dropdown-content-xwue1 {
     display: flex;
     flex-direction: column;
   }
-  .vfwm6menulist-menu {
+  .xwue1menulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,27 +17,27 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .vfwm6menulist-menu:hover {
+  .xwue1menulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .vfwm6menulist-menu:hover > a {
+  .xwue1menulist-menu:hover > a {
     color: #000 !important;
   }
 
 
 
 
-  .vfwm6menulist-menu > a {
+  .xwue1menulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-vfwm6 {
+  .dropdown-content-active-xwue1 {
      background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
@@ -45,13 +45,13 @@
 
   }
 
-  .dropdown-content-active-vfwm6 > a {
+  .dropdown-content-active-xwue1 > a {
     color: #000 !important;
   }
 
 
 
-  .dropdown-content-vfwm6 {
+  .dropdown-content-xwue1 {
     display: none;
     position: absolute;
     background-color: #333;
@@ -60,7 +60,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-vfwm6 > a {
+  .dropdown-content-xwue1 > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -68,13 +68,13 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-vfwm6 > a:hover {
+  .dropdown-content-xwue1 > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .vfwm6body {
+  .xwue1body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -82,87 +82,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .vfwm6body > a {
+  .xwue1body > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .vfwm6-title {
+  .xwue1-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .vfwm6-spot {
+  .xwue1-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .vfwm6-icon {
+  .xwue1-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .vfwm6 {
+  .xwue1 {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .vfwm6title {
+  .xwue1title {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .vfwm6titlebody {
+  .xwue1titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .vfwm6titlebodytitle {
+  .xwue1titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .vfwm6titlebodylang {
+  .xwue1titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .vfwm6titlebodylang ul {
+  .xwue1titlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .vfwm6titlebodylang li {
+  .xwue1titlebodylang li {
     position: relative;
     list-style: none;
   }
-  .vfwm6menu {
+  .xwue1menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .vfwm6menulist {
+  .xwue1menulist {
     width: calc(100% - 20px);
     background-color: #D72D32;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .vfwm6menubody {
+  .xwue1menubody {
     width: 100%;
     background-color: #D72D32;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .vfwm6menulist {
+  .xwue1menulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -171,20 +171,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .vfwm6menulistbody {
+  .xwue1menulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .vfwm6menu {
+    .xwue1menu {
       overflow-x: auto;
     }
-    .vfwm6menulist {
+    .xwue1menulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .vfwm6body {
+    .xwue1body {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -192,11 +192,11 @@
   }
 
 
-  .g852nhead {
+  .jh4ighead {
     width: var(--max);
   }
 
-  .g852n {
+  .jh4ig {
     margin-top: 20px;
     display: flex;
     align-items: center;
@@ -204,14 +204,14 @@
     flex-direction: column;
   }
 
-  .g852nbody {
+  .jh4igbody {
     width: var(--max);
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .g852nbodyitem {
+  .jh4igbodyitem {
     background-color: #e0e0e0;
     border-radius: 5px;
     padding: 10px;
@@ -220,19 +220,19 @@
     gap: 2px;
   }
 
-  .g852nbodyitemimg {
+  .jh4igbodyitemimg {
     aspect-ratio: 12 / 8;
     display: flex;
   }
 
-  .g852nbodyitemimg img {
+  .jh4igbodyitemimg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
   }
 
-  .g852nbodyitemtitle {
+  .jh4igbodyitemtitle {
     border-radius: 3px;
     padding: 5px;
     margin-top: 5px;
@@ -241,14 +241,14 @@
     flex-direction: column;
   }
 
-  .g852nbodyitemtitle>div {
+  .jh4igbodyitemtitle>div {
     display: flex;
     justify-content: space-between;
     border-width: 0px 0px 1px 0px;
     padding: 5px;
   }
 
-  .g852nbodyitemspot {
+  .jh4igbodyitemspot {
     border-radius: 3px;
     height: 50px !important;
     padding: 5px;
@@ -259,14 +259,14 @@
     align-items: center;
   }
 
-  .g852nbodyitemspot>div {
+  .jh4igbodyitemspot>div {
     width: 100%;
     color: #fff;
     font-size: 16px;
   }
 
   @media screen and (max-width: 1024px) {
-    .g852nbody {
+    .jh4igbody {
       width: calc(100% - 10px);
       margin: 0px 5px 0px 5px;
       grid-template-columns: repeat(3, 1fr);
@@ -274,7 +274,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .g852nbody {
+    .jh4igbody {
       width: calc(100% - 10px);
       margin: 0px 5px 0px 5px;
       grid-template-columns: repeat(2, 1fr);
