@@ -1,9 +1,9 @@
 
-  .ka7b3menulist-menu:hover .dropdown-content-ka7b3 {
+  .xxgokmenulist-menu:hover .dropdown-content-xxgok {
     display: flex;
     flex-direction: column;
   }
-  .ka7b3menulist-menu {
+  .xxgokmenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,27 +17,27 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .ka7b3menulist-menu:hover {
+  .xxgokmenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .ka7b3menulist-menu:hover > a {
+  .xxgokmenulist-menu:hover > a {
     color: #000 !important;
   }
 
 
 
 
-  .ka7b3menulist-menu > a {
+  .xxgokmenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-ka7b3 {
+  .dropdown-content-active-xxgok {
      background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
@@ -45,13 +45,13 @@
 
   }
 
-  .dropdown-content-active-ka7b3 > a {
+  .dropdown-content-active-xxgok > a {
     color: #000 !important;
   }
 
 
 
-  .dropdown-content-ka7b3 {
+  .dropdown-content-xxgok {
     display: none;
     position: absolute;
     background-color: #333;
@@ -60,7 +60,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-ka7b3 > a {
+  .dropdown-content-xxgok > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -68,13 +68,13 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-ka7b3 > a:hover {
+  .dropdown-content-xxgok > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .ka7b3body {
+  .xxgokbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -82,87 +82,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .ka7b3body > a {
+  .xxgokbody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .ka7b3-title {
+  .xxgok-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .ka7b3-spot {
+  .xxgok-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .ka7b3-icon {
+  .xxgok-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .ka7b3 {
+  .xxgok {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .ka7b3title {
+  .xxgoktitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .ka7b3titlebody {
+  .xxgoktitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .ka7b3titlebodytitle {
+  .xxgoktitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .ka7b3titlebodylang {
+  .xxgoktitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .ka7b3titlebodylang ul {
+  .xxgoktitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .ka7b3titlebodylang li {
+  .xxgoktitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .ka7b3menu {
+  .xxgokmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .ka7b3menulist {
+  .xxgokmenulist {
     width: calc(100% - 20px);
     background-color: #D72D32;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .ka7b3menubody {
+  .xxgokmenubody {
     width: 100%;
     background-color: #D72D32;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .ka7b3menulist {
+  .xxgokmenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -171,20 +171,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .ka7b3menulistbody {
+  .xxgokmenulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .ka7b3menu {
+    .xxgokmenu {
       overflow-x: auto;
     }
-    .ka7b3menulist {
+    .xxgokmenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .ka7b3body {
+    .xxgokbody {
       display: flex;
       align-items: center;
       justify-content: center;
