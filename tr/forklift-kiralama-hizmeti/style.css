@@ -1,9 +1,9 @@
 
-  .u4o16menulist-menu:hover .dropdown-content-u4o16 {
+  .t821wmenulist-menu:hover .dropdown-content-t821w {
     display: flex;
     flex-direction: column;
   }
-  .u4o16menulist-menu {
+  .t821wmenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,27 +17,27 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .u4o16menulist-menu:hover {
+  .t821wmenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .u4o16menulist-menu:hover > a {
+  .t821wmenulist-menu:hover > a {
     color: #000 !important;
   }
 
 
 
 
-  .u4o16menulist-menu > a {
+  .t821wmenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-u4o16 {
+  .dropdown-content-active-t821w {
      background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
@@ -45,13 +45,13 @@
 
   }
 
-  .dropdown-content-active-u4o16 > a {
+  .dropdown-content-active-t821w > a {
     color: #000 !important;
   }
 
 
 
-  .dropdown-content-u4o16 {
+  .dropdown-content-t821w {
     display: none;
     position: absolute;
     background-color: #333;
@@ -60,7 +60,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-u4o16 > a {
+  .dropdown-content-t821w > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -68,13 +68,13 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-u4o16 > a:hover {
+  .dropdown-content-t821w > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .u4o16body {
+  .t821wbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -82,87 +82,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .u4o16body > a {
+  .t821wbody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .u4o16-title {
+  .t821w-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .u4o16-spot {
+  .t821w-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .u4o16-icon {
+  .t821w-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .u4o16 {
+  .t821w {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .u4o16title {
+  .t821wtitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .u4o16titlebody {
+  .t821wtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .u4o16titlebodytitle {
+  .t821wtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .u4o16titlebodylang {
+  .t821wtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .u4o16titlebodylang ul {
+  .t821wtitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .u4o16titlebodylang li {
+  .t821wtitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .u4o16menu {
+  .t821wmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .u4o16menulist {
+  .t821wmenulist {
     width: calc(100% - 20px);
     background-color: #D72D32;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .u4o16menubody {
+  .t821wmenubody {
     width: 100%;
     background-color: #D72D32;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .u4o16menulist {
+  .t821wmenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -171,20 +171,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .u4o16menulistbody {
+  .t821wmenulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .u4o16menu {
+    .t821wmenu {
       overflow-x: auto;
     }
-    .u4o16menulist {
+    .t821wmenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .u4o16body {
+    .t821wbody {
       display: flex;
       align-items: center;
       justify-content: center;

@@ -1,9 +1,9 @@
 
-  .qyfsfmenulist-menu:hover .dropdown-content-qyfsf {
+  .ze86vmenulist-menu:hover .dropdown-content-ze86v {
     display: flex;
     flex-direction: column;
   }
-  .qyfsfmenulist-menu {
+  .ze86vmenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,27 +17,27 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .qyfsfmenulist-menu:hover {
+  .ze86vmenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .qyfsfmenulist-menu:hover > a {
+  .ze86vmenulist-menu:hover > a {
     color: #000 !important;
   }
 
 
 
 
-  .qyfsfmenulist-menu > a {
+  .ze86vmenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-qyfsf {
+  .dropdown-content-active-ze86v {
      background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
@@ -45,13 +45,13 @@
 
   }
 
-  .dropdown-content-active-qyfsf > a {
+  .dropdown-content-active-ze86v > a {
     color: #000 !important;
   }
 
 
 
-  .dropdown-content-qyfsf {
+  .dropdown-content-ze86v {
     display: none;
     position: absolute;
     background-color: #333;
@@ -60,7 +60,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-qyfsf > a {
+  .dropdown-content-ze86v > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -68,13 +68,13 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-qyfsf > a:hover {
+  .dropdown-content-ze86v > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .qyfsfbody {
+  .ze86vbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -82,87 +82,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .qyfsfbody > a {
+  .ze86vbody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .qyfsf-title {
+  .ze86v-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .qyfsf-spot {
+  .ze86v-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .qyfsf-icon {
+  .ze86v-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .qyfsf {
+  .ze86v {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .qyfsftitle {
+  .ze86vtitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .qyfsftitlebody {
+  .ze86vtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .qyfsftitlebodytitle {
+  .ze86vtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .qyfsftitlebodylang {
+  .ze86vtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .qyfsftitlebodylang ul {
+  .ze86vtitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .qyfsftitlebodylang li {
+  .ze86vtitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .qyfsfmenu {
+  .ze86vmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .qyfsfmenulist {
+  .ze86vmenulist {
     width: calc(100% - 20px);
     background-color: #D72D32;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .qyfsfmenubody {
+  .ze86vmenubody {
     width: 100%;
     background-color: #D72D32;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .qyfsfmenulist {
+  .ze86vmenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -171,20 +171,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .qyfsfmenulistbody {
+  .ze86vmenulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .qyfsfmenu {
+    .ze86vmenu {
       overflow-x: auto;
     }
-    .qyfsfmenulist {
+    .ze86vmenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .qyfsfbody {
+    .ze86vbody {
       display: flex;
       align-items: center;
       justify-content: center;

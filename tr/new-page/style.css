@@ -1,9 +1,9 @@
 
-  .k99h9menulist-menu:hover .dropdown-content-k99h9 {
+  .itolkmenulist-menu:hover .dropdown-content-itolk {
     display: flex;
     flex-direction: column;
   }
-  .k99h9menulist-menu {
+  .itolkmenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,27 +17,27 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .k99h9menulist-menu:hover {
+  .itolkmenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .k99h9menulist-menu:hover > a {
+  .itolkmenulist-menu:hover > a {
     color: #000 !important;
   }
 
 
 
 
-  .k99h9menulist-menu > a {
+  .itolkmenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-k99h9 {
+  .dropdown-content-active-itolk {
      background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
@@ -45,13 +45,13 @@
 
   }
 
-  .dropdown-content-active-k99h9 > a {
+  .dropdown-content-active-itolk > a {
     color: #000 !important;
   }
 
 
 
-  .dropdown-content-k99h9 {
+  .dropdown-content-itolk {
     display: none;
     position: absolute;
     background-color: #333;
@@ -60,7 +60,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-k99h9 > a {
+  .dropdown-content-itolk > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -68,13 +68,13 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-k99h9 > a:hover {
+  .dropdown-content-itolk > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .k99h9body {
+  .itolkbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -82,87 +82,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .k99h9body > a {
+  .itolkbody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .k99h9-title {
+  .itolk-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .k99h9-spot {
+  .itolk-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .k99h9-icon {
+  .itolk-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .k99h9 {
+  .itolk {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .k99h9title {
+  .itolktitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .k99h9titlebody {
+  .itolktitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .k99h9titlebodytitle {
+  .itolktitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .k99h9titlebodylang {
+  .itolktitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .k99h9titlebodylang ul {
+  .itolktitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .k99h9titlebodylang li {
+  .itolktitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .k99h9menu {
+  .itolkmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .k99h9menulist {
+  .itolkmenulist {
     width: calc(100% - 20px);
     background-color: #D72D32;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .k99h9menubody {
+  .itolkmenubody {
     width: 100%;
     background-color: #D72D32;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .k99h9menulist {
+  .itolkmenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -171,20 +171,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .k99h9menulistbody {
+  .itolkmenulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .k99h9menu {
+    .itolkmenu {
       overflow-x: auto;
     }
-    .k99h9menulist {
+    .itolkmenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .k99h9body {
+    .itolkbody {
       display: flex;
       align-items: center;
       justify-content: center;

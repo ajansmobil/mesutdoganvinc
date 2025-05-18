@@ -1,9 +1,9 @@
 
-  .froo9menulist-menu:hover .dropdown-content-froo9 {
+  .zxk8hmenulist-menu:hover .dropdown-content-zxk8h {
     display: flex;
     flex-direction: column;
   }
-  .froo9menulist-menu {
+  .zxk8hmenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,27 +17,27 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .froo9menulist-menu:hover {
+  .zxk8hmenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .froo9menulist-menu:hover > a {
+  .zxk8hmenulist-menu:hover > a {
     color: #000 !important;
   }
 
 
 
 
-  .froo9menulist-menu > a {
+  .zxk8hmenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-froo9 {
+  .dropdown-content-active-zxk8h {
      background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
@@ -45,13 +45,13 @@
 
   }
 
-  .dropdown-content-active-froo9 > a {
+  .dropdown-content-active-zxk8h > a {
     color: #000 !important;
   }
 
 
 
-  .dropdown-content-froo9 {
+  .dropdown-content-zxk8h {
     display: none;
     position: absolute;
     background-color: #333;
@@ -60,7 +60,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-froo9 > a {
+  .dropdown-content-zxk8h > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -68,13 +68,13 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-froo9 > a:hover {
+  .dropdown-content-zxk8h > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .froo9body {
+  .zxk8hbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -82,87 +82,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .froo9body > a {
+  .zxk8hbody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .froo9-title {
+  .zxk8h-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .froo9-spot {
+  .zxk8h-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .froo9-icon {
+  .zxk8h-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .froo9 {
+  .zxk8h {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .froo9title {
+  .zxk8htitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .froo9titlebody {
+  .zxk8htitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .froo9titlebodytitle {
+  .zxk8htitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .froo9titlebodylang {
+  .zxk8htitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .froo9titlebodylang ul {
+  .zxk8htitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .froo9titlebodylang li {
+  .zxk8htitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .froo9menu {
+  .zxk8hmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .froo9menulist {
+  .zxk8hmenulist {
     width: calc(100% - 20px);
     background-color: #D72D32;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .froo9menubody {
+  .zxk8hmenubody {
     width: 100%;
     background-color: #D72D32;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .froo9menulist {
+  .zxk8hmenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -171,20 +171,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .froo9menulistbody {
+  .zxk8hmenulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .froo9menu {
+    .zxk8hmenu {
       overflow-x: auto;
     }
-    .froo9menulist {
+    .zxk8hmenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .froo9body {
+    .zxk8hbody {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -192,11 +192,11 @@
   }
 
 
-  .hrlc9head {
+  .vk9hohead {
     width: var(--max);
   }
 
-  .hrlc9 {
+  .vk9ho {
     margin-top: 20px;
     display: flex;
     align-items: center;
@@ -204,14 +204,14 @@
     flex-direction: column;
   }
 
-  .hrlc9body {
+  .vk9hobody {
     width: var(--max);
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .hrlc9bodyitem {
+  .vk9hobodyitem {
     background-color: #e0e0e0;
     border-radius: 5px;
     padding: 10px;
@@ -220,19 +220,19 @@
     gap: 2px;
   }
 
-  .hrlc9bodyitemimg {
+  .vk9hobodyitemimg {
     aspect-ratio: 12 / 8;
     display: flex;
   }
 
-  .hrlc9bodyitemimg img {
+  .vk9hobodyitemimg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
   }
 
-  .hrlc9bodyitemtitle {
+  .vk9hobodyitemtitle {
     border-radius: 3px;
     padding: 5px;
     margin-top: 5px;
@@ -241,14 +241,14 @@
     flex-direction: column;
   }
 
-  .hrlc9bodyitemtitle>div {
+  .vk9hobodyitemtitle>div {
     display: flex;
     justify-content: space-between;
     border-width: 0px 0px 1px 0px;
     padding: 5px;
   }
 
-  .hrlc9bodyitemspot {
+  .vk9hobodyitemspot {
     border-radius: 3px;
     height: 50px !important;
     padding: 5px;
@@ -259,14 +259,14 @@
     align-items: center;
   }
 
-  .hrlc9bodyitemspot>div {
+  .vk9hobodyitemspot>div {
     width: 100%;
     color: #fff;
     font-size: 16px;
   }
 
   @media screen and (max-width: 1024px) {
-    .hrlc9body {
+    .vk9hobody {
       width: calc(100% - 10px);
       margin: 0px 5px 0px 5px;
       grid-template-columns: repeat(3, 1fr);
@@ -274,7 +274,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .hrlc9body {
+    .vk9hobody {
       width: calc(100% - 10px);
       margin: 0px 5px 0px 5px;
       grid-template-columns: repeat(2, 1fr);
