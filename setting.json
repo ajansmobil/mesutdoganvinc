@@ -1,0 +1,29 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": ""
+  },
+  "keyword": {
+    "tr": ""
+  },
+  "multi": false,
+  "category": "Kurumsal",
+  "name": "Mesut Doğan Vinç",
+  "domain": "mesutdoganvinc.com",
+  "langs": {
+    "tr": true,
+    "en": false,
+    "ar": false,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png"
+}

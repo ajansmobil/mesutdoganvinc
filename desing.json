@@ -1,0 +1,10 @@
+{
+  "header": ["gsskx7", "m1xnak"],
+  "body": ["iqxzo5", "hcmy1x", "f5pvkm", "stgefd", "y37q60"],
+  "footer": ["hdqtwx"],
+  "headerdefault": ["gsskx7"],
+  "bodydefault": [],
+  "footerdefault": ["hdqtwx"],
+  "headtop": "",
+  "headbottom": "<!-- Google tag (gtag.js) --> \n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-2J2C52Q8X6\">\n</script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-2J2C52Q8X6');\n</script>\n\n<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=AW-17014395448\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'AW-17014395448');\n</script>\n\n<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-GE5SPF0JJT\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-GE5SPF0JJT');\n</script>"
+}

@@ -1,0 +1,648 @@
+{
+  "data": [
+    {
+      "index": 0,
+      "name": "Menü ",
+      "path": "menu-3",
+      "local": "header",
+      "category": "menu",
+      "desing": {
+        "logo": "logo.png",
+        "color": "#D72D32",
+        "logosize": 300,
+        "logosizemobil": 200
+      },
+      "id": "gsskx7",
+      "data": [
+        {
+          "title": "Bizi hemen arayın",
+          "spot": "+90 532 549 82 68",
+          "icon": "phone",
+          "url": "tel:05325498268",
+          "titlecolor": "#000",
+          "spotcolor": "#000",
+          "iconcolor": "#000"
+        },
+        {
+          "title": "Bize yazın",
+          "spot": "mdoganvinc@gmail.com",
+          "icon": "mail",
+          "url": "email:mdoganvinc@gmail.com",
+          "titlecolor": "#000",
+          "spotcolor": "#000",
+          "iconcolor": "#000"
+        },
+        {
+          "title": "Atabek Mh. Yavuzeli Yolu Cd. No:87 ",
+          "spot": "Şehitkamil / Gaziantep",
+          "icon": "location_on",
+          "url": "https://www.google.com/maps?ll=37.161154,37.423916&z=14&t=m&hl=tr&gl=TR&mapclient=embed&cid=6387598065392232919",
+          "titlecolor": "#000",
+          "spotcolor": "#000",
+          "iconcolor": "#000"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "name": "Footer 1",
+      "path": "footer-1",
+      "local": "footer",
+      "category": "footer",
+      "desing": {
+        "bgcolor": "#D72D32",
+        "color": "#fff"
+      },
+      "id": "hdqtwx"
+    },
+    {
+      "index": 2,
+      "name": "Sayfa Listesi Whatsapp",
+      "path": "page-list-Search-2",
+      "local": "body",
+      "category": "page-list",
+      "desing": {
+        "page": "cars",
+        "size": 4,
+        "number": "905325498268",
+        "color": "#D72D32"
+      },
+      "id": "iqxzo5"
+    },
+    {
+      "index": 3,
+      "name": "İletişim",
+      "path": "contact-3",
+      "local": "body",
+      "category": "contact",
+      "desing": {
+        "color": "#1e3046",
+        "name": {
+          "tr": "Bize Ulaşın"
+        }
+      },
+      "data": [
+        {
+          "icon": "phone",
+          "text": "0532 549 82 68",
+          "url": "tel:05325498268"
+        },
+        {
+          "icon": "email",
+          "text": "mdoganvinc@gmail.com",
+          "url": "email:mdoganvinc@gmail.com"
+        },
+        {
+          "icon": "map",
+          "text": "Atabek Mh. Yavuzeli Yolu Cd. No:87 Şehitkamil / Gaziantep",
+          "url": "https://www.google.com/maps?ll=37.161154,37.423916&z=14&t=m&hl=tr&gl=TR&mapclient=embed&cid=6387598065392232919"
+        }
+      ],
+      "id": "f5pvkm"
+    },
+    {
+      "index": 4,
+      "name": "Page Desing 2",
+      "path": "page-desing-2",
+      "local": "body",
+      "category": "page",
+      "desing": {
+        "height": "200",
+        "opacity": "0.5",
+        "font-size": "50",
+        "backgroundcolor": "#000",
+        "menu-active": "#1e3046",
+        "category": "kurumsal"
+      },
+      "id": "joxqwj"
+    },
+    {
+      "index": 5,
+      "name": "Tanıtım Modülü",
+      "path": "module-1",
+      "local": "body",
+      "category": "module",
+      "desing": {
+        "name": {
+          "tr": "Mesut Doğan Vinç'i Tanıyın"
+        },
+        "spot": {
+          "tr": "Firmamızın kuruluşundan bu yana başarı ile sunduğu ve geliştirdiği hizmetler sayesinde yerel ve bölgesel düzeyde önemli başarılara adını yazdırmıştır. Güçlü Referanslarımızda Başarılarımıza Ortaktır. Bu başarının ve gelişimin arkasında nitelikli insan kaynağımız, bilgi birikimimiz ve güvene dayalı iş ilişkilerimiz yer almaktadır."
+        },
+        "name2": {
+          "tr": "Vizyonumuz"
+        },
+        "spot2": {
+          "tr": "Sektörümüzde öncü ve yenilikçi yaklaşımlarla müşterilerimize en iyi hizmeti sunarak, güvenilir ve tercih edilen bir marka olmayı hedefliyoruz."
+        },
+        "icon2": "home",
+        "name3": {
+          "tr": "Misyonumuz"
+        },
+        "spot3": {
+          "tr": "Yenilikçi teknolojiler ve kaliteli hizmet anlayışıyla müşterilerimize en iyi vinç hizmetlerini sunarak sektörde lider konuma ulaşmak."
+        },
+        "icon3": "home",
+        "img": "index.jpeg",
+        "bgcolor": "#000000",
+        "fontcolor": "#fff",
+        "margintop": "20",
+        "marginbotton": "20"
+      },
+      "id": "hcmy1x"
+    },
+    {
+      "index": 6,
+      "name": "Maps",
+      "path": "map",
+      "local": "body",
+      "category": "map",
+      "desing": {
+        "height": "200",
+        "opacity": "0.5",
+        "backgroundcolor": "#fff",
+        "color": "#1e3046",
+        "img": "map.png",
+        "url": "https://www.google.com/maps?ll=37.161154,37.423916&z=14&t=m&hl=tr&gl=TR&mapclient=embed&cid=6387598065392232919"
+      },
+      "id": "stgefd"
+    },
+    {
+      "index": 7,
+      "name": "Sosyal Media Slider",
+      "path": "social-slider",
+      "local": "body",
+      "category": "social-slider",
+      "desing": {
+        "name": {
+          "tr": "Sosyal Medyada Biz"
+        },
+        "bgcolor": "#000000",
+        "bgcolor2": "#333333",
+        "padding": "25px 0px 25px 0px",
+        "margin": "0px 0px 0px 0px"
+      },
+      "data": [
+        {
+          "img": "/src/icon/facebook.png",
+          "externalUrl": ""
+        },
+        {
+          "img": "/src/icon/instagram.png",
+          "externalUrl": ""
+        },
+        {
+          "img": "/src/icon/linkedin.png",
+          "externalUrl": ""
+        },
+        {
+          "img": "/src/icon/youtube.png",
+          "externalUrl": ""
+        },
+        {
+          "img": "/src/icon/whatsapp.png",
+          "externalUrl": ""
+        },
+        {
+          "img": "/src/icon/google-maps.png",
+          "externalUrl": ""
+        }
+      ],
+      "id": "y37q60"
+    },
+    {
+      "index": 8,
+      "name": "SSS Page",
+      "path": "page-desing-4",
+      "local": "body",
+      "category": "page-list",
+      "desing": {
+        "height": "200",
+        "opacity": "0.5",
+        "font-size": "50",
+        "backgroundcolor": "#000",
+        "category": "sss",
+        "menu-active": "#1e3046"
+      },
+      "id": "yk843k"
+    },
+    {
+      "index": 9,
+      "name": "Slider",
+      "path": "slider",
+      "local": "header",
+      "category": "slider",
+      "desing": {
+        "delay": 3000
+      },
+      "data": [
+        {
+          "img": "1.jpg"
+        },
+        {
+          "img": "2.png"
+        },
+        {
+          "img": "3.jpeg"
+        }
+      ],
+      "id": "m1xnak"
+    },
+    {
+      "index": 10,
+      "name": "Sayfa Listesi Column",
+      "path": "page-list-text",
+      "local": "body",
+      "category": "page-list",
+      "desing": {
+        "page": "sss",
+        "size": 2,
+        "number": "905320000000",
+        "color": "#e0e0e0"
+      },
+      "id": "b1338q"
+    },
+    {
+      "index": 11,
+      "name": "Module Listesi Kare",
+      "path": "module-list-3",
+      "local": "body",
+      "category": "Module-list",
+      "desing": {
+        "size": 4
+      },
+      "data": [
+        {
+          "img": "c (1).jpg"
+        },
+        {
+          "img": "c (2).jpg"
+        },
+        {
+          "img": "c (10).jpg"
+        },
+        {
+          "img": "c (100).jpg"
+        },
+        {
+          "img": "c (101).jpg"
+        },
+        {
+          "img": "c (102).jpg"
+        },
+        {
+          "img": "c (103).jpg"
+        },
+        {
+          "img": "c (104).jpg"
+        },
+        {
+          "img": "c (105).jpg"
+        },
+        {
+          "img": "c (106).jpg"
+        },
+        {
+          "img": "c (107).jpg"
+        },
+        {
+          "img": "c (108).jpg"
+        },
+        {
+          "img": "c (109).jpg"
+        },
+        {
+          "img": "c (11).jpg"
+        },
+        {
+          "img": "c (110).jpg"
+        },
+        {
+          "img": "c (111).jpg"
+        },
+        {
+          "img": "c (112).jpg"
+        },
+        {
+          "img": "c (113).jpg"
+        },
+        {
+          "img": "c (114).jpg"
+        },
+        {
+          "img": "c (115).jpg"
+        },
+        {
+          "img": "c (116).jpg"
+        },
+        {
+          "img": "c (117).jpg"
+        },
+        {
+          "img": "c (118).jpg"
+        },
+        {
+          "img": "c (119).jpg"
+        },
+        {
+          "img": "c (12).jpg"
+        },
+        {
+          "img": "c (120).jpg"
+        },
+        {
+          "img": "c (121).jpg"
+        },
+        {
+          "img": "c (122).jpg"
+        },
+        {
+          "img": "c (13).jpg"
+        },
+        {
+          "img": "c (14).jpg"
+        },
+        {
+          "img": "c (15).jpg"
+        },
+        {
+          "img": "c (16).jpg"
+        },
+        {
+          "img": "c (17).jpg"
+        },
+        {
+          "img": "c (18).jpg"
+        },
+        {
+          "img": "c (19).jpg"
+        },
+        {
+          "img": "c (2).jpg"
+        },
+        {
+          "img": "c (20).jpg"
+        },
+        {
+          "img": "c (21).jpg"
+        },
+        {
+          "img": "c (22).jpg"
+        },
+        {
+          "img": "c (23).jpg"
+        },
+        {
+          "img": "c (24).jpg"
+        },
+        {
+          "img": "c (25).jpg"
+        },
+        {
+          "img": "c (26).jpg"
+        },
+        {
+          "img": "c (27).jpg"
+        },
+        {
+          "img": "c (28).jpg"
+        },
+        {
+          "img": "c (29).jpg"
+        },
+        {
+          "img": "c (3).jpg"
+        },
+        {
+          "img": "c (30).jpg"
+        },
+        {
+          "img": "c (31).jpg"
+        },
+        {
+          "img": "c (32).jpg"
+        },
+        {
+          "img": "c (33).jpg"
+        },
+        {
+          "img": "c (34).jpg"
+        },
+        {
+          "img": "c (35).jpg"
+        },
+        {
+          "img": "c (36).jpg"
+        },
+        {
+          "img": "c (37).jpg"
+        },
+        {
+          "img": "c (38).jpg"
+        },
+        {
+          "img": "c (39).jpg"
+        },
+        {
+          "img": "c (4).jpg"
+        },
+        {
+          "img": "c (40).jpg"
+        },
+        {
+          "img": "c (41).jpg"
+        },
+        {
+          "img": "c (42).jpg"
+        },
+        {
+          "img": "c (43).jpg"
+        },
+        {
+          "img": "c (44).jpg"
+        },
+        {
+          "img": "c (45).jpg"
+        },
+        {
+          "img": "c (46).jpg"
+        },
+        {
+          "img": "c (47).jpg"
+        },
+        {
+          "img": "c (48).jpg"
+        },
+        {
+          "img": "c (49).jpg"
+        },
+        {
+          "img": "c (5).jpg"
+        },
+        {
+          "img": "c (50).jpg"
+        },
+        {
+          "img": "c (51).jpg"
+        },
+        {
+          "img": "c (52).jpg"
+        },
+        {
+          "img": "c (53).jpg"
+        },
+        {
+          "img": "c (54).jpg"
+        },
+        {
+          "img": "c (55).jpg"
+        },
+        {
+          "img": "c (56).jpg"
+        },
+        {
+          "img": "c (57).jpg"
+        },
+        {
+          "img": "c (58).jpg"
+        },
+        {
+          "img": "c (59).jpg"
+        },
+        {
+          "img": "c (6).jpg"
+        },
+        {
+          "img": "c (60).jpg"
+        },
+        {
+          "img": "c (61).jpg"
+        },
+        {
+          "img": "c (62).jpg"
+        },
+        {
+          "img": "c (63).jpg"
+        },
+        {
+          "img": "c (64).jpg"
+        },
+        {
+          "img": "c (65).jpg"
+        },
+        {
+          "img": "c (66).jpg"
+        },
+        {
+          "img": "c (67).jpg"
+        },
+        {
+          "img": "c (68).jpg"
+        },
+        {
+          "img": "c (69).jpg"
+        },
+        {
+          "img": "c (7).jpg"
+        },
+        {
+          "img": "c (70).jpg"
+        },
+        {
+          "img": "c (71).jpg"
+        },
+        {
+          "img": "c (72).jpg"
+        },
+        {
+          "img": "c (73).jpg"
+        },
+        {
+          "img": "c (74).jpg"
+        },
+        {
+          "img": "c (75).jpg"
+        },
+        {
+          "img": "c (76).jpg"
+        },
+        {
+          "img": "c (77).jpg"
+        },
+        {
+          "img": "c (78).jpg"
+        },
+        {
+          "img": "c (79).jpg"
+        },
+        {
+          "img": "c (8).jpg"
+        },
+        {
+          "img": "c (80).jpg"
+        },
+        {
+          "img": "c (81).jpg"
+        },
+        {
+          "img": "c (82).jpg"
+        },
+        {
+          "img": "c (83).jpg"
+        },
+        {
+          "img": "c (84).jpg"
+        },
+        {
+          "img": "c (85).jpg"
+        },
+        {
+          "img": "c (86).jpg"
+        },
+        {
+          "img": "c (87).jpg"
+        },
+        {
+          "img": "c (88).jpg"
+        },
+        {
+          "img": "c (89).jpg"
+        },
+        {
+          "img": "c (9).jpg"
+        },
+        {
+          "img": "c (90).jpg"
+        },
+        {
+          "img": "c (91).jpg"
+        },
+        {
+          "img": "c (92).jpg"
+        },
+        {
+          "img": "c (93).jpg"
+        },
+        {
+          "img": "c (94).jpg"
+        },
+        {
+          "img": "c (95).jpg"
+        },
+        {
+          "img": "c (96).jpg"
+        },
+        {
+          "img": "c (97).jpg"
+        },
+        {
+          "img": "c (98).jpg"
+        },
+        {
+          "img": "c (99).jpg"
+        }
+      ],
+      "id": "gvfi8h"
+    }
+  ]
+}

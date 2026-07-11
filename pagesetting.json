@@ -1,0 +1,72 @@
+{
+  "data": [
+    {
+      "name": "Sayfalar",
+      "path": "page",
+      "desc": [],
+      "data": [],
+      "index": 0,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "modulestatus": {
+        "page": true,
+        "detail": true,
+        "body": true
+      }
+    },
+    {
+      "name": "Araçlar",
+      "path": "cars",
+      "desc": [],
+      "data": [],
+      "index": 1,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "modulestatus": {
+        "img": true,
+        "detail": true,
+        "bgimg": true
+      }
+    },
+    {
+      "name": "Servislerimiz",
+      "path": "services",
+      "desc": [],
+      "data": [],
+      "index": 2
+    },
+    {
+      "name": "Kurumsal",
+      "path": "kurumsal",
+      "desc": [],
+      "data": [],
+      "index": 3,
+      "desing": {
+        "header": [],
+        "body": ["joxqwj"],
+        "footer": []
+      },
+      "modulestatus": {
+        "bgimg": true
+      }
+    },
+    {
+      "name": "S.S.S",
+      "path": "sss",
+      "desc": [],
+      "data": [],
+      "index": 4,
+      "desing": {
+        "header": [],
+        "body": ["yk843k", "iqxzo5"],
+        "footer": []
+      }
+    }
+  ]
+}

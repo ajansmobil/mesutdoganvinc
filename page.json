@@ -1,0 +1,119 @@
+{
+  "data": [
+    {
+      "name": {
+        "tr": "Kurumsal"
+      },
+      "status": "play",
+      "category": "",
+      "id": "y12ulrsdsh",
+      "externalUrl": "",
+      "path": "kurumsal",
+      "keyword": {
+        "tr": ""
+      },
+      "description": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 0,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "icon": "home",
+      "bgimg": "1.jpg"
+    },
+    {
+      "name": {
+        "tr": "Çalışmalarımız"
+      },
+      "status": "play",
+      "category": "",
+      "id": "i5vqv86ncb",
+      "externalUrl": "",
+      "path": "calismalarimiz",
+      "keyword": {
+        "tr": ""
+      },
+      "description": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 1,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [
+          "gvfi8h"
+        ],
+        "footer": []
+      },
+      "bgimg": "1.jpg"
+    },
+    {
+      "name": {
+        "tr": "S.S.S"
+      },
+      "status": "play",
+      "category": "",
+      "id": "qp56zzaa65",
+      "externalUrl": "",
+      "path": "sss",
+      "keyword": {
+        "tr": ""
+      },
+      "description": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 2,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [
+          "b1338q"
+        ],
+        "footer": []
+      },
+      "bgimg": "1.jpg"
+    },
+    {
+      "name": {
+        "tr": "İletişim"
+      },
+      "status": "play",
+      "category": "",
+      "id": "dih0zdssxz",
+      "externalUrl": "",
+      "path": "iletisim",
+      "keyword": {
+        "tr": ""
+      },
+      "description": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 3,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [
+          "f5pvkm",
+          "stgefd"
+        ],
+        "footer": []
+      },
+      "bgimg": "1.jpg"
+    }
+  ]
+}

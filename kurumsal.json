@@ -1,0 +1,261 @@
+{
+  "name": "Kurumsal",
+  "path": "kurumsal",
+  "desc": [],
+  "data": [
+    {
+      "name": {
+        "tr": "Kurumsal"
+      },
+      "status": "play",
+      "id": "kurumsal",
+      "path": "kurumsal",
+      "category": "",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "keyword": {
+        "tr": "vinç kiralama Gaziantep, forklift kiralama, manlift kiralama, çekici hizmeti, vinç firması, ağır nakliyat, endüstriyel taşıma, kiralık vinç, kiralık forklift, kiralık manlift, Gaziantep vinç, Gaziantep forklift"
+      },
+      "description": {
+        "tr": "Gaziantep'te 7/24 vinç, forklift, manlift kiralama ve çekici hizmetleri. Profesyonel ekip ve geniş araç filomuz ile güvenilir hizmet garantisi. Hemen arayın: 0532 549 82 68"
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 0,
+      "desc": {},
+      "icon": "home",
+      "bgimg": "1.jpg"
+    },
+    {
+      "name": {
+        "tr": "Hakkımızda"
+      },
+      "status": "play",
+      "id": "hakkimizda",
+      "path": "hakkimizda",
+      "category": "kurumsal",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "keyword": {
+        "tr": "Mesut Doğan Vinç, Gaziantep vinç firması, profesyonel vinç hizmeti, endüstriyel ekipman kiralama, güvenilir vinç firması, forklift kiralama Gaziantep, manlift kiralama Gaziantep, çekici hizmeti Gaziantep"
+      },
+      "description": {
+        "tr": "Mesut Doğan Vinç, Gaziantep'te vinç, forklift ve manlift kiralama alanında lider firma. Nitelikli insan kaynağı ve güvene dayalı iş anlayışı ile hizmetinizdeyiz."
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 1,
+      "desc": {},
+      "icon": "home",
+      "bgimg": "1.jpg"
+    },
+    {
+      "name": {
+        "tr": "Misyon"
+      },
+      "status": "play",
+      "id": "misyon",
+      "path": "misyon",
+      "category": "kurumsal",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "keyword": {
+        "tr": "vinç firması misyon, Gaziantep vinç hizmetleri, müşteri memnuniyeti, kaliteli vinç hizmeti, teknolojik vinç çözümleri, yenilikçi vinç hizmetleri, endüstriyel ekipman kiralama"
+      },
+      "description": {
+        "tr": "Mesut Doğan Vinç olarak misyonumuz, yenilikçi teknolojiler ve kaliteli hizmet anlayışıyla Türkiye'nin önde gelen vinç firması olmaktır."
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 2,
+      "desc": {},
+      "icon": "home",
+      "bgimg": "1.jpg"
+    },
+    {
+      "name": {
+        "tr": "Vizyon"
+      },
+      "status": "play",
+      "id": "vizyon",
+      "path": "vizyon",
+      "category": "kurumsal",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "keyword": {
+        "tr": "vinç firması vizyon, Gaziantep endüstriyel hizmetler, profesyonel vinç çözümleri, güvenilir vinç hizmeti, sektör lideri vinç firması, kaliteli vinç kiralama"
+      },
+      "description": {
+        "tr": "Değerlerimizden taviz vermeden, vinç ve endüstriyel ekipman kiralama sektöründe fark yaratan çözümler sunuyoruz. Güvenilir ve profesyonel hizmet anlayışı."
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 3,
+      "desc": {},
+      "icon": "home",
+      "bgimg": "1.jpg"
+    },
+    {
+      "name": {
+        "tr": "Kalite Politikamız"
+      },
+      "status": "play",
+      "id": "kalitepolitikamiz",
+      "path": "kalite-politikamiz",
+      "category": "kurumsal",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "keyword": {
+        "tr": "vinç firması kalite politikası, ISO sertifikalı vinç hizmeti, güvenli vinç kiralama, profesyonel vinç operatörleri, endüstriyel standartlar, kalite yönetimi"
+      },
+      "description": {
+        "tr": "Mesut Doğan Vinç kalite politikası: Müşteri memnuniyeti odaklı, güvenli ve profesyonel vinç kiralama hizmetleri. En yüksek endüstriyel standartlarda hizmet garantisi."
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 4,
+      "desc": {},
+      "icon": "home",
+      "bgimg": "1.jpg"
+    },
+    {
+      "name": {
+        "tr": "Gizlilik Politikası"
+      },
+      "status": "play",
+      "id": "gizlilikpolitikasi",
+      "path": "gizlilik-politikasi",
+      "category": "kurumsal",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "keyword": {
+        "tr": "vinç firması gizlilik politikası, KVKK uyumlu vinç hizmeti, güvenli veri politikası, müşteri gizliliği, veri güvenliği, kişisel veri koruma"
+      },
+      "description": {
+        "tr": "Mesut Doğan Vinç gizlilik politikası: KVKK uyumlu, müşteri verilerinin güvenliği ve gizliliği konusunda hassas yaklaşım. Güvenli ve şeffaf hizmet anlayışı."
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 5,
+      "desc": {},
+      "icon": "home",
+      "bgimg": "1.jpg"
+    },
+    {
+      "name": {
+        "tr": "Kişisel Veriler"
+      },
+      "status": "play",
+      "id": "kisiselveriler",
+      "path": "kisisel-veriler",
+      "category": "kurumsal",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "keyword": {
+        "tr": "KVKK, kişisel veri koruma, müşteri veri güvenliği, veri işleme politikası, veri saklama, veri koruma yönetmeliği, yasal uyumluluk"
+      },
+      "description": {
+        "tr": "Kişisel verileriniz 6698 sayılı KVKK kapsamında güvence altında. Mesut Doğan Vinç olarak verilerinizin güvenliği ve gizliliği önceliğimizdir."
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 6,
+      "desc": {},
+      "icon": "home",
+      "bgimg": "1.jpg"
+    },
+    {
+      "name": {
+        "tr": "Kullanıcı Hakları"
+      },
+      "status": "play",
+      "id": "kullanicahaklari",
+      "path": "kullanici-haklari",
+      "category": "kurumsal",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "keyword": {
+        "tr": "kullanıcı hakları, müşteri hakları, KVKK hakları, veri sahipliği, kişisel veri erişimi, veri düzeltme hakkı, veri silme hakkı"
+      },
+      "description": {
+        "tr": "Mesut Doğan Vinç müşteri hakları: KVKK kapsamında kişisel verilerinize erişim, düzeltme ve silme haklarınız. Şeffaf ve güvenilir hizmet anlayışı."
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 7,
+      "desc": {},
+      "icon": "home",
+      "bgimg": "1.jpg"
+    },
+    {
+      "name": {
+        "tr": "Yasal Uyarı"
+      },
+      "status": "play",
+      "id": "yasaluyari",
+      "path": "yasal-uyari",
+      "category": "kurumsal",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "keyword": {
+        "tr": "yasal uyarı, telif hakları, fikri mülkiyet, içerik kullanımı, site kullanım şartları, yasal sorumluluk, hukuki bilgilendirme"
+      },
+      "description": {
+        "tr": "Mesut Doğan Vinç yasal uyarı: Site içeriği telif hakları ile korunmaktadır. Yasal kullanım şartları ve sorumluluklar hakkında bilgilendirme."
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 8,
+      "desc": {},
+      "icon": "home",
+      "bgimg": "1.jpg"
+    }
+  ],
+  "index": 3,
+  "desing": {
+    "header": [],
+    "body": [
+      "joxqwj"
+    ],
+    "footer": []
+  },
+  "modulestatus": {
+    "bgimg": true
+  }
+}
