@@ -1,0 +1,32 @@
+{
+  "name": {
+    "tr": "İletişim"
+  },
+  "status": "play",
+  "category": "",
+  "id": "dih0zdssxz",
+  "externalUrl": "",
+  "path": "iletisim",
+  "keyword": {
+    "tr": "Mesut Doğan Vinç iletişim, Gaziantep vinç telefon"
+  },
+  "description": {
+    "tr": "Mesut Doğan Vinç iletişim: Gaziantep Şehitkamil adres, telefon 0532 549 82 68, e-posta mdoganvinc@gmail.com."
+  },
+  "spot": {
+    "tr": ""
+  },
+  "index": 3,
+  "icon": "home",
+  "desing": {
+    "header": [],
+    "body": [
+      "f5pvkm",
+      "stgefd"
+    ],
+    "footer": []
+  },
+  "bgimg": "1.jpg",
+  "update": "2026-08-24T13:55:59.750Z",
+  "bg": "1.jpg"
+}

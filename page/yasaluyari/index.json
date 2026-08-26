@@ -1,0 +1,32 @@
+{
+  "name": {
+    "tr": "Yasal Uyarı"
+  },
+  "status": "play",
+  "id": "yasaluyari",
+  "path": "yasal-uyari",
+  "category": "kurumsal",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "keyword": {
+    "tr": "yasal uyarı, telif hakları, fikri mülkiyet, içerik kullanımı, site kullanım şartları, yasal sorumluluk, hukuki bilgilendirme"
+  },
+  "description": {
+    "tr": "Yasal uyarı: Mesut Doğan Vinç site içeriği, marka ve sorumluluk sınırları hakkında bilgilendirme."
+  },
+  "spot": {
+    "tr": ""
+  },
+  "index": 8,
+  "desc": {},
+  "icon": "home",
+  "bgimg": "1.jpg",
+  "update": "2026-08-24T14:25:33.091Z",
+  "bg": "1.jpg",
+  "text": {
+    "tr": "<section><h2>Yasal Uyarı</h2><p>mesutdoganvinc.com ve bağlı sayfalardaki metin, görsel, logo ve marka unsurları Mesut Doğan Vinç’e aittir. İzinsiz kopyalama, çoğaltma, dağıtma veya ticari kullanım yasaktır.</p><h3>Bilgilendirme niteliği</h3><p>Sitedeki hizmet açıklamaları genel bilgilendirme amaçlıdır. Güncel fiyat, müsaitlik, teknik kapasite ve teslim koşulları için lütfen doğrudan iletişime geçiniz.</p><ul><li>Telefon: 0532 549 82 68</li><li>E-posta: mdoganvinc@gmail.com</li></ul><h3>Üçüncü taraf bağlantılar</h3><p>Sitede yer alan üçüncü taraf bağlantılarının içerik ve gizlilik uygulamalarından firmamız sorumlu değildir. Bu siteleri kendi riskinizle ziyaret edersiniz.</p><h3>Yasal bildirim</h3><p>Atabek Mh. Yavuzeli Yolu Cd. No:87 Şehitkamil / Gaziantep · mdoganvinc@gmail.com · 0532 549 82 68</p></section>"
+  }
+}

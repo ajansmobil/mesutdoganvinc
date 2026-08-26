@@ -1,0 +1,32 @@
+{
+  "name": {
+    "tr": "Vizyon"
+  },
+  "status": "play",
+  "id": "vizyon",
+  "path": "vizyon",
+  "category": "kurumsal",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "keyword": {
+    "tr": "vinç firması vizyon, Gaziantep endüstriyel hizmetler, profesyonel vinç çözümleri, güvenilir vinç hizmeti, sektör lideri vinç firması, kaliteli vinç kiralama"
+  },
+  "description": {
+    "tr": "Mesut Doğan Vinç vizyonu: Gaziantep ve bölgede güvenilir kaldırma ve ekipman kiralama referansı olmak."
+  },
+  "spot": {
+    "tr": ""
+  },
+  "index": 3,
+  "desc": {},
+  "icon": "home",
+  "bgimg": "1.jpg",
+  "update": "2026-08-24T14:25:33.041Z",
+  "bg": "1.jpg",
+  "text": {
+    "tr": "<section><h2>Vizyonumuz</h2><p>Vizyonumuz; Gaziantep ve çevresinde vinç ile endüstriyel ekipman kiralama denildiğinde akla gelen, güvenilir ve tercih edilen yerel marka olmaktır. Büyüme hedefimiz abartılı vaatler değil, tutarlı hizmet kalitesidir.</p><h3>Nasıl ilerliyoruz?</h3><ul><li>Makine parkurunu ihtiyaca göre güçlendirmek</li><li>Bakım disiplinini korumak ve ekip yetkinliğini yükseltmek</li><li>Dijital iletişim ve hızlı teklif ile müşteri deneyimini sadeleştirmek</li></ul><h3>Değerlerimiz</h3><p>Güvenlik, dürüstlük, zamanında teslimat ve saygı. Değerlerimizden taviz vermeden her işi ölçülebilir sonuçlarla kapatmayı hedefleriz.</p><h3>Uzun vadeli hedef</h3><p>Bölgedeki şantiye ve tesislerin kaldırma ihtiyaçlarında ilk aranan çözüm ortağı kalmaktır.</p></section>"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": {
+    "tr": "Çekici Hizmeti"
+  },
+  "status": "play",
+  "category": "",
+  "id": "jt3cwgajp9",
+  "externalUrl": "",
+  "path": "cekici-hizmeti",
+  "keyword": {
+    "tr": "çekici Gaziantep, çekici hizmeti"
+  },
+  "description": {
+    "tr": "Gaziantep çekici hizmeti: 7/24 hızlı ve güvenilir yol yardım."
+  },
+  "spot": {
+    "tr": ""
+  },
+  "index": 3,
+  "icon": "home",
+  "desc": {},
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "img": "gp5b5.png",
+  "text": {
+    "tr": "<section><h2>Çekici Hizmeti</h2><p>Yolda kalan veya taşınması gereken araçlar için hızlı ve güvenilir çekici hizmeti. Gaziantep genelinde 7/24 müdahale imkânı sunuyoruz.</p><h3>Destek</h3><p>Konum ve araç bilginizi ilettiğinizde ekibimiz en kısa sürede yönlendirilir. İletişim: 0532 549 82 68.</p></section>"
+  },
+  "update": "2026-08-24T13:52:19.655Z"
+}

@@ -1,0 +1,32 @@
+{
+  "name": {
+    "tr": "Misyon"
+  },
+  "status": "play",
+  "id": "misyon",
+  "path": "misyon",
+  "category": "kurumsal",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "keyword": {
+    "tr": "vinç firması misyon, Gaziantep vinç hizmetleri, müşteri memnuniyeti, kaliteli vinç hizmeti, teknolojik vinç çözümleri, yenilikçi vinç hizmetleri, endüstriyel ekipman kiralama"
+  },
+  "description": {
+    "tr": "Mesut Doğan Vinç misyonu: güvenli, planlı ve zamanında vinç–forklift–manlift kiralama hizmeti."
+  },
+  "spot": {
+    "tr": ""
+  },
+  "index": 2,
+  "desc": {},
+  "icon": "home",
+  "bgimg": "1.jpg",
+  "update": "2026-08-24T14:25:33.031Z",
+  "bg": "1.jpg",
+  "text": {
+    "tr": "<section><h2>Misyonumuz</h2><p>Misyonumuz; Gaziantep ve bölgede vinç, forklift, manlift kiralama ile çekici hizmetlerini güvenli, şeffaf ve zamanında sunarak müşterilerimizin kaldırma işlerini sorunsuz tamamlamaktır.</p><h3>Günlük taahhüdümüz</h3><ul><li>Ekipman–iş eşleştirmesi ve operatör disiplini</li><li>İş öncesi güvenlik kontrolleri</li><li>Net fiyat, doğru müsaitlik bildirimi, sahada sürpriz bırakmama</li></ul><h3>İnsan ve makine dengesi</h3><p>Modern ekipman tek başına yeterli değildir. Deneyimli ekip, düzenli bakım ve müşteri ile açık iletişim misyonumuzun ayrılmaz parçasıdır.</p><h3>Başarı ölçütümüz</h3><p>Misyonumuzu sahada ölçeriz: güvenli tamamlanan iş, tutulan termin ve tekrar tercih edilen bir iş ilişkisi.</p></section>"
+  }
+}

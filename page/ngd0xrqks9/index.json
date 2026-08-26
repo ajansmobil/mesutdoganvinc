@@ -1,0 +1,32 @@
+{
+  "name": {
+    "tr": "Forklift Kiralama Hizmeti"
+  },
+  "status": "play",
+  "category": "",
+  "id": "ngd0xrqks9",
+  "externalUrl": "",
+  "path": "forklift-kiralama-hizmeti",
+  "keyword": {
+    "tr": "forklift kiralama Gaziantep"
+  },
+  "description": {
+    "tr": "Gaziantep forklift kiralama: depo ve fabrika için esnek süreler."
+  },
+  "spot": {
+    "tr": ""
+  },
+  "index": 1,
+  "icon": "home",
+  "desc": {},
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "img": "cumj2.png",
+  "text": {
+    "tr": "<section><h2>Forklift Kiralama Hizmeti</h2><p>Depo, fabrika ve lojistik sahalarınız için modern forklift kiralama çözümleri. Esnek süreler ve bakımlı ekipman ile operasyon sürekliliğinizi destekleriz.</p><h3>Avantajlar</h3><p>Yatırım maliyeti olmadan kapasite artışı, hızlı teslimat ve teknik destek. Teklif için hemen arayın.</p></section>"
+  },
+  "update": "2026-08-24T13:52:19.640Z"
+}

@@ -4,48 +4,34 @@
       "name": {
         "tr": "Kurumsal"
       },
-      "status": "play",
-      "category": "",
       "id": "y12ulrsdsh",
-      "externalUrl": "",
-      "path": "kurumsal",
-      "keyword": {
-        "tr": ""
-      },
-      "description": {
-        "tr": ""
-      },
-      "spot": {
-        "tr": ""
-      },
       "index": 0,
+      "path": "kurumsal",
+      "category": "",
+      "bg": "1.jpg",
+      "bgimg": "1.jpg",
+      "status": "play",
+      "icon": "home",
       "desing": {
         "header": [],
         "body": [],
         "footer": []
       },
-      "icon": "home",
-      "bgimg": "1.jpg"
+      "pathnext": "",
+      "description": {
+        "tr": "Gaziantep Mesut Doğan Vinç kurumsal tanıtım, misyon, vizyon ve kalite politikası."
+      }
     },
     {
       "name": {
         "tr": "Çalışmalarımız"
       },
-      "status": "play",
-      "category": "",
       "id": "i5vqv86ncb",
-      "externalUrl": "",
-      "path": "calismalarimiz",
-      "keyword": {
-        "tr": ""
-      },
-      "description": {
-        "tr": ""
-      },
-      "spot": {
-        "tr": ""
-      },
       "index": 1,
+      "path": "calismalarimiz",
+      "category": "",
+      "bgimg": "1.jpg",
+      "status": "play",
       "icon": "home",
       "desing": {
         "header": [],
@@ -54,27 +40,20 @@
         ],
         "footer": []
       },
-      "bgimg": "1.jpg"
+      "description": {
+        "tr": "Mesut Doğan Vinç saha çalışmaları ve proje görselleri."
+      }
     },
     {
       "name": {
         "tr": "S.S.S"
       },
-      "status": "play",
-      "category": "",
       "id": "qp56zzaa65",
-      "externalUrl": "",
-      "path": "sss",
-      "keyword": {
-        "tr": ""
-      },
-      "description": {
-        "tr": ""
-      },
-      "spot": {
-        "tr": ""
-      },
       "index": 2,
+      "path": "sss",
+      "category": "",
+      "bgimg": "1.jpg",
+      "status": "play",
       "icon": "home",
       "desing": {
         "header": [],
@@ -83,27 +62,20 @@
         ],
         "footer": []
       },
-      "bgimg": "1.jpg"
+      "description": {
+        "tr": "Vinç ve ekipman kiralama hakkında sıkça sorulan sorular."
+      }
     },
     {
       "name": {
         "tr": "İletişim"
       },
-      "status": "play",
-      "category": "",
       "id": "dih0zdssxz",
-      "externalUrl": "",
-      "path": "iletisim",
-      "keyword": {
-        "tr": ""
-      },
-      "description": {
-        "tr": ""
-      },
-      "spot": {
-        "tr": ""
-      },
       "index": 3,
+      "path": "iletisim",
+      "category": "",
+      "bgimg": "1.jpg",
+      "status": "play",
       "icon": "home",
       "desing": {
         "header": [],
@@ -113,7 +85,17 @@
         ],
         "footer": []
       },
-      "bgimg": "1.jpg"
+      "description": {
+        "tr": "Mesut Doğan Vinç iletişim: Gaziantep Şehitkamil adres, telefon 0532 549 82 68, e-posta mdoganvinc@gmail.com."
+      }
     }
-  ]
+  ],
+  "modulestatus": {
+    "page": true,
+    "detail": true,
+    "body": true
+  },
+  "name": "",
+  "path": "page",
+  "desc": []
 }

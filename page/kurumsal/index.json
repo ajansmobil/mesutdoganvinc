@@ -1,0 +1,25 @@
+{
+  "name": {
+    "tr": "Kurumsal"
+  },
+  "status": "play",
+  "id": "kurumsal",
+  "path": "kurumsal",
+  "category": "",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "description": {
+    "tr": "Gaziantep Şehitkamil’de 7/24 vinç, forklift, manlift kiralama ve çekici hizmetleri. Mesut Doğan Vinç ile güvenli kaldırma çözümleri."
+  },
+  "index": 0,
+  "icon": "home",
+  "bgimg": "1.jpg",
+  "text": {
+    "tr": "<section><h2>Kurumsal</h2><p>Mesut Doğan Vinç; Gaziantep Şehitkamil merkezli, vinç, forklift, manlift kiralama ve çekici hizmetlerini tek çatı altında sunan yerel bir işletmedir. Amacımız şantiye ve tesislerde kaldırma işlerini planlı, güvenli ve zamanında tamamlamaktır.</p><h3>Hizmet anlayışımız</h3><p>Her işi abartısız, sahada uygulanabilir bir planla ele alırız. Ekipman uygunluğu, operatör deneyimi, erişim ve güvenlik kontrolleri sürecin temelidir.</p><ul><li>7/24 ulaşılabilirlik ile acil ve planlı taleplere hızlı dönüş</li><li>İşe uygun kapasite seçimi — gereksiz büyük ekipman dayatması yok</li><li>Net teklif, şeffaf termin ve saha koordinasyonu</li></ul><h3>İletişim</h3><p>Merkez: Atabek Mh. Yavuzeli Yolu Cd. No:87 Şehitkamil / Gaziantep. Telefon: 0532 549 82 68. E-posta: mdoganvinc@gmail.com. Web: mesutdoganvinc.com.</p><h3>Kurumsal menü</h3><p>Hakkımızda, misyon, vizyon, kalite ve yasal bilgilendirme sayfalarından firmamızı tanıyabilir; teklif için iletişim kanallarımızı kullanabilirsiniz.</p></section>"
+  },
+  "update": "2026-08-24T14:25:33.009Z",
+  "bg": "1.jpg"
+}

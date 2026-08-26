@@ -3,45 +3,33 @@
     {
       "index": 0,
       "name": "Menü ",
-      "path": "menu-3",
+      "path": "menu",
       "local": "header",
       "category": "menu",
       "desing": {
-        "logo": "logo.png",
-        "color": "#D72D32",
-        "logosize": 300,
-        "logosizemobil": 200
+        "url": "iletisim",
+        "logo": "{{logo}}",
+        "bgcolor": "#333333",
+        "color": "#ffffff",
+        "barbgcolor": "#D72D32",
+        "barcolor": "#ffffff",
+        "activebgcolor": "#e0e0e0",
+        "activecolor": "#000000",
+        "ctabgcolor": "#D72D32",
+        "ctacolor": "#ffffff",
+        "radius": "5px",
+        "ariaToggle": {
+          "tr": "Menüyü aç/kapat",
+          "en": "Toggle menu"
+        },
+        "ariaClose": {
+          "tr": "Menüyü kapat",
+          "en": "Close menu"
+        }
       },
       "id": "gsskx7",
-      "data": [
-        {
-          "title": "Bizi hemen arayın",
-          "spot": "+90 532 549 82 68",
-          "icon": "phone",
-          "url": "tel:05325498268",
-          "titlecolor": "#000",
-          "spotcolor": "#000",
-          "iconcolor": "#000"
-        },
-        {
-          "title": "Bize yazın",
-          "spot": "mdoganvinc@gmail.com",
-          "icon": "mail",
-          "url": "email:mdoganvinc@gmail.com",
-          "titlecolor": "#000",
-          "spotcolor": "#000",
-          "iconcolor": "#000"
-        },
-        {
-          "title": "Atabek Mh. Yavuzeli Yolu Cd. No:87 ",
-          "spot": "Şehitkamil / Gaziantep",
-          "icon": "location_on",
-          "url": "https://www.google.com/maps?ll=37.161154,37.423916&z=14&t=m&hl=tr&gl=TR&mapclient=embed&cid=6387598065392232919",
-          "titlecolor": "#000",
-          "spotcolor": "#000",
-          "iconcolor": "#000"
-        }
-      ]
+      "version": "1.0.0",
+      "icon": "menu"
     },
     {
       "index": 1,
@@ -51,7 +39,9 @@
       "category": "footer",
       "desing": {
         "bgcolor": "#D72D32",
-        "color": "#fff"
+        "color": "#fff",
+        "img": "",
+        "imgwidth": "250px"
       },
       "id": "hdqtwx"
     },
@@ -65,7 +55,14 @@
         "page": "cars",
         "size": 4,
         "number": "905325498268",
-        "color": "#D72D32"
+        "color": "#D72D32",
+        "name": {
+          "tr": "Hemen Teklif Al"
+        },
+        "waMessage": {
+          "tr": "Teklif Almak İstiyorum.",
+          "en": "I would like to get a quote."
+        }
       },
       "id": "iqxzo5"
     },
@@ -79,7 +76,8 @@
         "color": "#1e3046",
         "name": {
           "tr": "Bize Ulaşın"
-        }
+        },
+        "margin": "30px 0px 30px 0px"
       },
       "data": [
         {
@@ -95,6 +93,11 @@
         {
           "icon": "map",
           "text": "Atabek Mh. Yavuzeli Yolu Cd. No:87 Şehitkamil / Gaziantep",
+          "url": "https://www.google.com/maps?ll=37.161154,37.423916&z=14&t=m&hl=tr&gl=TR&mapclient=embed&cid=6387598065392232919"
+        },
+        {
+          "icon": "map",
+          "text": "Mersin Tarsus",
           "url": "https://www.google.com/maps?ll=37.161154,37.423916&z=14&t=m&hl=tr&gl=TR&mapclient=embed&cid=6387598065392232919"
         }
       ],
@@ -147,7 +150,15 @@
         "bgcolor": "#000000",
         "fontcolor": "#fff",
         "margintop": "20",
-        "marginbotton": "20"
+        "marginbotton": "20",
+        "description": {
+          "tr": "Yılların deneyimi ve uzman kadromuzla kurumsal çözümler sunuyoruz. Kalite, güven ve sürdürülebilir büyüme odaklı çalışıyoruz.",
+          "en": "With years of experience and an expert team we deliver corporate solutions focused on quality, trust and sustainable growth."
+        },
+        "title": {
+          "tr": "Kurumsal",
+          "en": "Corporate"
+        }
       },
       "id": "hcmy1x"
     },
@@ -160,10 +171,11 @@
       "desing": {
         "height": "200",
         "opacity": "0.5",
-        "backgroundcolor": "#fff",
+        "backgroundcolor": "#ffffff",
         "color": "#1e3046",
         "img": "map.png",
-        "url": "https://www.google.com/maps?ll=37.161154,37.423916&z=14&t=m&hl=tr&gl=TR&mapclient=embed&cid=6387598065392232919"
+        "url": "https://www.google.com/maps?ll=37.161154,37.423916&z=14&t=m&hl=tr&gl=TR&mapclient=embed&cid=6387598065392232919",
+        "externalUrl": ""
       },
       "id": "stgefd"
     },
@@ -233,7 +245,8 @@
       "local": "header",
       "category": "slider",
       "desing": {
-        "delay": 3000
+        "delay": 3000,
+        "margin": "0px 0 0 0"
       },
       "data": [
         {
@@ -258,7 +271,27 @@
         "page": "sss",
         "size": 2,
         "number": "905320000000",
-        "color": "#e0e0e0"
+        "color": "#e0e0e0",
+        "name": {
+          "tr": "Hemen Teklif Al"
+        },
+        "listbgcolor": "#cedc00",
+        "listcolor": "#000",
+        "searchbgcolor": "#006B65",
+        "searchtextColor": "#fff",
+        "borderColor": "#e9ecef",
+        "searchPlaceholder": {
+          "tr": "Sayfa ara...",
+          "en": "Search pages..."
+        },
+        "resultText": {
+          "tr": "sonuç",
+          "en": "results"
+        },
+        "pageText": {
+          "tr": "sayfa",
+          "en": "pages"
+        }
       },
       "id": "b1338q"
     },

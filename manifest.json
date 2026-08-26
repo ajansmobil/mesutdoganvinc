@@ -1,0 +1,29 @@
+{
+  "name": "Mesut Doğan Vinç",
+  "short_name": "Mesut Doğan",
+  "description": "Gaziantep'te 7/24 vinç, forklift, manlift kiralama ve çekici hizmetleri. Profesyonel ekip ve geniş araç filomuz ile güvenilir hizmet.",
+  "start_url": "/tr/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2196f3",
+  "lang": "tr",
+  "icons": [
+    {
+      "src": "/img/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/logo.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

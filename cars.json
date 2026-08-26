@@ -10,19 +10,11 @@
       "status": "play",
       "category": "",
       "id": "n2e6jevuk9",
-      "externalUrl": "",
       "path": "vinc-kiralama-hizmeti",
-      "keyword": {
-        "tr": ""
-      },
       "description": {
-        "tr": ""
-      },
-      "spot": {
-        "tr": ""
+        "tr": "Gaziantep vinç kiralama: bakımlı filo, operatörlü/operatörsüz seçenekler, 7/24 destek."
       },
       "index": 0,
-      "desc": {},
       "icon": "home",
       "desing": {
         "header": [],
@@ -38,20 +30,12 @@
       "status": "play",
       "category": "",
       "id": "ngd0xrqks9",
-      "externalUrl": "",
       "path": "forklift-kiralama-hizmeti",
-      "keyword": {
-        "tr": ""
-      },
       "description": {
-        "tr": ""
-      },
-      "spot": {
-        "tr": ""
+        "tr": "Gaziantep forklift kiralama: depo ve fabrika için esnek süreler."
       },
       "index": 1,
       "icon": "home",
-      "desc": {},
       "desing": {
         "header": [],
         "body": [],
@@ -66,20 +50,12 @@
       "status": "play",
       "category": "",
       "id": "zj3xudcu7f",
-      "externalUrl": "",
       "path": "manlift-kiralama-hizmeti",
-      "keyword": {
-        "tr": ""
-      },
       "description": {
-        "tr": ""
-      },
-      "spot": {
-        "tr": ""
+        "tr": "Gaziantep manlift kiralama: yüksekte güvenli çalışma platformları."
       },
       "index": 2,
       "icon": "home",
-      "desc": {},
       "desing": {
         "header": [],
         "body": [],
@@ -94,20 +70,12 @@
       "status": "play",
       "category": "",
       "id": "jt3cwgajp9",
-      "externalUrl": "",
       "path": "cekici-hizmeti",
-      "keyword": {
-        "tr": ""
-      },
       "description": {
-        "tr": ""
-      },
-      "spot": {
-        "tr": ""
+        "tr": "Gaziantep çekici hizmeti: 7/24 hızlı ve güvenilir yol yardım."
       },
       "index": 3,
       "icon": "home",
-      "desc": {},
       "desing": {
         "header": [],
         "body": [],
@@ -125,6 +93,6 @@
   "modulestatus": {
     "img": true,
     "detail": true,
-    "bgimg": true
+    "bgimg": false
   }
 }

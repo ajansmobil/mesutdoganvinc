@@ -1,0 +1,34 @@
+{
+  "name": {
+    "tr": "S.S.S"
+  },
+  "status": "play",
+  "category": "",
+  "id": "qp56zzaa65",
+  "externalUrl": "",
+  "path": "sss",
+  "keyword": {
+    "tr": "vinç SSS, forklift SSS, manlift SSS"
+  },
+  "description": {
+    "tr": "Vinç ve ekipman kiralama hakkında sıkça sorulan sorular."
+  },
+  "spot": {
+    "tr": ""
+  },
+  "index": 2,
+  "icon": "home",
+  "desing": {
+    "header": [],
+    "body": [
+      "b1338q"
+    ],
+    "footer": []
+  },
+  "bgimg": "1.jpg",
+  "text": {
+    "tr": "<section><h2>Sıkça Sorulan Sorular</h2><p>Vinç, forklift, manlift kiralama ve çekici hizmetleri hakkında merak edilenler bu bölümde toplanır. Detaylı yanıtlar için alt başlıklara göz atın veya doğrudan bizi arayın.</p><h3>Hızlı konular</h3><ul><li>Mesut Doğan Vinç ile neden çalışmalıyım?</li><li>Vinç, forklift, manlift veya çekici neden kiralanır?</li></ul><h3>İletişim</h3><p>0532 549 82 68 · mdoganvinc@gmail.com · Atabek Mh. Yavuzeli Yolu Cd. No:87 Şehitkamil / Gaziantep</p></section>"
+  },
+  "update": "2026-08-24T14:25:57.187Z",
+  "bg": "1.jpg"
+}

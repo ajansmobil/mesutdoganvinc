@@ -1,0 +1,32 @@
+{
+  "name": {
+    "tr": "Gizlilik Politikası"
+  },
+  "status": "play",
+  "id": "gizlilikpolitikasi",
+  "path": "gizlilik-politikasi",
+  "category": "kurumsal",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "keyword": {
+    "tr": "vinç firması gizlilik politikası, KVKK uyumlu vinç hizmeti, güvenli veri politikası, müşteri gizliliği, veri güvenliği, kişisel veri koruma"
+  },
+  "description": {
+    "tr": "Mesut Doğan Vinç gizlilik politikası: iletişim ve web verilerinin KVKK çerçevesinde korunması."
+  },
+  "spot": {
+    "tr": ""
+  },
+  "index": 5,
+  "desc": {},
+  "icon": "home",
+  "bgimg": "1.jpg",
+  "update": "2026-08-24T14:25:33.059Z",
+  "bg": "1.jpg",
+  "text": {
+    "tr": "<section><h2>Gizlilik Politikası</h2><p>Mesut Doğan Vinç olarak web sitemizi ziyaret eden ve bizimle iletişime geçen kişilerin gizliliğine saygı duyarız. Toplanan bilgiler teklif, hizmet sunumu, müşteri ilişkileri ve yasal yükümlülükler kapsamında işlenir.</p><h3>Hangi veriler?</h3><p>Ad-soyad, telefon, e-posta, adres ve iş talebine ilişkin teknik bilgiler (ör. kaldırma kapasitesi, lokasyon) iletişiminiz ölçüsünde alınabilir. Gereksiz veri toplamayız.</p><h3>Paylaşım ve güvenlik</h3><ul><li>Kişisel veriler üçüncü taraflarla yalnızca açık rıza, sözleşmenin ifası veya kanuni zorunluluk halinde paylaşılır</li><li>Erişim yetkisi hizmeti yürüten personelle sınırlı tutulur</li></ul><h3>KVKK ve başvuru</h3><p>6698 sayılı KVKK kapsamındaki talepleriniz için mdoganvinc@gmail.com veya 0532 549 82 68 üzerinden bize ulaşabilirsiniz. Adres: Atabek Mh. Yavuzeli Yolu Cd. No:87 Şehitkamil / Gaziantep.</p></section>"
+  }
+}

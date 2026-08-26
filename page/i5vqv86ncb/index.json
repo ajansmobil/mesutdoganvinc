@@ -1,0 +1,34 @@
+{
+  "name": {
+    "tr": "Çalışmalarımız"
+  },
+  "status": "play",
+  "category": "",
+  "id": "i5vqv86ncb",
+  "externalUrl": "",
+  "path": "calismalarimiz",
+  "keyword": {
+    "tr": "vinç çalışmaları Gaziantep, saha operasyonları"
+  },
+  "description": {
+    "tr": "Mesut Doğan Vinç saha çalışmaları ve proje görselleri."
+  },
+  "spot": {
+    "tr": ""
+  },
+  "index": 1,
+  "icon": "home",
+  "desing": {
+    "header": [],
+    "body": [
+      "gvfi8h"
+    ],
+    "footer": []
+  },
+  "bgimg": "1.jpg",
+  "text": {
+    "tr": "<section><h2>Çalışmalarımız</h2><p>Sahada gerçekleştirdiğimiz vinç, forklift, manlift ve çekici operasyonlarından seçkiler. Güvenli kaldırma ve taşıma çözümlerimizle Gaziantep ve bölgedeki projelere katkı sağlıyoruz.</p></section>"
+  },
+  "update": "2026-08-24T13:52:19.528Z",
+  "bg": "1.jpg"
+}

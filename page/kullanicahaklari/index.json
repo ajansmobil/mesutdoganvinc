@@ -1,0 +1,32 @@
+{
+  "name": {
+    "tr": "Kullanıcı Hakları"
+  },
+  "status": "play",
+  "id": "kullanicahaklari",
+  "path": "kullanici-haklari",
+  "category": "kurumsal",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "keyword": {
+    "tr": "kullanıcı hakları, müşteri hakları, KVKK hakları, veri sahipliği, kişisel veri erişimi, veri düzeltme hakkı, veri silme hakkı"
+  },
+  "description": {
+    "tr": "Kullanıcı ve müşteri hakları: KVKK kapsamında erişim, düzeltme, silme ve başvuru yolları."
+  },
+  "spot": {
+    "tr": ""
+  },
+  "index": 7,
+  "desc": {},
+  "icon": "home",
+  "bgimg": "1.jpg",
+  "update": "2026-08-24T14:25:33.080Z",
+  "bg": "1.jpg",
+  "text": {
+    "tr": "<section><h2>Kullanıcı Hakları</h2><p>Site kullanıcıları ve müşterilerimiz; kişisel verilerine ilişkin Kanunun 11. maddesinde sayılan haklara sahiptir. Bu haklar şeffaf hizmet anlayışımızın parçasıdır.</p><h3>Haklarınız</h3><ul><li>Verilerinizin işlenip işlenmediğini öğrenme ve bilgi talep etme</li><li>Amaca uygunluk ve süreyi sorgulama</li><li>Eksik veya yanlış işlenmişse düzeltme isteme</li><li>Silme veya yok edilmesini isteme</li><li>İşlemlerin aktarıldığı üçüncü kişilere bildirilmesini talep etme</li><li>Otomatik sistemlerle aleyhinize sonuç çıkmasına itiraz etme</li></ul><h3>Nasıl başvurursunuz?</h3><p>Talebinizi kimliğinizi doğrulayacak bilgilerle mdoganvinc@gmail.com adresine veya 0532 549 82 68 numarasına iletebilirsiniz. Gerekli hallerde yazılı başvuru Atabek Mh. Yavuzeli Yolu Cd. No:87 Şehitkamil / Gaziantep adresine yapılabilir.</p><h3>Yanıt süresi</h3><p>Başvurular yasal süreler içinde yanıtlanır. Eksik bilgi içeren taleplerde ek belge istenebilir.</p></section>"
+  }
+}

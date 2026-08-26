@@ -1,7 +1,9 @@
 {
   "data": [
     {
-      "name": "Sayfalar",
+      "name": {
+        "tr": "Sayfalar"
+      },
       "path": "page",
       "desc": [],
       "data": [],
@@ -18,7 +20,9 @@
       }
     },
     {
-      "name": "Araçlar",
+      "name": {
+        "tr": "Araçlar"
+      },
       "path": "cars",
       "desc": [],
       "data": [],
@@ -31,41 +35,56 @@
       "modulestatus": {
         "img": true,
         "detail": true,
-        "bgimg": true
+        "bgimg": false
       }
     },
     {
-      "name": "Servislerimiz",
+      "name": {
+        "tr": "Servislerimiz"
+      },
       "path": "services",
       "desc": [],
       "data": [],
       "index": 2
     },
     {
-      "name": "Kurumsal",
+      "name": {
+        "tr": "Kurumsal"
+      },
       "path": "kurumsal",
       "desc": [],
       "data": [],
       "index": 3,
       "desing": {
         "header": [],
-        "body": ["joxqwj"],
+        "body": [
+          "joxqwj"
+        ],
         "footer": []
       },
       "modulestatus": {
+        "detail": true,
         "bgimg": true
       }
     },
     {
-      "name": "S.S.S",
+      "name": {
+        "tr": "S.S.S"
+      },
       "path": "sss",
       "desc": [],
       "data": [],
       "index": 4,
       "desing": {
         "header": [],
-        "body": ["yk843k", "iqxzo5"],
+        "body": [
+          "yk843k",
+          "iqxzo5"
+        ],
         "footer": []
+      },
+      "modulestatus": {
+        "detail": true
       }
     }
   ]

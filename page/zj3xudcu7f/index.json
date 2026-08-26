@@ -1,0 +1,32 @@
+{
+  "name": {
+    "tr": "Manlift Kiralama Hizmeti"
+  },
+  "status": "play",
+  "category": "",
+  "id": "zj3xudcu7f",
+  "externalUrl": "",
+  "path": "manlift-kiralama-hizmeti",
+  "keyword": {
+    "tr": "manlift kiralama Gaziantep"
+  },
+  "description": {
+    "tr": "Gaziantep manlift kiralama: yüksekte güvenli çalışma platformları."
+  },
+  "spot": {
+    "tr": ""
+  },
+  "index": 2,
+  "icon": "home",
+  "desc": {},
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "img": "eegmj.png",
+  "text": {
+    "tr": "<section><h2>Manlift Kiralama Hizmeti</h2><p>Yüksekte güvenli çalışma için manlift (personel yükseltici) kiralama. Bakımlı ve çeşitli platform seçenekleriyle montaj, bakım ve inşaat işlerinize uygundur.</p><h3>Güvenlik</h3><p>Ekipmanlarımız kullanım öncesi kontrol edilir; doğru model seçimi için saha bilginizi paylaşmanız yeterlidir.</p></section>"
+  },
+  "update": "2026-08-24T13:52:19.648Z"
+}

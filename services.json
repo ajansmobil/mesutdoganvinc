@@ -1,24 +1,3 @@
 {
-  "data": [
-    {
-      "name": {
-        "tr": "New Page"
-      },
-      "status": "play",
-      "category": "",
-      "id": "oa3wvp0r79",
-      "externalUrl": "",
-      "path": "new-page",
-      "keyword": {
-        "tr": ""
-      },
-      "description": {
-        "tr": ""
-      },
-      "spot": {
-        "tr": ""
-      },
-      "index": 0
-    }
-  ]
+  "data": []
 }

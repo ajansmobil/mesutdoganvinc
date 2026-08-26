@@ -2,10 +2,10 @@
   "order": false,
   "user": false,
   "description": {
-    "tr": ""
+    "tr": "Gaziantep'te 7/24 vinç, forklift, manlift kiralama ve çekici hizmetleri. Profesyonel ekip ve geniş araç filomuz ile güvenilir hizmet."
   },
   "keyword": {
-    "tr": ""
+    "tr": "vinç kiralama Gaziantep, forklift kiralama, manlift kiralama, çekici hizmeti, Mesut Doğan Vinç"
   },
   "multi": false,
   "category": "Kurumsal",
@@ -25,5 +25,9 @@
     "ko": false,
     "pt": false
   },
-  "logo": "logo.png"
+  "logo": "logo.png",
+  "address": "Atabek Mh. Yavuzeli Yolu Cd. No:87 Şehitkamil / Gaziantep",
+  "email": "mdoganvinc@gmail.com",
+  "mobile": "05325498268",
+  "phone": "05325498268"
 }
