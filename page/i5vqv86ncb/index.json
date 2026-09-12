@@ -1,22 +1,18 @@
 {
+  "data": [
+    {
+      "text": {
+        "tr": "<h2>Mobil Vinç Kiralama ve Ağır Yük Taşıma Hizmetleri</h2><p>Mesut Doğan Vinç olarak, inşaat, sanayi ve lojistik sektörlerinde faaliyet gösteren firmalara yönelik profesyonel mobil vinç kiralama hizmeti sunuyoruz. Geniş kapasiteli vinç filomuz ve deneyimli operatör kadromuz sayesinde, en zorlu kaldırma ve taşıma operasyonlarını güvenli, hızlı ve ekonomik şekilde tamamlıyoruz.</p><p>Farklı tonaj ve bom uzunluğuna sahip vinçlerimiz, şehir içi montaj işlerinden ağır sanayi tesislerindeki makine yerleştirme operasyonlarına kadar geniş bir yelpazede kullanılmaktadır. Her proje öncesinde saha keşfi yaparak, yükün ağırlığı, kaldırma yüksekliği ve zemin koşullarına en uygun vinç modelini ve kaldırma planını belirliyoruz. Bu sayede operasyon süresince oluşabilecek riskler en aza indirilir.</p><p>Operasyonel güvenlik bizim için en yüksek önceliktir. Tüm vinç operatörlerimiz sertifikalı olup, düzenli periyodik bakım ve kontrol süreçlerinden geçen ekipmanlarımızla çalışırız. İş güvenliği mevzuatına tam uyum sağlayarak, sahada risk teşkil edebilecek unsurları önceden tespit eder ve gerekli tedbirleri alırız.</p><h3>Hizmet Verdiğimiz Alanlar</h3><ul><li>Çelik konstrüksiyon montajı ve ağır ekipman yerleştirme</li><li>Fabrika ve sanayi tesisi kurulum çalışmaları</li><li>Rüzgar türbini ve enerji santrali kaldırma operasyonları</li><li>Şantiye ve inşaat sahalarında prefabrik eleman montajı</li><li>Liman ve depo alanlarında konteyner ve yük elleçleme</li></ul><p>Talebinize özel hazırlanan teklif ve saha analizi ile, projenizin bütçesine ve zaman planına en uygun çözümü sunmak için sahadaki uzman ekibimizle birlikte çalışıyoruz. 7/24 acil müdahale hizmetimiz sayesinde, planlanmamış kaldırma ihtiyaçlarında da yanınızdayız ve müşteri memnuniyetini her aşamada ön planda tutarız.</p>"
+      }
+    }
+  ],
   "name": {
     "tr": "Çalışmalarımız"
   },
-  "status": "play",
-  "category": "",
-  "id": "i5vqv86ncb",
-  "externalUrl": "",
-  "path": "calismalarimiz",
-  "keyword": {
-    "tr": "vinç çalışmaları Gaziantep, saha operasyonları"
-  },
-  "description": {
-    "tr": "Mesut Doğan Vinç saha çalışmaları ve proje görselleri."
-  },
-  "spot": {
-    "tr": ""
-  },
   "index": 1,
+  "path": "calismalarimiz",
+  "category": "",
+  "status": "play",
   "icon": "home",
   "desing": {
     "header": [],
@@ -25,10 +21,14 @@
     ],
     "footer": []
   },
-  "bgimg": "1.jpg",
-  "text": {
-    "tr": "<section><h2>Çalışmalarımız</h2><p>Sahada gerçekleştirdiğimiz vinç, forklift, manlift ve çekici operasyonlarından seçkiler. Güvenli kaldırma ve taşıma çözümlerimizle Gaziantep ve bölgedeki projelere katkı sağlıyoruz.</p></section>"
+  "description": {
+    "tr": "Mesut Doğan Vinç saha çalışmaları ve proje görselleri."
   },
-  "update": "2026-08-24T13:52:19.528Z",
-  "bg": "1.jpg"
+  "keyword": {
+    "tr": "mobil vinç kiralama, operatörlü vinç"
+  },
+  "text": {
+    "tr": "<h2>Mobil Vinç Kiralama Çözümleri</h2><p>Mesut Doğan Vinç olarak Gaziantep ve çevresinde mobil vinç, ağır yük taşıma ve operatörlü kaldırma çözümleri sunuyoruz. Sahaya özel ekipman seçimi ve güvenlik planı ile çalışıyoruz.</p><p>Filomuzdaki farklı tonaj kapasiteleri sayesinde dar şehir içi alanlardan geniş sanayi sahalarına kadar güvenli kaldırma operasyonları gerçekleştiriyoruz.</p><p>Müşterilerimize şeffaf fiyatlandırma, 7/24 destek ve deneyimli operatör kadrosu ile kesintisiz hizmet sağlıyoruz. Bakımı düzenli ekipmanlarımız arıza riskini azaltır.</p><h3>Öne Çıkanlar</h3><ul><li>Operatörlü mobil vinç</li><li>Ağır ekipman montaj</li><li>Saha planlama</li><li>Acil destek hattı</li></ul><p>Mesut Doğan Vinç olarak Gaziantep ve çevresinde mobil vinç, ağır yük taşıma ve operatörlü kaldırma çözümleri sunuyoruz. Sahaya özel ekipman seçimi ve güvenlik planı ile çalışıyoruz. Saha güvenliği, düzenli bakım ve zamanında teslim ilkeleri birlikte uygulanır; proje ekibiyle sürekli iletişim kurulur.</p>"
+  },
+  "update": "2026-08-26T10:39:36.855Z"
 }

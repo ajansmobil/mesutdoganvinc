@@ -1,10 +1,76 @@
 {
-  "header": ["gsskx7", "m1xnak"],
-  "body": ["iqxzo5", "hcmy1x", "f5pvkm", "stgefd", "y37q60"],
-  "footer": ["hdqtwx"],
-  "headerdefault": ["gsskx7"],
-  "bodydefault": [],
-  "footerdefault": ["hdqtwx"],
+  "colors": {
+    "lite": [
+      {
+        "name": "--primary--",
+        "value": "#0A2E5C"
+      },
+      {
+        "name": "--secondary--",
+        "value": "#F5A623"
+      },
+      {
+        "name": "--bg--",
+        "value": "#FFFFFF"
+      },
+      {
+        "name": "--text--",
+        "value": "#1A1A1A"
+      },
+      {
+        "name": "--muted--",
+        "value": "#6B7280"
+      }
+    ],
+    "dark": [
+      {
+        "name": "--primary--",
+        "value": "#12407A"
+      },
+      {
+        "name": "--secondary--",
+        "value": "#FFB84D"
+      },
+      {
+        "name": "--bg--",
+        "value": "#0D1117"
+      },
+      {
+        "name": "--text--",
+        "value": "#F5F5F5"
+      },
+      {
+        "name": "--muted--",
+        "value": "#9CA3AF"
+      }
+    ]
+  },
+  "font": {
+    "heading": "Poppins",
+    "body": "Inter"
+  },
+  "header": [
+    "gsskx7",
+    "m1xnak"
+  ],
+  "headerdefault": [
+    "gsskx7"
+  ],
+  "footer": [
+    "h5j0l6"
+  ],
+  "footerdefault": [
+    "h5j0l6"
+  ],
+  "body": [
+    "iqxzo5",
+    "hcmy1x",
+    "f5pvkm",
+    "stgefd"
+  ],
+  "bodydefault": [
+    "hcmy1x"
+  ],
   "headtop": "",
-  "headbottom": "<!-- Google tag (gtag.js) --> \n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-2J2C52Q8X6\">\n</script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-2J2C52Q8X6');\n</script>\n\n<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=AW-17014395448\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'AW-17014395448');\n</script>\n\n<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-GE5SPF0JJT\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-GE5SPF0JJT');\n</script>"
+  "headbottom": ""
 }

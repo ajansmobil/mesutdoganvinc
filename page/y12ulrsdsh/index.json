@@ -1,36 +1,34 @@
 {
+  "modulestatus": {
+    "detail": true,
+    "img": false
+  },
+  "title": {
+    "tr": "Mesut Doğan Vinç | Kurumsal Tanıtım"
+  },
+  "text": {
+    "tr": "<h2>Kurumsal Vinç ve Ağır Taşıma Hizmetleri</h2><p>Mesut Doğan Vinç olarak Gaziantep ve çevresinde mobil vinç, ağır yük taşıma ve operatörlü kaldırma çözümleri sunuyoruz. Sahaya özel ekipman seçimi ve güvenlik planı ile çalışıyoruz.</p><p>Filomuzdaki farklı tonaj kapasiteleri sayesinde dar şehir içi alanlardan geniş sanayi sahalarına kadar güvenli kaldırma operasyonları gerçekleştiriyoruz.</p><p>Müşterilerimize şeffaf fiyatlandırma, 7/24 destek ve deneyimli operatör kadrosu ile kesintisiz hizmet sağlıyoruz. Bakımı düzenli ekipmanlarımız arıza riskini azaltır.</p><h3>Öne Çıkanlar</h3><ul><li>Operatörlü mobil vinç</li><li>Ağır ekipman montaj</li><li>Saha planlama</li><li>Acil destek hattı</li></ul><p>Mesut Doğan Vinç olarak Gaziantep ve çevresinde mobil vinç, ağır yük taşıma ve operatörlü kaldırma çözümleri sunuyoruz. Sahaya özel ekipman seçimi ve güvenlik planı ile çalışıyoruz. Saha güvenliği, düzenli bakım ve zamanında teslim ilkeleri birlikte uygulanır; proje ekibiyle sürekli iletişim kurulur.</p>"
+  },
   "name": {
     "tr": "Kurumsal"
   },
-  "status": "play",
-  "category": "",
-  "id": "y12ulrsdsh",
-  "externalUrl": "",
-  "path": "kurumsal",
-  "keyword": {
-    "tr": "Mesut Doğan Vinç kurumsal, Gaziantep vinç firması"
-  },
-  "description": {
-    "tr": "Gaziantep Mesut Doğan Vinç kurumsal tanıtım, misyon, vizyon ve kalite politikası."
-  },
-  "spot": {
-    "tr": ""
-  },
   "index": 0,
+  "path": "kurumsal",
+  "category": "",
+  "bg": "1.jpg",
+  "status": "play",
+  "icon": "home",
   "desing": {
     "header": [],
     "body": [],
     "footer": []
   },
-  "icon": "home",
-  "bgimg": "1.jpg",
-  "text": {
-    "tr": "<section><h2>Mesut Doğan Vinç</h2><p>Gaziantep Şehitkamil merkezli firmamız; vinç, forklift, manlift kiralama ve çekici hizmetlerinde 7/24 çözüm sunar. Güvenli operasyon, bakımlı filo ve deneyimli ekip ile şantiye, fabrika ve lojistik projelerinize destek oluruz.</p><h3>Hizmet alanlarımız</h3><p>Kurumsal sayfalarımızdan hakkımızda, misyon, vizyon ve kalite politikamıza; araçlar bölümünden kiralama seçeneklerine ulaşabilirsiniz. İletişim: 0532 549 82 68 · mdoganvinc@gmail.com</p></section>"
+  "pathnext": "",
+  "description": {
+    "tr": "Gaziantep Mesut Doğan Vinç kurumsal tanıtım, misyon, vizyon ve kalite politikası."
   },
-  "update": "2026-08-24T13:52:19.518Z",
-  "bg": "1.jpg",
-  "title": {
-    "tr": ""
+  "keyword": {
+    "tr": "mesut doğan vinç, vinç kiralama gaziantep, kurumsal vinç"
   },
-  "pathnext": ""
+  "update": "2026-08-26T10:39:36.850Z"
 }

@@ -32,20 +32,6 @@
       "icon": "menu"
     },
     {
-      "index": 1,
-      "name": "Footer 1",
-      "path": "footer-1",
-      "local": "footer",
-      "category": "footer",
-      "desing": {
-        "bgcolor": "#D72D32",
-        "color": "#fff",
-        "img": "",
-        "imgwidth": "250px"
-      },
-      "id": "hdqtwx"
-    },
-    {
       "index": 2,
       "name": "Sayfa Listesi Whatsapp",
       "path": "page-list-Search-2",
@@ -180,49 +166,6 @@
       "id": "stgefd"
     },
     {
-      "index": 7,
-      "name": "Sosyal Media Slider",
-      "path": "social-slider",
-      "local": "body",
-      "category": "social-slider",
-      "desing": {
-        "name": {
-          "tr": "Sosyal Medyada Biz"
-        },
-        "bgcolor": "#000000",
-        "bgcolor2": "#333333",
-        "padding": "25px 0px 25px 0px",
-        "margin": "0px 0px 0px 0px"
-      },
-      "data": [
-        {
-          "img": "/src/icon/facebook.png",
-          "externalUrl": ""
-        },
-        {
-          "img": "/src/icon/instagram.png",
-          "externalUrl": ""
-        },
-        {
-          "img": "/src/icon/linkedin.png",
-          "externalUrl": ""
-        },
-        {
-          "img": "/src/icon/youtube.png",
-          "externalUrl": ""
-        },
-        {
-          "img": "/src/icon/whatsapp.png",
-          "externalUrl": ""
-        },
-        {
-          "img": "/src/icon/google-maps.png",
-          "externalUrl": ""
-        }
-      ],
-      "id": "y37q60"
-    },
-    {
       "index": 8,
       "name": "SSS Page",
       "path": "page-desing-4",
@@ -259,7 +202,9 @@
           "img": "3.jpeg"
         }
       ],
-      "id": "m1xnak"
+      "id": "m1xnak",
+      "version": "1.0.0",
+      "icon": "view_carousel"
     },
     {
       "index": 10,
@@ -676,6 +621,23 @@
         }
       ],
       "id": "gvfi8h"
+    },
+    {
+      "index": 10,
+      "name": "Footer 1",
+      "path": "footer-1",
+      "desing": {
+        "bgcolor": "#D72D32",
+        "color": "#fff",
+        "img": "",
+        "imgwidth": "250px"
+      },
+      "category": "footer",
+      "data": [],
+      "version": "1.0.0",
+      "icon": "web_asset",
+      "id": "h5j0l6",
+      "local": "footer"
     }
   ]
 }

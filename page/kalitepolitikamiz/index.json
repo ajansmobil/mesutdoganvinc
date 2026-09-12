@@ -1,32 +1,25 @@
 {
+  "text": {
+    "tr": "<h2>Kalite Politikamız</h2><p>Mesut Doğan Vinç olarak Gaziantep ve çevresinde mobil vinç, ağır yük taşıma ve operatörlü kaldırma çözümleri sunuyoruz. Sahaya özel ekipman seçimi ve güvenlik planı ile çalışıyoruz.</p><p>Filomuzdaki farklı tonaj kapasiteleri sayesinde dar şehir içi alanlardan geniş sanayi sahalarına kadar güvenli kaldırma operasyonları gerçekleştiriyoruz.</p><p>Müşterilerimize şeffaf fiyatlandırma, 7/24 destek ve deneyimli operatör kadrosu ile kesintisiz hizmet sağlıyoruz. Bakımı düzenli ekipmanlarımız arıza riskini azaltır.</p><h3>Öne Çıkanlar</h3><ul><li>Operatörlü mobil vinç</li><li>Ağır ekipman montaj</li><li>Saha planlama</li><li>Acil destek hattı</li></ul><p>Mesut Doğan Vinç olarak Gaziantep ve çevresinde mobil vinç, ağır yük taşıma ve operatörlü kaldırma çözümleri sunuyoruz. Sahaya özel ekipman seçimi ve güvenlik planı ile çalışıyoruz. Saha güvenliği, düzenli bakım ve zamanında teslim ilkeleri birlikte uygulanır; proje ekibiyle sürekli iletişim kurulur.</p>"
+  },
   "name": {
     "tr": "Kalite Politikamız"
   },
-  "status": "play",
-  "id": "kalitepolitikamiz",
+  "index": 5,
   "path": "kalite-politikamiz",
   "category": "kurumsal",
+  "status": "play",
+  "icon": "home",
   "desing": {
     "header": [],
     "body": [],
     "footer": []
   },
-  "keyword": {
-    "tr": "vinç firması kalite politikası, ISO sertifikalı vinç hizmeti, güvenli vinç kiralama, profesyonel vinç operatörleri, endüstriyel standartlar, kalite yönetimi"
-  },
   "description": {
     "tr": "Mesut Doğan Vinç kalite politikası: bakım, güvenlik ve müşteri memnuniyeti odaklı kiralama süreçleri."
   },
-  "spot": {
-    "tr": ""
+  "keyword": {
+    "tr": "kalite politikası, iş güvenliği"
   },
-  "index": 4,
-  "desc": {},
-  "icon": "home",
-  "bgimg": "1.jpg",
-  "update": "2026-08-24T14:25:33.050Z",
-  "bg": "1.jpg",
-  "text": {
-    "tr": "<section><h2>Kalite Politikamız</h2><p>Kaliteyi reklam sloganı değil, saha pratiği olarak tanımlarız: doğru ekipman seçimi, periyodik bakım, iş öncesi kontrol ve net iletişim. Müşteri memnuniyeti, güvenli ve sorunsuz tamamlanan işlerle ölçülür.</p><h3>Ekipman ve bakım</h3><p>Vinç, forklift ve manlift filomuz düzenli bakıma alınır. Arıza riskini azaltmak için kullanım öncesi kontroller yapılır; uygunsuz görülen ekipman işe çıkarılmaz.</p><h3>Operasyon güvenliği</h3><ul><li>Kapasite, zemin, rüzgâr ve erişim koşulları değerlendirilir</li><li>Operatör ve saha ekipleri güvenlik kurallarına uygun çalışır</li><li>Risk görülen durumda iş planı revize edilir</li></ul><h3>Sürekli iyileştirme</h3><p>Her iş sonrasında geri bildirimi dinler; süreç, ekipman ve iletişimde iyileştirme fırsatlarını kaydederiz. Kalite politikamız yazılı bir niyet değil, tekrarlayan operasyon disiplinidir.</p></section>"
-  }
+  "update": "2026-08-26T10:39:36.918Z"
 }

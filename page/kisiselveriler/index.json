@@ -1,32 +1,25 @@
 {
+  "text": {
+    "tr": "<h2>Kişisel Verilerin Korunması</h2><p>Mesut Doğan Vinç olarak Gaziantep ve çevresinde mobil vinç, ağır yük taşıma ve operatörlü kaldırma çözümleri sunuyoruz. Sahaya özel ekipman seçimi ve güvenlik planı ile çalışıyoruz.</p><p>Filomuzdaki farklı tonaj kapasiteleri sayesinde dar şehir içi alanlardan geniş sanayi sahalarına kadar güvenli kaldırma operasyonları gerçekleştiriyoruz.</p><p>Müşterilerimize şeffaf fiyatlandırma, 7/24 destek ve deneyimli operatör kadrosu ile kesintisiz hizmet sağlıyoruz. Bakımı düzenli ekipmanlarımız arıza riskini azaltır.</p><h3>Öne Çıkanlar</h3><ul><li>Operatörlü mobil vinç</li><li>Ağır ekipman montaj</li><li>Saha planlama</li><li>Acil destek hattı</li></ul><p>Mesut Doğan Vinç olarak Gaziantep ve çevresinde mobil vinç, ağır yük taşıma ve operatörlü kaldırma çözümleri sunuyoruz. Sahaya özel ekipman seçimi ve güvenlik planı ile çalışıyoruz. Saha güvenliği, düzenli bakım ve zamanında teslim ilkeleri birlikte uygulanır; proje ekibiyle sürekli iletişim kurulur.</p>"
+  },
   "name": {
     "tr": "Kişisel Veriler"
   },
-  "status": "play",
-  "id": "kisiselveriler",
+  "index": 7,
   "path": "kisisel-veriler",
   "category": "kurumsal",
+  "status": "play",
+  "icon": "home",
   "desing": {
     "header": [],
     "body": [],
     "footer": []
   },
-  "keyword": {
-    "tr": "KVKK, kişisel veri koruma, müşteri veri güvenliği, veri işleme politikası, veri saklama, veri koruma yönetmeliği, yasal uyumluluk"
-  },
   "description": {
     "tr": "Kişisel verilerin korunması: Mesut Doğan Vinç’te KVKK kapsamı, işleme amaçları ve başvuru kanalları."
   },
-  "spot": {
-    "tr": ""
+  "keyword": {
+    "tr": "kvkk, kişisel veri"
   },
-  "index": 6,
-  "desc": {},
-  "icon": "home",
-  "bgimg": "1.jpg",
-  "update": "2026-08-24T14:25:33.070Z",
-  "bg": "1.jpg",
-  "text": {
-    "tr": "<section><h2>Kişisel Verilerin Korunması</h2><p>6698 sayılı Kişisel Verilerin Korunması Kanunu uyarınca; kimlik, iletişim ve işlem verileriniz belirlenen amaçlarla, hukuka uygun şekilde işlenir ve güvenli ortamlarda saklanır.</p><h3>İşleme amaçları</h3><ul><li>Kiralama teklifi hazırlama</li><li>Sözleşme ve faturalama süreçleri</li><li>Müşteri desteği, yasal zorunluluklar ve meşru menfaat</li></ul><p>Amaç dışı kullanım yapılmaz.</p><h3>Saklama süresi</h3><p>Veriler, ilgili mevzuat ve iş ilişkisinin gerektirdiği süre boyunca tutulur; süre sonunda silinir, yok edilir veya anonim hale getirilir.</p><h3>Başvuru</h3><p>Veri sorumlusu: Mesut Doğan Vinç. Başvurularınızı mdoganvinc@gmail.com veya 0532 549 82 68 ile iletebilirsiniz. Yazılı başvurular Atabek Mh. Yavuzeli Yolu Cd. No:87 Şehitkamil / Gaziantep adresine gönderilebilir.</p></section>"
-  }
+  "update": "2026-08-26T10:39:36.925Z"
 }

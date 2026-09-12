@@ -1,32 +1,25 @@
 {
+  "text": {
+    "tr": "<h2>Vizyonumuz</h2><p>Mesut Doğan Vinç olarak Gaziantep ve çevresinde mobil vinç, ağır yük taşıma ve operatörlü kaldırma çözümleri sunuyoruz. Sahaya özel ekipman seçimi ve güvenlik planı ile çalışıyoruz.</p><p>Filomuzdaki farklı tonaj kapasiteleri sayesinde dar şehir içi alanlardan geniş sanayi sahalarına kadar güvenli kaldırma operasyonları gerçekleştiriyoruz.</p><p>Müşterilerimize şeffaf fiyatlandırma, 7/24 destek ve deneyimli operatör kadrosu ile kesintisiz hizmet sağlıyoruz. Bakımı düzenli ekipmanlarımız arıza riskini azaltır.</p><h3>Öne Çıkanlar</h3><ul><li>Operatörlü mobil vinç</li><li>Ağır ekipman montaj</li><li>Saha planlama</li><li>Acil destek hattı</li></ul><p>Mesut Doğan Vinç olarak Gaziantep ve çevresinde mobil vinç, ağır yük taşıma ve operatörlü kaldırma çözümleri sunuyoruz. Sahaya özel ekipman seçimi ve güvenlik planı ile çalışıyoruz. Saha güvenliği, düzenli bakım ve zamanında teslim ilkeleri birlikte uygulanır; proje ekibiyle sürekli iletişim kurulur.</p>"
+  },
   "name": {
     "tr": "Vizyon"
   },
-  "status": "play",
-  "id": "vizyon",
+  "index": 4,
   "path": "vizyon",
   "category": "kurumsal",
+  "status": "play",
+  "icon": "home",
   "desing": {
     "header": [],
     "body": [],
     "footer": []
   },
-  "keyword": {
-    "tr": "vinç firması vizyon, Gaziantep endüstriyel hizmetler, profesyonel vinç çözümleri, güvenilir vinç hizmeti, sektör lideri vinç firması, kaliteli vinç kiralama"
-  },
   "description": {
     "tr": "Mesut Doğan Vinç vizyonu: Gaziantep ve bölgede güvenilir kaldırma ve ekipman kiralama referansı olmak."
   },
-  "spot": {
-    "tr": ""
+  "keyword": {
+    "tr": "vizyon, sürdürülebilir büyüme"
   },
-  "index": 3,
-  "desc": {},
-  "icon": "home",
-  "bgimg": "1.jpg",
-  "update": "2026-08-24T14:25:33.041Z",
-  "bg": "1.jpg",
-  "text": {
-    "tr": "<section><h2>Vizyonumuz</h2><p>Vizyonumuz; Gaziantep ve çevresinde vinç ile endüstriyel ekipman kiralama denildiğinde akla gelen, güvenilir ve tercih edilen yerel marka olmaktır. Büyüme hedefimiz abartılı vaatler değil, tutarlı hizmet kalitesidir.</p><h3>Nasıl ilerliyoruz?</h3><ul><li>Makine parkurunu ihtiyaca göre güçlendirmek</li><li>Bakım disiplinini korumak ve ekip yetkinliğini yükseltmek</li><li>Dijital iletişim ve hızlı teklif ile müşteri deneyimini sadeleştirmek</li></ul><h3>Değerlerimiz</h3><p>Güvenlik, dürüstlük, zamanında teslimat ve saygı. Değerlerimizden taviz vermeden her işi ölçülebilir sonuçlarla kapatmayı hedefleriz.</p><h3>Uzun vadeli hedef</h3><p>Bölgedeki şantiye ve tesislerin kaldırma ihtiyaçlarında ilk aranan çözüm ortağı kalmaktır.</p></section>"
-  }
+  "update": "2026-08-26T10:39:36.910Z"
 }

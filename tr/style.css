@@ -1216,7 +1216,7 @@
     fill: #ffffff;
   }
   .b0003-bg {
-    background-image: url("/img/stgefd/map.png?v=ezlhs") !important;
+    background-image: url("/img/stgefd/map.png?v=kt08n") !important;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -1244,85 +1244,6 @@
   @media (prefers-reduced-motion: reduce) {
     [class*="b0003"],
     [class*="b0003"] * {
-      animation: none !important;
-      transition: none !important;
-    }
-  }
-
-
-  .sliderxb0004body {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(135deg, #000000 0%, #333333 100%);
-    margin: 0px 0px 0px 0px;
-    padding: 25px 0px 25px 0px;
-  }
-  .sliderxb0004 {
-    width: calc(var(--max) - 40px);
-    display: flex;
-    background-color: #f9f9f9;
-    border-radius: 12px;
-    padding: 25px;
-    gap: 40px;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
-  }
-  .sliderxb0004:hover {
-    transform: translateY(-5px);
-  }
-  .sliderxb0004title {
-    width: 60%;
-    font-size: 28px;
-    padding-right: 15px;
-    color: #004e92;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-right: 2px solid #004e92;
-  }
-  .b0004 {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 10px;
-  }
-  .b0004-media {
-    width: 75px;
-    height: 75px;
-    border-radius: 8px;
-    object-fit: cover;
-    transition: transform 0.3s ease-in-out;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  }
-  .b0004-media:hover {
-    transform: scale(1.2);
-  }
-  @media screen and (max-width: 1200px) {
-    .sliderxb0004 {
-      width: calc(var(--max) - 100px) !important;
-    }
-    .b0004-media {
-      width: 60px;
-      height: 60px;
-    }
-  }
-
-  
-  @media (max-width: 768px) {
-    [class*="b0004"] {
-      max-width: 100%;
-      box-sizing: border-box;
-    }
-  }
-
-  
-  @media (prefers-reduced-motion: reduce) {
-    [class*="b0004"],
-    [class*="b0004"] * {
       animation: none !important;
       transition: none !important;
     }
