@@ -28,18 +28,15 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=e1qcr" />
-  <link rel="stylesheet" href="/src/mx-ui.css?v=e1qcr" />
+  <link rel="stylesheet" href="/src/rubik.css?v=sw8jd" />
+  <link rel="stylesheet" href="/src/css.css?v=sw8jd" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=sw8jd" />
   <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/material-symbols-outlined.css" />
-  <link rel="preload" href="/src/cookie.css?v=e1qcr" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <noscript>
-    <link rel="stylesheet" href="/src/cookie.css?v=e1qcr" />
-    <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-  </noscript>
-  <link rel="shortcut icon" href="/img/icon.png?v=e1qcr" type="image/png" />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=sw8jd" />
+  
+  <link rel="stylesheet" href="/src/cookie.css?v=sw8jd" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=sw8jd" />
+  <link rel="shortcut icon" href="/img/icon.png?v=sw8jd" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -64,15 +61,32 @@
   
 <link rel="manifest" href="/manifest.json">
 <meta name="theme-color" content="#2196f3">
-<link rel="stylesheet" href="style.css?v=e1qcr">
+<link rel="stylesheet" href="style.css?v=sw8jd">
 </head>
 
 <body>
+  <script>
+    (function () {
+      window.user = window.user || { id: null, email: null, name: null, isLoggedIn: false, loginMethod: null };
+      var emptySnapshot = { empty: true, forEach: function () {} };
+      var emptyDoc = { exists: false, data: function () { return null; } };
+      if (typeof window.dataAddWeb !== "function") window.dataAddWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataDeleteWeb !== "function") window.dataDeleteWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataUpdateWeb !== "function") window.dataUpdateWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataGetWeb !== "function") window.dataGetWeb = function () { return Promise.resolve(emptyDoc); };
+      if (typeof window.dataListWeb !== "function") window.dataListWeb = function () { return Promise.resolve(emptySnapshot); };
+      if (typeof window.authStateListenerWeb !== "function") {
+        window.authStateListenerWeb = function (cb) {
+          if (typeof cb === "function") setTimeout(function () { cb(null); }, 0);
+        };
+      }
+    })();
+  </script>
   <div id="header"><div class="h0000">
   <div class="h0000body">
     <a href="/tr/"
       ><img
-        src="/img/logo.png?v=yorrq"
+        src="/img/logo.png?v=acruh"
         class="h0000bodylogo"
         alt="Mesut Doğan Vinç Logo"
         loading="lazy"
@@ -108,7 +122,7 @@
       <div class="h0000menulistbody">
         <div class="h0000menulist">
           <ul>
-            <a href="/tr/">Anasayfa</a><div class="h0000menulist-menu"><a href="/tr/kurumsal/">Kurumsal</a><div class="dropdown-content-h0000"><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/hakkimizda/">Hakkımızda</a><a href="/tr/misyon/">Misyon</a><a href="/tr/vizyon/">Vizyon</a><a href="/tr/kalite-politikamiz/">Kalite Politikamız</a><a href="/tr/gizlilik-politikasi/">Gizlilik Politikası</a><a href="/tr/kisisel-veriler/">Kişisel Veriler</a><a href="/tr/kullanici-haklari/">Kullanıcı Hakları</a><a href="/tr/yasal-uyari/">Yasal Uyarı</a></div></div><a href="/tr/calismalarimiz/">Çalışmalarımız</a><div class="h0000menulist-menu dropdown-content-active-h0000"><a class="h0000-menu-active" href="/tr/sss/">S.S.S</a><div class="dropdown-content-h0000"><a href="/tr/mesut-dogan-vinc-ile-neden-calismaliyim/">Mesut Doğan Vinç ile Neden Çalışmalıyım?</a><a class="h0000-menu-active" href="/tr/vinc-neden-kiralamaliyim/">Vinç Neden Kiralamalıyım?</a><a href="/tr/forklift-neden-kiralamaliyim/">Forklift Neden Kiralamalıyım?</a><a href="/tr/manlift-neden-kiralamaliyim/">Manlift Neden Kiralamalıyım?</a><a href="/tr/cekici-neden-kiralamaliyim/">Çekici Neden Kiralamalıyım?</a></div></div><a href="/tr/iletisim/">İletişim</a>
+            <a href="/tr/">Anasayfa</a><div class="h0000menulist-menu"><a href="/tr/kurumsal/">Kurumsal</a><div class="dropdown-content-h0000"><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/hakkimizda/">Hakkımızda</a><a href="/tr/misyon/">Misyon</a><a href="/tr/vizyon/">Vizyon</a><a href="/tr/kalite-politikamiz/">Kalite Politikamız</a><a href="/tr/gizlilik-politikasi/">Gizlilik Politikası</a><a href="/tr/kisisel-veriler/">Kişisel Veriler</a><a href="/tr/kullanici-haklari/">Kullanıcı Hakları</a><a href="/tr/yasal-uyari/">Yasal Uyarı</a></div></div><a href="/tr/calismalarimiz/">Çalışmalarımız</a><a href="/tr/araclarimiz/">Araçlarımız</a><div class="h0000menulist-menu dropdown-content-active-h0000"><a class="h0000-menu-active" href="/tr/sss/">S.S.S</a><div class="dropdown-content-h0000"><a href="/tr/mesut-dogan-vinc-ile-neden-calismaliyim/">Mesut Doğan Vinç ile Neden Çalışmalıyım?</a><a class="h0000-menu-active" href="/tr/vinc-neden-kiralamaliyim/">Vinç Neden Kiralamalıyım?</a><a href="/tr/forklift-neden-kiralamaliyim/">Forklift Neden Kiralamalıyım?</a><a href="/tr/manlift-neden-kiralamaliyim/">Manlift Neden Kiralamalıyım?</a><a href="/tr/cekici-neden-kiralamaliyim/">Çekici Neden Kiralamalıyım?</a></div></div><a href="/tr/iletisim/">İletişim</a>
           </ul>
         </div>
       </div>
@@ -436,7 +450,7 @@
       </li>
     </ul>
     <ul class="menu">
-      <li class="menu__item"><a class="menu__link" href="/tr/">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal/">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/calismalarimiz/">Çalışmalarımız</a></li><li class="menu__item"><a class="menu__link" href="/tr/sss/">S.S.S</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim/">İletişim</a></li>
+      <li class="menu__item"><a class="menu__link" href="/tr/">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal/">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/calismalarimiz/">Çalışmalarımız</a></li><li class="menu__item"><a class="menu__link" href="/tr/araclarimiz/">Araçlarımız</a></li><li class="menu__item"><a class="menu__link" href="/tr/sss/">S.S.S</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim/">İletişim</a></li>
     </ul>
     <p>Mesut Doğan Vinç 2026 cognite. &copy;</p>
   </footer>
@@ -445,9 +459,9 @@
   
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=e1qcr"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=e1qcr"></script>
-  <script defer src="/src/cookie.js?v=e1qcr"></script>
+  <script defer src="/src/mx-ui.js?v=sw8jd"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=sw8jd"></script>
+  <script defer src="/src/cookie.js?v=sw8jd"></script>
 
   <script>
     setTimeout(function() {

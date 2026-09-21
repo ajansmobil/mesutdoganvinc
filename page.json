@@ -46,10 +46,32 @@
     },
     {
       "name": {
+        "tr": "Araçlarımız"
+      },
+      "id": "x3m9vb5tna",
+      "index": 2,
+      "path": "araclarimiz",
+      "category": "",
+      "bgimg": "1.jpg",
+      "status": "play",
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [
+          "k7wq2d"
+        ],
+        "footer": []
+      },
+      "description": {
+        "tr": "Mesut Doğan Vinç araç parkı: 100–500 tonluk teleskopik mobil vinç, hiyap vinç, sepetli platform, ağır çekici, forklift ve manlift."
+      }
+    },
+    {
+      "name": {
         "tr": "S.S.S"
       },
       "id": "qp56zzaa65",
-      "index": 2,
+      "index": 3,
       "path": "sss",
       "category": "",
       "bgimg": "1.jpg",
@@ -71,7 +93,7 @@
         "tr": "İletişim"
       },
       "id": "dih0zdssxz",
-      "index": 3,
+      "index": 4,
       "path": "iletisim",
       "category": "",
       "bgimg": "1.jpg",

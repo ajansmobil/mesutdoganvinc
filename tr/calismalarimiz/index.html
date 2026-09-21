@@ -28,18 +28,15 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=pdnv0" />
-  <link rel="stylesheet" href="/src/mx-ui.css?v=pdnv0" />
+  <link rel="stylesheet" href="/src/rubik.css?v=a1sgw" />
+  <link rel="stylesheet" href="/src/css.css?v=a1sgw" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=a1sgw" />
   <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/material-symbols-outlined.css" />
-  <link rel="preload" href="/src/cookie.css?v=pdnv0" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <noscript>
-    <link rel="stylesheet" href="/src/cookie.css?v=pdnv0" />
-    <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-  </noscript>
-  <link rel="shortcut icon" href="/img/icon.png?v=pdnv0" type="image/png" />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=a1sgw" />
+  
+  <link rel="stylesheet" href="/src/cookie.css?v=a1sgw" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=a1sgw" />
+  <link rel="shortcut icon" href="/img/icon.png?v=a1sgw" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -64,15 +61,32 @@
   
 <link rel="manifest" href="/manifest.json">
 <meta name="theme-color" content="#2196f3">
-<link rel="stylesheet" href="style.css?v=pdnv0">
+<link rel="stylesheet" href="style.css?v=a1sgw">
 </head>
 
 <body>
+  <script>
+    (function () {
+      window.user = window.user || { id: null, email: null, name: null, isLoggedIn: false, loginMethod: null };
+      var emptySnapshot = { empty: true, forEach: function () {} };
+      var emptyDoc = { exists: false, data: function () { return null; } };
+      if (typeof window.dataAddWeb !== "function") window.dataAddWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataDeleteWeb !== "function") window.dataDeleteWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataUpdateWeb !== "function") window.dataUpdateWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataGetWeb !== "function") window.dataGetWeb = function () { return Promise.resolve(emptyDoc); };
+      if (typeof window.dataListWeb !== "function") window.dataListWeb = function () { return Promise.resolve(emptySnapshot); };
+      if (typeof window.authStateListenerWeb !== "function") {
+        window.authStateListenerWeb = function (cb) {
+          if (typeof cb === "function") setTimeout(function () { cb(null); }, 0);
+        };
+      }
+    })();
+  </script>
   <div id="header"><div class="h0000">
   <div class="h0000body">
     <a href="/tr/"
       ><img
-        src="/img/logo.png?v=cx1ov"
+        src="/img/logo.png?v=pwmp3"
         class="h0000bodylogo"
         alt="Mesut Doğan Vinç Logo"
         loading="lazy"
@@ -108,7 +122,7 @@
       <div class="h0000menulistbody">
         <div class="h0000menulist">
           <ul>
-            <a href="/tr/">Anasayfa</a><div class="h0000menulist-menu"><a href="/tr/kurumsal/">Kurumsal</a><div class="dropdown-content-h0000"><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/hakkimizda/">Hakkımızda</a><a href="/tr/misyon/">Misyon</a><a href="/tr/vizyon/">Vizyon</a><a href="/tr/kalite-politikamiz/">Kalite Politikamız</a><a href="/tr/gizlilik-politikasi/">Gizlilik Politikası</a><a href="/tr/kisisel-veriler/">Kişisel Veriler</a><a href="/tr/kullanici-haklari/">Kullanıcı Hakları</a><a href="/tr/yasal-uyari/">Yasal Uyarı</a></div></div><a class="h0000-menu-active" href="/tr/calismalarimiz/">Çalışmalarımız</a><div class="h0000menulist-menu"><a href="/tr/sss/">S.S.S</a><div class="dropdown-content-h0000"><a href="/tr/mesut-dogan-vinc-ile-neden-calismaliyim/">Mesut Doğan Vinç ile Neden Çalışmalıyım?</a><a href="/tr/vinc-neden-kiralamaliyim/">Vinç Neden Kiralamalıyım?</a><a href="/tr/forklift-neden-kiralamaliyim/">Forklift Neden Kiralamalıyım?</a><a href="/tr/manlift-neden-kiralamaliyim/">Manlift Neden Kiralamalıyım?</a><a href="/tr/cekici-neden-kiralamaliyim/">Çekici Neden Kiralamalıyım?</a></div></div><a href="/tr/iletisim/">İletişim</a>
+            <a href="/tr/">Anasayfa</a><div class="h0000menulist-menu"><a href="/tr/kurumsal/">Kurumsal</a><div class="dropdown-content-h0000"><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/hakkimizda/">Hakkımızda</a><a href="/tr/misyon/">Misyon</a><a href="/tr/vizyon/">Vizyon</a><a href="/tr/kalite-politikamiz/">Kalite Politikamız</a><a href="/tr/gizlilik-politikasi/">Gizlilik Politikası</a><a href="/tr/kisisel-veriler/">Kişisel Veriler</a><a href="/tr/kullanici-haklari/">Kullanıcı Hakları</a><a href="/tr/yasal-uyari/">Yasal Uyarı</a></div></div><a class="h0000-menu-active" href="/tr/calismalarimiz/">Çalışmalarımız</a><a href="/tr/araclarimiz/">Araçlarımız</a><div class="h0000menulist-menu"><a href="/tr/sss/">S.S.S</a><div class="dropdown-content-h0000"><a href="/tr/mesut-dogan-vinc-ile-neden-calismaliyim/">Mesut Doğan Vinç ile Neden Çalışmalıyım?</a><a href="/tr/vinc-neden-kiralamaliyim/">Vinç Neden Kiralamalıyım?</a><a href="/tr/forklift-neden-kiralamaliyim/">Forklift Neden Kiralamalıyım?</a><a href="/tr/manlift-neden-kiralamaliyim/">Manlift Neden Kiralamalıyım?</a><a href="/tr/cekici-neden-kiralamaliyim/">Çekici Neden Kiralamalıyım?</a></div></div><a href="/tr/iletisim/">İletişim</a>
           </ul>
         </div>
       </div>
@@ -773,6 +787,62 @@
           <div onclick="imgfull('/img/gvfi8h/c (99).jpg')" class="b0000bodyitem">
             <img class="b0000bodyitemimg" src="/img/gvfi8h/c (99).jpg" alt="Resim"  loading="lazy"/>
           </div>
+      
+          <div onclick="imgfull('/img/gvfi8h/2026-08-31_13-20-30_image_d4f71afda6.jpg')" class="b0000bodyitem">
+            <img class="b0000bodyitemimg" src="/img/gvfi8h/2026-08-31_13-20-30_image_d4f71afda6.jpg" alt="Resim"  loading="lazy"/>
+          </div>
+      
+          <div onclick="imgfull('/img/gvfi8h/2026-08-31_13-21-14_image_ad742e9435.jpg')" class="b0000bodyitem">
+            <img class="b0000bodyitemimg" src="/img/gvfi8h/2026-08-31_13-21-14_image_ad742e9435.jpg" alt="Resim"  loading="lazy"/>
+          </div>
+      
+          <div onclick="imgfull('/img/gvfi8h/2026-08-31_13-21-53_image_c99c4ce18b.jpg')" class="b0000bodyitem">
+            <img class="b0000bodyitemimg" src="/img/gvfi8h/2026-08-31_13-21-53_image_c99c4ce18b.jpg" alt="Resim"  loading="lazy"/>
+          </div>
+      
+          <div onclick="imgfull('/img/gvfi8h/2026-08-31_13-24-08_image_3eb1990f84.jpg')" class="b0000bodyitem">
+            <img class="b0000bodyitemimg" src="/img/gvfi8h/2026-08-31_13-24-08_image_3eb1990f84.jpg" alt="Resim"  loading="lazy"/>
+          </div>
+      
+          <div onclick="imgfull('/img/gvfi8h/2026-08-31_13-24-08_image_887f980d8d.jpg')" class="b0000bodyitem">
+            <img class="b0000bodyitemimg" src="/img/gvfi8h/2026-08-31_13-24-08_image_887f980d8d.jpg" alt="Resim"  loading="lazy"/>
+          </div>
+      
+          <div onclick="imgfull('/img/gvfi8h/2026-08-31_13-24-09_image_0485c341e4.jpg')" class="b0000bodyitem">
+            <img class="b0000bodyitemimg" src="/img/gvfi8h/2026-08-31_13-24-09_image_0485c341e4.jpg" alt="Resim"  loading="lazy"/>
+          </div>
+      
+          <div onclick="imgfull('/img/gvfi8h/2026-08-31_13-24-09_image_2038d2817b.jpg')" class="b0000bodyitem">
+            <img class="b0000bodyitemimg" src="/img/gvfi8h/2026-08-31_13-24-09_image_2038d2817b.jpg" alt="Resim"  loading="lazy"/>
+          </div>
+      
+          <div onclick="imgfull('/img/gvfi8h/2026-08-31_13-24-09_image_97a10397f9.jpg')" class="b0000bodyitem">
+            <img class="b0000bodyitemimg" src="/img/gvfi8h/2026-08-31_13-24-09_image_97a10397f9.jpg" alt="Resim"  loading="lazy"/>
+          </div>
+      
+          <div onclick="imgfull('/img/gvfi8h/2026-08-31_13-24-09_image_be8b7b52f3.jpg')" class="b0000bodyitem">
+            <img class="b0000bodyitemimg" src="/img/gvfi8h/2026-08-31_13-24-09_image_be8b7b52f3.jpg" alt="Resim"  loading="lazy"/>
+          </div>
+      
+          <div onclick="imgfull('/img/gvfi8h/2026-08-31_13-24-09_image_c259f7ec56.jpg')" class="b0000bodyitem">
+            <img class="b0000bodyitemimg" src="/img/gvfi8h/2026-08-31_13-24-09_image_c259f7ec56.jpg" alt="Resim"  loading="lazy"/>
+          </div>
+      
+          <div onclick="imgfull('/img/gvfi8h/2026-08-31_13-24-09_image_cf5f8795e3.jpg')" class="b0000bodyitem">
+            <img class="b0000bodyitemimg" src="/img/gvfi8h/2026-08-31_13-24-09_image_cf5f8795e3.jpg" alt="Resim"  loading="lazy"/>
+          </div>
+      
+          <div onclick="imgfull('/img/gvfi8h/2026-08-31_13-24-09_image_d491795598.jpg')" class="b0000bodyitem">
+            <img class="b0000bodyitemimg" src="/img/gvfi8h/2026-08-31_13-24-09_image_d491795598.jpg" alt="Resim"  loading="lazy"/>
+          </div>
+      
+          <div onclick="imgfull('/img/gvfi8h/2026-08-31_13-24-09_image_dcc2a04b02.jpg')" class="b0000bodyitem">
+            <img class="b0000bodyitemimg" src="/img/gvfi8h/2026-08-31_13-24-09_image_dcc2a04b02.jpg" alt="Resim"  loading="lazy"/>
+          </div>
+      
+          <div onclick="imgfull('/img/gvfi8h/2026-08-31_13-24-32_image_d17da057c4.jpg')" class="b0000bodyitem">
+            <img class="b0000bodyitemimg" src="/img/gvfi8h/2026-08-31_13-24-32_image_d17da057c4.jpg" alt="Resim"  loading="lazy"/>
+          </div>
       </div>
 </div>
 
@@ -816,7 +886,7 @@
       </li>
     </ul>
     <ul class="menu">
-      <li class="menu__item"><a class="menu__link" href="/tr/">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal/">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/calismalarimiz/">Çalışmalarımız</a></li><li class="menu__item"><a class="menu__link" href="/tr/sss/">S.S.S</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim/">İletişim</a></li>
+      <li class="menu__item"><a class="menu__link" href="/tr/">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal/">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/calismalarimiz/">Çalışmalarımız</a></li><li class="menu__item"><a class="menu__link" href="/tr/araclarimiz/">Araçlarımız</a></li><li class="menu__item"><a class="menu__link" href="/tr/sss/">S.S.S</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim/">İletişim</a></li>
     </ul>
     <p>Mesut Doğan Vinç 2026 cognite. &copy;</p>
   </footer>
@@ -825,9 +895,9 @@
   
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=pdnv0"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=pdnv0"></script>
-  <script defer src="/src/cookie.js?v=pdnv0"></script>
+  <script defer src="/src/mx-ui.js?v=a1sgw"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=a1sgw"></script>
+  <script defer src="/src/cookie.js?v=a1sgw"></script>
 
   <script>
     setTimeout(function() {
