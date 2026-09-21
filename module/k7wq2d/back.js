@@ -55,7 +55,8 @@ groups.forEach(function (g, gi) {
     var hasUnit = L(it.u) !== "";
     itemsHtml +=
       '<li class="modulex-ap-item' +
-      (hasUnit ? "" : " is-wide is-text") +
+      (hasUnit ? "" : " is-text") +
+      (!hasUnit || L(it.v).length > 4 ? " is-wide" : "") +
       '"><span class="modulex-ap-val">' +
       esc(L(it.v)) +
       "</span>" +

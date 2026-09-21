@@ -909,6 +909,7 @@
 
   .b0000-ap-val {
     display: block;
+    white-space: nowrap;
     color: var(--ap-navy);
     font-size: 30px;
     font-weight: 700;
@@ -1057,8 +1058,18 @@
       flex-wrap: wrap;
     }
 
+    .b0000-ap-ghead {
+      align-items: flex-start;
+    }
+
+    .b0000-ap-ghead > div {
+      flex: 1 1 calc(100% - 64px);
+      min-width: 0;
+    }
+
     .b0000-ap-count {
-      margin-left: 64px;
+      order: 3;
+      margin-left: 0;
     }
 
     .b0000-ap-btns,
