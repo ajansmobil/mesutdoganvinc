@@ -179,6 +179,27 @@
       "index": 9,
       "icon": "home",
       "bgimg": "1.jpg"
+    },
+    {
+      "id": "cerez-politikasi",
+      "name": {
+        "tr": "Çerez Politikası"
+      },
+      "description": {
+        "tr": "Bu politika, Mesut Doğan Vinç tarafından işletilen mesutdoganvinc.com internet sitesinde kullanılan çerezleri, bunların hangi amaçlarla kullanıldığını ve…"
+      },
+      "path": "cerez-politikasi",
+      "icon": "cookie",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "5sfdas"
+        ],
+        "footer": []
+      },
+      "index": 9
     }
   ],
   "desc": [],

@@ -1,5 +1,12 @@
 
-var cookieAutoHideTimer = null;
+var MX_CEREZ_ANAHTAR = "mxCerezRizaV1";
+var MX_CEREZ_SURUM = 1;
+var MX_CEREZ_GECERLILIK_MS = 365 * 24 * 60 * 60 * 1000;
+var MX_CEREZ_KATLAR = [
+  { id: "islevsel", metin: "cookie-functionality" },
+  { id: "analitik", metin: "cookie-performance" },
+  { id: "pazarlama", metin: "cookie-targeting" }
+];
 
 var MX_COOKIE_I18N = {
   "cookingtext": {
@@ -169,6 +176,62 @@ var MX_COOKIE_I18N = {
     "zh": "我已了解并接受",
     "ko": "이해했으며 동의합니다",
     "pt": "Compreendi e aceito"
+  },
+  "cookie-accept-all": {
+    "tr": "Tümünü kabul et",
+    "en": "Accept all",
+    "ar": "قبول الكل",
+    "de": "Alle akzeptieren",
+    "ru": "Принять все",
+    "es": "Aceptar todo",
+    "fr": "Tout accepter",
+    "it": "Accetta tutto",
+    "ja": "すべて許可",
+    "zh": "全部接受",
+    "ko": "모두 허용",
+    "pt": "Aceitar tudo"
+  },
+  "cookie-reject-all": {
+    "tr": "Tümünü reddet",
+    "en": "Reject all",
+    "ar": "رفض الكل",
+    "de": "Alle ablehnen",
+    "ru": "Отклонить все",
+    "es": "Rechazar todo",
+    "fr": "Tout refuser",
+    "it": "Rifiuta tutto",
+    "ja": "すべて拒否",
+    "zh": "全部拒绝",
+    "ko": "모두 거부",
+    "pt": "Rejeitar tudo"
+  },
+  "cookie-prefs": {
+    "tr": "Tercihler",
+    "en": "Preferences",
+    "ar": "التفضيلات",
+    "de": "Einstellungen",
+    "ru": "Настройки",
+    "es": "Preferencias",
+    "fr": "Préférences",
+    "it": "Preferenze",
+    "ja": "設定",
+    "zh": "偏好设置",
+    "ko": "설정",
+    "pt": "Preferências"
+  },
+  "cookie-save": {
+    "tr": "Seçimleri kaydet",
+    "en": "Save choices",
+    "ar": "حفظ الاختيارات",
+    "de": "Auswahl speichern",
+    "ru": "Сохранить выбор",
+    "es": "Guardar selección",
+    "fr": "Enregistrer mes choix",
+    "it": "Salva scelte",
+    "ja": "選択を保存",
+    "zh": "保存选择",
+    "ko": "선택 저장",
+    "pt": "Salvar escolhas"
   }
 };
 
@@ -236,45 +299,177 @@ function checkCookie(name) {
 function setCookie(name, value, days) {
   var date = new Date();
   date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
-  document.cookie = name + "=" + value + ";expires=" + date.toUTCString() + ";path=/";
+  document.cookie = name + "=" + value + ";expires=" + date.toUTCString() + ";path=/;SameSite=Lax";
+}
+
+
+function mxCerezRizaOku() {
+  try {
+    var ham = window.localStorage.getItem(MX_CEREZ_ANAHTAR);
+    if (!ham) {
+      return null;
+    }
+    var r = JSON.parse(ham);
+    if (!r || typeof r !== "object") {
+      return null;
+    }
+    if ((parseInt(r.surum, 10) || 0) !== MX_CEREZ_SURUM) {
+      return null;
+    }
+    var t = Date.parse(r.zaman);
+    if (isNaN(t) || Date.now() - t > MX_CEREZ_GECERLILIK_MS) {
+      return null;
+    }
+    return r;
+  } catch (e) {
+    return null;
+  }
+}
+
+function mxCerezYay(r) {
+  try {
+    window.dispatchEvent(new CustomEvent("mx:cerez-riza", { detail: r }));
+  } catch (e) {}
+}
+
+function mxCerezKaydet(secim) {
+  var r = { surum: MX_CEREZ_SURUM, zaman: new Date().toISOString(), zorunlu: true };
+  var hepsi = true;
+  var i;
+  for (i = 0; i < MX_CEREZ_KATLAR.length; i++) {
+    r[MX_CEREZ_KATLAR[i].id] = secim[MX_CEREZ_KATLAR[i].id] === true;
+    if (!r[MX_CEREZ_KATLAR[i].id]) {
+      hepsi = false;
+    }
+  }
+  try {
+    window.localStorage.setItem(MX_CEREZ_ANAHTAR, JSON.stringify(r));
+  } catch (e) {}
+  if (hepsi) {
+    setCookie("cookieConsent", "true", 365);
+  } else {
+    setCookie("cookieConsent", "", -1);
+  }
+  hideCookieNotice();
+  mxCerezYeniden(true);
+  mxCerezYay(r);
+}
+
+function mxCerezHepsi(deger) {
+  var s = {};
+  var i;
+  for (i = 0; i < MX_CEREZ_KATLAR.length; i++) {
+    s[MX_CEREZ_KATLAR[i].id] = deger;
+  }
+  return s;
+}
+
+function mxCerezKutulardan() {
+  var s = {};
+  var i;
+  for (i = 0; i < MX_CEREZ_KATLAR.length; i++) {
+    var cb = document.querySelector('.cookie-modal [data-mx-cerez-kat="' + MX_CEREZ_KATLAR[i].id + '"]');
+    s[MX_CEREZ_KATLAR[i].id] = !!(cb && cb.checked);
+  }
+  return s;
+}
+
+
+function mxCerezYeniden(goster) {
+  var b = document.querySelector(".cookie-reopen");
+  if (!b && goster) {
+    b = document.createElement("button");
+    b.type = "button";
+    b.className = "cookie-reopen";
+    b.setAttribute("data-mx-cerez-tercih", "");
+    b.setAttribute("aria-label", mxCookieT("cookie-prefs"));
+    b.setAttribute("title", mxCookieT("cookie-prefs"));
+    b.innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12 2a10 10 0 1 0 10 10 4 4 0 0 1-5-5 4 4 0 0 1-5-5zm-3.5 8a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3zm2 5a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3zm5 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg>';
+    document.body.appendChild(b);
+  }
+  if (b) {
+    if (goster) {
+      b.removeAttribute("hidden");
+    } else {
+      b.setAttribute("hidden", "");
+    }
+  }
 }
 
 function hideCookieNotice() {
-  if (cookieAutoHideTimer) {
-    clearTimeout(cookieAutoHideTimer);
-    cookieAutoHideTimer = null;
-  }
   var banner = document.querySelector(".cookie-banner");
   var modal = document.querySelector(".cookie-modal");
   var overlay = document.querySelector(".modal-overlay");
   if (banner) banner.parentNode.removeChild(banner);
   if (modal) modal.parentNode.removeChild(modal);
   if (overlay) overlay.parentNode.removeChild(overlay);
+  
+  document.documentElement.style.removeProperty("--mx-cookie-pad");
 }
 
-function showCookieNotice() {
-  if (checkCookie("cookieConsent")) {
+
+function mxCerezAlanAyarla() {
+  var banner = document.querySelector(".cookie-banner");
+  var root = document.documentElement;
+  if (!banner) {
+    root.style.removeProperty("--mx-cookie-pad");
     return;
   }
+  var r = banner.getBoundingClientRect();
+  
+  var alt = Math.max(0, window.innerHeight - r.bottom);
+  root.style.setProperty("--mx-cookie-pad", Math.ceil(r.height + alt + 16) + "px");
+}
+window.addEventListener("resize", mxCerezAlanAyarla);
+
+function mxCerezDugmeler(ortaEtiket, ortaIslev) {
   var t = mxCookieEsc;
+  return (
+    '<button type="button" onclick="rejectCookies()" class="cookie-btn reject-btn">' +
+    t(mxCookieT("cookie-reject-all")) +
+    "</button>" +
+    '<button type="button" onclick="' + ortaIslev + '()" class="cookie-btn details-btn">' +
+    t(mxCookieT(ortaEtiket)) +
+    "</button>" +
+    '<button type="button" onclick="acceptCookies()" class="cookie-btn accept-btn">' +
+    t(mxCookieT("cookie-accept-all")) +
+    "</button>"
+  );
+}
+
+function mxCerezCiz() {
+  var t = mxCookieEsc;
+  var onceki = mxCerezRizaOku() || {};
   var banner = document.createElement("div");
   banner.className = "cookie-banner";
   banner.setAttribute("role", "dialog");
   banner.setAttribute("aria-live", "polite");
+  banner.setAttribute("aria-label", mxCookieT("cookie-title"));
   banner.innerHTML =
     "<div>" +
     t(mxCookieT("cookingtext")) +
     "</div>" +
     '<div class="cookie-banner-buttons">' +
-    '<button type="button" onclick="acceptCookies()" class="accept-btn">' +
-    t(mxCookieT("cookie-accept")) +
-    "</button>" +
-    '<button type="button" onclick="showCookieDetails()" class="details-btn">' +
-    t(mxCookieT("cookie-details")) +
-    "</button>" +
+    mxCerezDugmeler("cookie-prefs", "showCookieDetails") +
     "</div>";
   document.body.appendChild(banner);
+  mxCerezAlanAyarla();
 
+  var kategoriler =
+    '<li><label class="cookie-cat"><input type="checkbox" checked disabled> <span>' +
+    t(mxCookieT("cookie-mandatory")) +
+    "</span></label></li>";
+  var i;
+  for (i = 0; i < MX_CEREZ_KATLAR.length; i++) {
+    kategoriler +=
+      '<li><label class="cookie-cat"><input type="checkbox" data-mx-cerez-kat="' +
+      MX_CEREZ_KATLAR[i].id +
+      '"' +
+      (onceki[MX_CEREZ_KATLAR[i].id] === true ? " checked" : "") +
+      "> <span>" +
+      t(mxCookieT(MX_CEREZ_KATLAR[i].metin)) +
+      "</span></label></li>";
+  }
   var modal = document.createElement("div");
   modal.className = "cookie-modal";
   modal.setAttribute("role", "dialog");
@@ -286,45 +481,52 @@ function showCookieNotice() {
     "<p>" +
     t(mxCookieT("cookie-intro")) +
     "</p>" +
-    "<ul>" +
-    "<li><strong>" +
-    t(mxCookieT("cookie-mandatory")) +
-    "</strong></li>" +
-    "<li><strong>" +
-    t(mxCookieT("cookie-performance")) +
-    "</strong></li>" +
-    "<li><strong>" +
-    t(mxCookieT("cookie-functionality")) +
-    "</strong></li>" +
-    "<li><strong>" +
-    t(mxCookieT("cookie-targeting")) +
-    "</strong></li>" +
+    '<ul class="cookie-cats">' +
+    kategoriler +
     "</ul>" +
-    "<p>" +
-    t(mxCookieT("cookie-reject")) +
-    "</p>" +
     "<p>" +
     t(mxCookieT("cookie-more")) +
     "</p>" +
     '<div class="cookie-modal-actions">' +
-    '<button type="button" onclick="acceptCookies()" class="accept-btn">' +
-    t(mxCookieT("cookie-understand")) +
-    "</button>" +
+    mxCerezDugmeler("cookie-save", "saveCookieChoices") +
     "</div>";
   document.body.appendChild(modal);
 
   var overlay = document.createElement("div");
   overlay.className = "modal-overlay";
   document.body.appendChild(overlay);
+}
 
-  cookieAutoHideTimer = setTimeout(hideCookieNotice, 5000);
+function showCookieNotice() {
+  
+  if (document.querySelector("[data-mx-cookie]")) {
+    return;
+  }
+  document.addEventListener("click", function (e) {
+    var hedef = e && e.target && e.target.closest ? e.target.closest("[data-mx-cerez-tercih]") : null;
+    if (hedef) {
+      if (e.preventDefault) e.preventDefault();
+      mxCerezTercihAc();
+    }
+  });
+  window.mxCerezTercihAc = mxCerezTercihAc;
+  var r = mxCerezRizaOku();
+  if (r) {
+    mxCerezYeniden(true);
+    mxCerezYay(r);
+    return;
+  }
+  mxCerezCiz();
+}
+
+function mxCerezTercihAc() {
+  hideCookieNotice();
+  mxCerezYeniden(false);
+  mxCerezCiz();
+  showCookieDetails();
 }
 
 function showCookieDetails() {
-  if (cookieAutoHideTimer) {
-    clearTimeout(cookieAutoHideTimer);
-    cookieAutoHideTimer = null;
-  }
   var modal = document.querySelector(".cookie-modal");
   var overlay = document.querySelector(".modal-overlay");
   if (modal) modal.classList.add("active");
@@ -332,12 +534,15 @@ function showCookieDetails() {
 }
 
 function acceptCookies() {
-  if (cookieAutoHideTimer) {
-    clearTimeout(cookieAutoHideTimer);
-    cookieAutoHideTimer = null;
-  }
-  setCookie("cookieConsent", "true", 365);
-  hideCookieNotice();
+  mxCerezKaydet(mxCerezHepsi(true));
+}
+
+function rejectCookies() {
+  mxCerezKaydet(mxCerezHepsi(false));
+}
+
+function saveCookieChoices() {
+  mxCerezKaydet(mxCerezKutulardan());
 }
 
 window.addEventListener("load", showCookieNotice);

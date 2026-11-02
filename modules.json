@@ -63,7 +63,9 @@
         "name": {
           "tr": "Bize Ulaşın"
         },
-        "margin": "30px 0px 30px 0px"
+        "margin": "30px 0px 30px 0px",
+        "stil": "",
+        "linkcolor": "#1B3A6B"
       },
       "data": [
         {
@@ -101,7 +103,9 @@
         "font-size": "50",
         "backgroundcolor": "#000",
         "menu-active": "#1e3046",
-        "category": "kurumsal"
+        "category": "kurumsal",
+        "textcolor": "#ffffff",
+        "activetext": "#ffffff"
       },
       "id": "joxqwj"
     },
@@ -144,7 +148,8 @@
         "title": {
           "tr": "Kurumsal",
           "en": "Corporate"
-        }
+        },
+        "stil": ""
       },
       "id": "hcmy1x"
     },
@@ -161,7 +166,26 @@
         "color": "#1e3046",
         "img": "map.png",
         "url": "https://www.google.com/maps?ll=37.161154,37.423916&z=14&t=m&hl=tr&gl=TR&mapclient=embed&cid=6387598065392232919",
-        "externalUrl": ""
+        "externalUrl": "",
+        "stil": "",
+        "address": "",
+        "phone": "",
+        "email": "",
+        "badgeText": {
+          "tr": "Konumumuz",
+          "en": "Our Location",
+          "ar": "موقعنا"
+        },
+        "infoTitle": {
+          "tr": "Bize Ulaşın",
+          "en": "Contact Us",
+          "ar": "اتصل بنا"
+        },
+        "directions": {
+          "tr": "Yol tarifi al",
+          "en": "Get directions",
+          "ar": "احصل على الاتجاهات"
+        }
       },
       "id": "stgefd"
     },
@@ -177,7 +201,9 @@
         "font-size": "50",
         "backgroundcolor": "#000",
         "category": "sss",
-        "menu-active": "#1e3046"
+        "menu-active": "#1e3046",
+        "textcolor": "#ffffff",
+        "activetext": "#ffffff"
       },
       "id": "yk843k"
     },
@@ -672,7 +698,12 @@
         "bgcolor": "#D72D32",
         "color": "#fff",
         "img": "",
-        "imgwidth": "250px"
+        "imgwidth": "250px",
+        "stil": "",
+        "showlang": true,
+        "showsocial": true,
+        "social": [],
+        "langcolor": ""
       },
       "category": "footer",
       "data": [],
@@ -934,6 +965,29 @@
           "tr": "İletişim"
         }
       }
+    },
+    {
+      "name": "Page Desing 2",
+      "desing": {
+        "height": "100",
+        "opacity": "0.5",
+        "font-size": "50",
+        "backgroundcolor": "#000",
+        "textcolor": "#fff",
+        "category": "page"
+      },
+      "category": "page",
+      "description": "Page Desing 2 modülü. 2 farklı web projesinde kullanılmaktadır. İçerik sunumu ve görsel düzenleme için tasarlanmıştır.",
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "5sfdas",
+      "path": "page-text",
+      "local": "body",
+      "data": [],
+      "index": 12
     }
   ]
 }
